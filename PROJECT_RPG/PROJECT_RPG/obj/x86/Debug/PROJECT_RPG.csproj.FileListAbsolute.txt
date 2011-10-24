@@ -1,0 +1,119 @@
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tempface.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha2.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP.xnb
+C:\Users\Ben\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ben\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ben\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe

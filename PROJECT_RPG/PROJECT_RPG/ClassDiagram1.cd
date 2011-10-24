@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="PROJECT_RPG.Game1" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAwAAAAAAAAAAAAAAAAgAAAAAAEAAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROJECT_RPG.GameScreen">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAwAEACAAARAAgAEEAIAAAAADAAAAA4AAgAGAEYIBAQ=</HashCode>
+      <FileName>GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROJECT_RPG.InputState" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAwAAEAAAAAAAAAAAAAAQBABIAAQABAAAAAAQAAAAAA=</HashCode>
+      <FileName>InputState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROJECT_RPG.LoadingScreen" Collapsed="true">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAgAAAAAQAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoadingScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROJECT_RPG.MainMenuScreen">
+    <Position X="9.5" Y="4.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQCAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROJECT_RPG.MenuEntry" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAgAAAAJABAAAAAAAAIAAAACEQAAAI=</HashCode>
+      <FileName>MenuEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROJECT_RPG.MenuScreen">
+    <Position X="4.25" Y="0.5" Width="6" />
+    <TypeIdentifier>
+      <HashCode>CQQAACGAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>MenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROJECT_RPG.OptionsMenuScreen" Collapsed="true">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAIAGAAAAAAAAAAANAAEAAAAAAAAIAAAACAA=</HashCode>
+      <FileName>OptionsMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROJECT_RPG.Program" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROJECT_RPG.ScreenManager" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAFEAgAAEgBwABAAAAAAAAAAAAiBAERAAAgAAGCAQ=</HashCode>
+      <FileName>ScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PROJECT_RPG.ScreenState" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAgAAAIAAAEAAA=</HashCode>
+      <FileName>GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

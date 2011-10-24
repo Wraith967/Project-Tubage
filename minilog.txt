@@ -1,0 +1,5 @@
+///
+Sept 20
+Cory
+---
+Added a title screen after a week or so off. Added minilog for basic record of changes. Project compilable. 

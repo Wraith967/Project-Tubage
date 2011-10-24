@@ -1,0 +1,7 @@
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ben\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
