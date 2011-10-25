@@ -117,6 +117,7 @@
     <Compile Include="Menu Screens\MenuEntry.cs" />
     <Compile Include="Playable Game Screens\DrawableEntity.cs" />
     <Compile Include="Playable Game Screens\MapReader.cs" />
+    <Compile Include="Playable Game Screens\NonPlayerEntity.cs" />
     <Compile Include="Screen Management\GameScreen.cs" />
     <Compile Include="Input\InputState.cs" />
     <Compile Include="Screen Management\LoadingScreen.cs" />

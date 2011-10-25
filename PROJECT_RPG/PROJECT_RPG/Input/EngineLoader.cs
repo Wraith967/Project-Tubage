@@ -44,8 +44,8 @@ namespace PROJECT_RPG
             char[] delims = {'<','>'};
             String[] tokens = player.Substring(8).Split(delims);
             String texture = tokens[0];
-            float posX = float.Parse(tokens[1]);
-            float posY = float.Parse(tokens[2]);
+            float posX = float.Parse(tokens[2]);
+            float posY = float.Parse(tokens[4]);
             PlayerEntity pEntity = new PlayerEntity(texture, new Microsoft.Xna.Framework.Vector2(posX,posY));
             PGS.AddEntity(pEntity);
         }
@@ -55,18 +55,30 @@ namespace PROJECT_RPG
             char[] delims = { '<', '>' };
             String[] tokens = entity.Substring(8).Split(delims);
             String texture = tokens[0];
-            float posX = float.Parse(tokens[1]);
-            float posY = float.Parse(tokens[2]);
-            //DrawableEntity dEntity = new DrawableEntity(texture);
-            //PGS.AddEntity(dEntity);
+            float posX = float.Parse(tokens[2]);
+            float posY = float.Parse(tokens[4]);
+            NonPlayerEntity npEntity = new NonPlayerEntity(texture, new Microsoft.Xna.Framework.Vector2(posX, posY));
+            PGS.AddEntity(npEntity);
         }
 
         private static void LoadTileMap(String tileMap, PlayableMainGameScreen PGS)
         {
+            char[] delims = { '<', '>' };
+            String[] tokens = tileMap.Substring(9).Split(delims);
+            String mapTextureName = tokens[0];
+            PGS.setTileMap(MapReader.readTileMap(mapTextureName, PGS));
         }
 
         private static void LoadTransferPoints(String transfer, PlayableMainGameScreen PGS)
         {
+            char[] delims = { '<', '>' };
+            String[] tokens = transfer.Substring(15).Split(delims);
+            String nextScreen = tokens[0];
+            int xCoord = Int16.Parse(tokens[2]);
+            int yCoord = Int16.Parse(tokens[4]);
+            int nextX = Int16.Parse(tokens[6]);
+            int nextY = Int16.Parse(tokens[8]);
+            PGS.setTransferPoint(nextScreen, xCoord, yCoord, nextX, nextY);
         }
     }
 }

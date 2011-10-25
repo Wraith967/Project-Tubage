@@ -43,6 +43,27 @@ namespace PROJECT_RPG
         public MapTileCollisionType Collision
         { get { return collision; } }
 
+        private Vector2 transferPoint;
+        public Vector2 TransferPoint
+        {
+            get { return transferPoint; }
+            set { transferPoint = value; }
+        }
+
+        private String nextMapFile;
+        public String NextMapFile
+        {
+            get { return nextMapFile; }
+            set { nextMapFile = value; }
+        }
+
+        private bool isTransferPoint;
+        public bool IsTransfer
+        {
+            get { return isTransferPoint; }
+            set { isTransferPoint = value; }
+        }
+
         #endregion
 
         #region Initialization

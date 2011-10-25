@@ -171,7 +171,6 @@ namespace PROJECT_RPG
             bool collided = IsCollision(xCoord, yCoord);
             if (collided)
             {
-                Console.WriteLine("Hey, I collided with something!");
                 player.undoMove();
                 return 0;
             }
@@ -208,6 +207,20 @@ namespace PROJECT_RPG
             entity.UnloadContent();
             entities.Remove(entity);
             entitiesToUpdate.Remove(entity);
+        }
+
+        public void setTileMap(MapTile[,] map)
+        {
+            tileMap = map;
+        }
+
+        public void setTransferPoint(String nextMap, int xCoord, int yCoord, int nextX, int nextY)
+        {
+            MapTile temp = tileMap[xCoord, yCoord];
+            temp.IsTransfer = true;
+            temp.NextMapFile = nextMap;
+            temp.TransferPoint = new Vector2(nextX, nextY);
+            tileMap[xCoord, yCoord] = temp;
         }
 
         #endregion
