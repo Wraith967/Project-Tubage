@@ -22,6 +22,17 @@ namespace PROJECT_RPG
         public Rectangle getBoundary
         { get { return boundingBox; } }
 
+        public Vector2 Position
+        {
+            get { return position; }
+            set
+            {
+                position = value;
+                boundingBox.X = (int)position.X;
+                boundingBox.Y = (int)position.Y;
+            }
+        }
+
         #endregion
 
         #region Initialization

@@ -112,15 +112,23 @@ namespace PROJECT_RPG
 
         public bool CollisionCheck(Rectangle rect)
         {
-            if (collision == MapTileCollisionType.HalfCollisionLeft)
+            //if (collision == MapTileCollisionType.HalfCollisionLeft)
+            //{
+            //    LoadingScreen.Load(owner.ScreenManager, new PlayableMainGameScreen("testTileMap2.txt", new Vector2(60, 265)));
+            //}
+            //else if (collision == MapTileCollisionType.HalfCollisionRight)
+            //{
+            //    LoadingScreen.Load(owner.ScreenManager, new PlayableMainGameScreen("testTileMap.txt", new Vector2(490, 265)));
+            //}
+            //return rect.Intersects(boundaryBox);
+            bool collide = rect.Intersects(boundaryBox);
+
+            if (IsTransfer)
             {
-                LoadingScreen.Load(owner.ScreenManager, new PlayableMainGameScreen("testTileMap2.txt", new Vector2(60, 265)));
+                LoadingScreen.Load(owner.ScreenManager, new PlayableMainGameScreen(nextMapFile, transferPoint));
             }
-            else if (collision == MapTileCollisionType.HalfCollisionRight)
-            {
-                LoadingScreen.Load(owner.ScreenManager, new PlayableMainGameScreen("testTileMap.txt", new Vector2(490, 265)));
-            }
-            return rect.Intersects(boundaryBox);   
+
+            return collide;
         }
 
         public void Draw(SpriteBatch spriteBatch)

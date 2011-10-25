@@ -36,6 +36,7 @@ namespace PROJECT_RPG
                     LoadTileMap(line, PGS);
                 else if (System.Text.RegularExpressions.Regex.IsMatch(line, transferPattern))
                     LoadTransferPoints(line, PGS);
+                line = reader.ReadLine();
             }
         }
 
@@ -43,10 +44,19 @@ namespace PROJECT_RPG
         {
             char[] delims = {'<','>'};
             String[] tokens = player.Substring(8).Split(delims);
-            String texture = tokens[0];
-            float posX = float.Parse(tokens[2]);
-            float posY = float.Parse(tokens[4]);
-            PlayerEntity pEntity = new PlayerEntity(texture, new Microsoft.Xna.Framework.Vector2(posX,posY));
+            String texture = tokens[1];
+            float posX = float.Parse(tokens[3]);
+            float posY = float.Parse(tokens[5]);
+            PlayerEntity pEntity;
+            if (PGS.Player != null)
+            {
+                pEntity = PGS.Player;
+                pEntity.Position = new Microsoft.Xna.Framework.Vector2(posX, posY);
+            }
+            else
+            {
+                pEntity = new PlayerEntity(texture, new Microsoft.Xna.Framework.Vector2(posX, posY));
+            }
             PGS.AddEntity(pEntity);
         }
 
@@ -54,9 +64,9 @@ namespace PROJECT_RPG
         {
             char[] delims = { '<', '>' };
             String[] tokens = entity.Substring(8).Split(delims);
-            String texture = tokens[0];
-            float posX = float.Parse(tokens[2]);
-            float posY = float.Parse(tokens[4]);
+            String texture = tokens[1];
+            float posX = float.Parse(tokens[3]);
+            float posY = float.Parse(tokens[5]);
             NonPlayerEntity npEntity = new NonPlayerEntity(texture, new Microsoft.Xna.Framework.Vector2(posX, posY));
             PGS.AddEntity(npEntity);
         }
@@ -65,7 +75,7 @@ namespace PROJECT_RPG
         {
             char[] delims = { '<', '>' };
             String[] tokens = tileMap.Substring(9).Split(delims);
-            String mapTextureName = tokens[0];
+            String mapTextureName = tokens[1];
             PGS.setTileMap(MapReader.readTileMap(mapTextureName, PGS));
         }
 
@@ -73,11 +83,11 @@ namespace PROJECT_RPG
         {
             char[] delims = { '<', '>' };
             String[] tokens = transfer.Substring(15).Split(delims);
-            String nextScreen = tokens[0];
-            int xCoord = Int16.Parse(tokens[2]);
-            int yCoord = Int16.Parse(tokens[4]);
-            int nextX = Int16.Parse(tokens[6]);
-            int nextY = Int16.Parse(tokens[8]);
+            String nextScreen = tokens[1];
+            int xCoord = Int16.Parse(tokens[3]);
+            int yCoord = Int16.Parse(tokens[5]);
+            int nextX = Int16.Parse(tokens[7]);
+            int nextY = Int16.Parse(tokens[9]);
             PGS.setTransferPoint(nextScreen, xCoord, yCoord, nextX, nextY);
         }
     }

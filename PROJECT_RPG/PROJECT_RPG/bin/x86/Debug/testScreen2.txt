@@ -1,0 +1,3 @@
+player: filename=<cats>, x=<256>, y=<256>
+tilemap: filename=<testTileMap2.txt>
+transferPoint: filename=<testScreen1.txt>, x=<2>, y=<13>, nextX=<490>, nextY=<265>

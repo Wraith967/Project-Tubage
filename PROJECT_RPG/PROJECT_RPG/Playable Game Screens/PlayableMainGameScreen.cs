@@ -39,14 +39,18 @@ namespace PROJECT_RPG
         // General map related fields and properties.
         const int mapHeightInPixels = 680;
         const int mapWidthInPixels = 480;
-        string mapTextureName;
+        string screenFile;
         MapTile[,] tileMap;
         List<DrawableEntity> entities = new List<DrawableEntity>();
         List<DrawableEntity> entitiesToUpdate = new List<DrawableEntity>();
         PlayerEntity player;
         Vector2 playerPos;
 
+        public Vector2 PlayerPos
+        { get { return playerPos; } }
 
+        public PlayerEntity Player
+        { get { return player; } }
 
 
         #endregion
@@ -54,13 +58,13 @@ namespace PROJECT_RPG
         #region Initialization
 
         // Constructor
-        public PlayableMainGameScreen(string mapTextureName, Vector2 playerPos)
+        public PlayableMainGameScreen(string screenFile, Vector2 playerPos)
         {
-            this.mapTextureName = mapTextureName;
-            tileMap = MapReader.readTileMap(mapTextureName, this);
+            this.screenFile = screenFile;
             TransitionOnTime = TimeSpan.FromSeconds(1.5);
             TransitionOffTime = TimeSpan.FromSeconds(0);
             this.playerPos = playerPos;
+
         }
 
         public override void LoadContent()
@@ -68,8 +72,9 @@ namespace PROJECT_RPG
             base.LoadContent();
             ContentManager = new ContentManager(ScreenManager.Game.Services, "Content");
             font = ScreenManager.Font;
+            EngineLoader.LoadScriptFile(screenFile, this);
 
-            AddEntity(new PlayerEntity("cats", playerPos));
+            //AddEntity(new PlayerEntity("cats", playerPos));
 
             foreach (DrawableEntity entity in entities)
             {
@@ -216,11 +221,11 @@ namespace PROJECT_RPG
 
         public void setTransferPoint(String nextMap, int xCoord, int yCoord, int nextX, int nextY)
         {
-            MapTile temp = tileMap[xCoord, yCoord];
+            // Because XNA creates arrays row-first, we have to reverse the coords
+            MapTile temp = tileMap[yCoord, xCoord];
             temp.IsTransfer = true;
             temp.NextMapFile = nextMap;
             temp.TransferPoint = new Vector2(nextX, nextY);
-            tileMap[xCoord, yCoord] = temp;
         }
 
         #endregion

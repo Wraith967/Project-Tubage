@@ -33,7 +33,7 @@ namespace PROJECT_RPG
         #region Handle Input
 
         void NewGameMenuEntrySelected(object sender, EventArgs e)
-        { LoadingScreen.Load(screenManager, new PlayableMainGameScreen("testTileMap.txt", new Vector2(256,256))); }
+        { LoadingScreen.Load(screenManager, new PlayableMainGameScreen("testScreen1.txt", new Vector2(256,256))); }
 
         void OptionsMenuEntrySelected(object sender, EventArgs e)
         { LoadingScreen.Load(screenManager, new OptionsMenuScreen()); }
