@@ -43,6 +43,7 @@ namespace PROJECT_RPG
         MapTile[,] tileMap;
         List<DrawableEntity> entities = new List<DrawableEntity>();
         List<DrawableEntity> entitiesToUpdate = new List<DrawableEntity>();
+        List<NonPlayerEntity> entitiesToCheck = new List<NonPlayerEntity>();
         PlayerEntity player;
         Vector2 playerPos;
 
@@ -115,6 +116,9 @@ namespace PROJECT_RPG
                     DrawableEntity entity = entitiesToUpdate[entitiesToUpdate.Count - 1];
                     entitiesToUpdate.RemoveAt(entitiesToUpdate.Count - 1);
                     entity.Update(gameTime);
+                    if (entity is NonPlayerEntity)
+                        entitiesToCheck.Add((NonPlayerEntity)entity);
+
                 }
                 // Done handling updating of drawable game entities.
             }
@@ -192,6 +196,15 @@ namespace PROJECT_RPG
             {
                 player.undoMove();
                 return 0;
+            }
+            foreach (NonPlayerEntity entity in entitiesToCheck)
+            {
+                collided = entity.HasCollision();
+                if (collided)
+                {
+                    player.undoMove();
+                    return 0;
+                }
             }
             return 1;
         }

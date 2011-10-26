@@ -245,13 +245,13 @@
       <Time>2011-10-26T11:58:53.1923124-04:00</Time>
     </Item>
     <Item>
-      <Source>evil_face.bmp</Source>
+      <Source>evil_face.dds</Source>
       <Name>evil_face</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\evil_face.xnb</Output>
-      <Time>2011-10-26T14:34:07.1848654-04:00</Time>
+      <Time>2011-10-26T16:34:54.0882283-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

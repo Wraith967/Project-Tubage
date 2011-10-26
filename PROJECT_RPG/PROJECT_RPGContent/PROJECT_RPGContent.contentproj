@@ -195,7 +195,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="evil_face.bmp">
+    <Compile Include="evil_face.dds">
       <Name>evil_face</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>

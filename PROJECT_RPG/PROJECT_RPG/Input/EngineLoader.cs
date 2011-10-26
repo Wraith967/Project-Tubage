@@ -69,7 +69,8 @@ namespace PROJECT_RPG
             String texture = tokens[1];
             float posX = float.Parse(tokens[3]);
             float posY = float.Parse(tokens[5]);
-            NonPlayerEntity npEntity = new NonPlayerEntity(texture, new Vector2(posX, posY));
+            String text = tokens[7];
+            NonPlayerEntity npEntity = new NonPlayerEntity(texture, new Vector2(posX, posY), text);
             PGS.AddEntity(npEntity);
         }
 
