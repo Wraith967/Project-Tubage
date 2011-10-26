@@ -48,6 +48,10 @@ namespace PROJECT_RPG
                     target.TakeDamage(10);
                     target.IsTargeted = false;
                     break;
+                case "Heal":
+                    target.HealDamage(5);
+                    target.IsTargeted = false;
+                    break;
             }
         }
 

@@ -11,7 +11,8 @@ namespace PROJECT_RPG
     {
         int selectedTarget;
 
-        public BattleScreenEnemy(BattleScreen owner) : base("evil_face", owner)
+        public BattleScreenEnemy(BattleScreen owner)
+            : base("evil_face", owner)
         {
             maxHP = 50;
             currentHP = 50;
@@ -38,16 +39,11 @@ namespace PROJECT_RPG
 
         public override void Draw(GameTime gameTime)
         {
+            base.Draw(gameTime);
             SpriteBatch spriteBatch = OwnerScreen.ScreenManager.SpriteBatch;
             spriteBatch.Begin();
             spriteBatch.Draw(Texture, Position, new Rectangle(0, 0, Texture.Width, Texture.Height), Color.White, 0.0f, new Vector2(0, 0), 2.5f, SpriteEffects.None, 0.0f);
             spriteBatch.End();
-            if (IsTargeted)
-            {
-                spriteBatch.Begin();
-                spriteBatch.DrawString(OwnerScreen.ScreenManager.Font, ">", new Vector2(position.X - 15, position.Y), Color.White);
-                spriteBatch.End();
-            }
         }
 
         void InitializeCombatActions()
@@ -60,7 +56,7 @@ namespace PROJECT_RPG
                         combatActions[i] = new CombatAction(this, "Attack");
                         break;
                     case 1:
-                        combatActions[i] = new CombatAction(this, "Attack");
+                        combatActions[i] = new CombatAction(this, "Heal");
                         break;
                 }
             }

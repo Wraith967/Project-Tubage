@@ -159,6 +159,8 @@ namespace PROJECT_RPG
             }
             if (input.IsInGameMenuButtonPressed())
             { screenManager.AddScreen(new InGameMenuScreen()); }
+            if (input.IsInGameEscapeButtonPressed())
+            { LoadingScreen.Load(ScreenManager, new MainMenuScreen()); }
             player.HandleInput(input);
             CheckForCollision();
         }

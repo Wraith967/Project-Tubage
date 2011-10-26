@@ -71,9 +71,21 @@ namespace PROJECT_RPG
         public string NameText
         { get { return nameText; } set { nameText = value; } }
 
-        public BattleScreenMember(string textureFileName, BattleScreen ownerScreen) : base(textureFileName)
+        public BattleScreenMember(string textureFileName, BattleScreen ownerScreen)
+            : base(textureFileName)
         {
             owner = ownerScreen;
+        }
+
+        public override void Draw(GameTime gameTime)
+        {
+            if (IsTargeted)
+            {
+                SpriteBatch spriteBatch = OwnerScreen.ScreenManager.SpriteBatch;
+                spriteBatch.Begin();
+                spriteBatch.DrawString(OwnerScreen.ScreenManager.Font, "}", new Vector2(position.X - 15, position.Y), Color.White);
+                spriteBatch.End();
+            }
         }
     }
 }

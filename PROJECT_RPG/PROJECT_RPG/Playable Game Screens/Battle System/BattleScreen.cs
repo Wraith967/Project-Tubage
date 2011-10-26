@@ -51,7 +51,7 @@ namespace PROJECT_RPG
 
             currentBattleState = BattleState.Starting;
         }
-        
+
         public override void LoadContent()
         {
             ContentManager content = new ContentManager(ScreenManager.Game.Services, "Content");
@@ -70,13 +70,6 @@ namespace PROJECT_RPG
             // Combat UI setup.
             gui = new BattleUI(this);
             gui.LoadContent();
-
-            // Need to load:
-            // Player character textures.
-            // Enemy textures.
-            // Background textures.
-            // Animation sprites for any skills used by either player or enemy monsters.
-            // More?
 
             foreach (BattleScreenMember d in BattleMembers)
             {
@@ -155,8 +148,8 @@ namespace PROJECT_RPG
                 }
             }
             if (deadEnemyCount == enemyCount)
-            { 
-                currentBattleState = BattleState.Victory; 
+            {
+                currentBattleState = BattleState.Victory;
             }
         }
 
@@ -214,12 +207,18 @@ namespace PROJECT_RPG
                 case BattleState.Victory:
                     victoryTimer -= gameTime.ElapsedGameTime.Milliseconds;
                     if (victoryTimer <= 0)
-                    { ScreenManager.RemoveScreen(this); }
+                    {
+                        ScreenManager.RemoveScreen(this);
+                        ScreenManager.AddScreen(new MainMenuScreen());
+                    }
                     break;
                 case BattleState.Defeat:
                     defeatTimer -= gameTime.ElapsedGameTime.Milliseconds;
                     if (defeatTimer <= 0)
-                    { ScreenManager.RemoveScreen(this); }
+                    {
+                        ScreenManager.RemoveScreen(this);
+                        ScreenManager.AddScreen(new MainMenuScreen());
+                    }
                     break;
             }
             foreach (BattleScreenMember m in BattleMembers)
@@ -228,7 +227,7 @@ namespace PROJECT_RPG
             }
             gui.Update();
         }
-        
+
         public override void Draw(GameTime gameTime)
         {
             spriteBatch.Begin();

@@ -18,7 +18,8 @@ namespace PROJECT_RPG
         bool selectingTarget;
         int selectedTarget;
 
-        public BattleScreenPlayer(BattleScreen owner) : base("tempface", owner)
+        public BattleScreenPlayer(BattleScreen owner)
+            : base("tempface", owner)
         {
             maxHP = 100;
             currentHP = 100;
@@ -40,6 +41,7 @@ namespace PROJECT_RPG
                OwnerScreen);
 
             combatActions[0].Selected += CombatActionAttackSelected;
+            combatActions[1].Selected += CombatActionHealSelected;
         }
 
         public override void LoadContent()
@@ -141,6 +143,7 @@ namespace PROJECT_RPG
 
         public override void Draw(GameTime gameTime)
         {
+            base.Draw(gameTime);
             SpriteBatch spriteBatch = OwnerScreen.ScreenManager.SpriteBatch;
             spriteBatch.Begin();
             spriteBatch.Draw(Texture, Position, Color.White);
@@ -149,7 +152,7 @@ namespace PROJECT_RPG
             {
                 DrawActionMenu(this, spriteBatch);
             }
-            
+
         }
 
         public void DrawActionMenu(BattleScreenPlayer player, SpriteBatch spriteBatch)
@@ -183,19 +186,25 @@ namespace PROJECT_RPG
                         combatActions[i].IsHighLighted = true;
                         break;
                     case 1:
-                        combatActions[i] = new CombatAction(this, "Attack");
+                        combatActions[i] = new CombatAction(this, "Heal");
                         break;
                     case 2:
-                        combatActions[i] = new CombatAction(this, "Attack");
+                        combatActions[i] = new CombatAction(this, "Do Nothing");
                         break;
                     case 3:
-                        combatActions[i] = new CombatAction(this, "Attack");
+                        combatActions[i] = new CombatAction(this, "Do Nothing");
                         break;
                 }
             }
         }
 
         void CombatActionAttackSelected(object o, EventArgs e)
+        {
+            selectingTarget = true;
+            CurrentCombatAction = (CombatAction)o;
+        }
+
+        void CombatActionHealSelected(object o, EventArgs e)
         {
             selectingTarget = true;
             CurrentCombatAction = (CombatAction)o;
