@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>FontTextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb</Output>
-      <Time>2011-10-24T20:09:04.59375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb</Output>
+      <Time>2011-10-26T11:58:53.1793117-04:00</Time>
     </Item>
     <Item>
       <Source>blank.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb</Output>
-      <Time>2011-10-24T20:09:04.578125-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb</Output>
+      <Time>2011-10-26T11:58:53.133309-04:00</Time>
     </Item>
     <Item>
       <Source>font.bmp</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>FontTextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb</Output>
-      <Time>2011-10-24T20:09:04.59375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2011-10-26T11:58:53.1973127-04:00</Time>
     </Item>
     <Item>
       <Source>TESTMAP3.bmp</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb</Output>
-      <Time>2011-10-24T20:09:04.578125-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb</Output>
+      <Time>2011-10-26T11:58:53.1203083-04:00</Time>
     </Item>
     <Item>
       <Source>cats.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb</Output>
-      <Time>2011-10-24T20:09:04.578125-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb</Output>
+      <Time>2011-10-26T11:58:53.1353092-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\botleft_space.dds</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb</Output>
-      <Time>2011-10-24T20:09:04.609375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb</Output>
+      <Time>2011-10-26T11:58:53.2823176-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\botright_space.dds</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb</Output>
-      <Time>2011-10-24T20:09:04.609375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb</Output>
+      <Time>2011-10-26T11:58:53.3653223-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\bot_space.dds</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb</Output>
-      <Time>2011-10-24T20:09:04.609375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb</Output>
+      <Time>2011-10-26T11:58:53.2803174-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\floor_space.dds</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb</Output>
-      <Time>2011-10-24T20:09:04.609375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb</Output>
+      <Time>2011-10-26T11:58:53.3673224-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\left_space.dds</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb</Output>
-      <Time>2011-10-24T20:09:04.625-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb</Output>
+      <Time>2011-10-26T11:58:53.3693225-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\null_space.dds</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb</Output>
-      <Time>2011-10-24T20:09:04.625-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb</Output>
+      <Time>2011-10-26T11:58:53.3713227-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\right_space.dds</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb</Output>
-      <Time>2011-10-24T20:09:04.625-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb</Output>
+      <Time>2011-10-26T11:58:53.3723227-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\rug_space.dds</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb</Output>
-      <Time>2011-10-24T20:09:04.625-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb</Output>
+      <Time>2011-10-26T11:58:53.3743228-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\topleft_space.dds</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb</Output>
-      <Time>2011-10-24T20:09:04.625-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb</Output>
+      <Time>2011-10-26T11:58:53.3793231-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\topright_space.dds</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb</Output>
-      <Time>2011-10-24T20:09:04.625-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb</Output>
+      <Time>2011-10-26T11:58:53.3803232-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\top_space.dds</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb</Output>
-      <Time>2011-10-24T20:09:04.625-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb</Output>
+      <Time>2011-10-26T11:58:53.3763229-04:00</Time>
     </Item>
     <Item>
       <Source>tiles\top_space_tem.dds</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb</Output>
-      <Time>2011-10-24T20:09:04.625-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb</Output>
+      <Time>2011-10-26T11:58:53.377323-04:00</Time>
     </Item>
     <Item>
       <Source>tempface.bmp</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tempface.xnb</Output>
-      <Time>2011-10-24T20:09:04.609375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tempface.xnb</Output>
+      <Time>2011-10-26T11:58:53.272317-04:00</Time>
     </Item>
     <Item>
       <Source>ct.bmp</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct.xnb</Output>
-      <Time>2011-10-24T20:09:04.59375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct.xnb</Output>
+      <Time>2011-10-26T11:58:53.1483099-04:00</Time>
     </Item>
     <Item>
       <Source>ct_font.bmp</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font.xnb</Output>
-      <Time>2011-10-24T20:09:04.59375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font.xnb</Output>
+      <Time>2011-10-26T11:58:53.1533102-04:00</Time>
     </Item>
     <Item>
       <Source>ct_font_alpha.bmp</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha.xnb</Output>
-      <Time>2011-10-24T20:09:04.59375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha.xnb</Output>
+      <Time>2011-10-26T11:58:53.1573104-04:00</Time>
     </Item>
     <Item>
       <Source>ct_font_alpha2.bmp</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha2.xnb</Output>
-      <Time>2011-10-24T20:09:04.59375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha2.xnb</Output>
+      <Time>2011-10-26T11:58:53.168311-04:00</Time>
     </Item>
     <Item>
       <Source>TESTMAP.bmp</Source>
@@ -205,8 +205,26 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP.xnb</Output>
-      <Time>2011-10-24T20:09:04.5625-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP.xnb</Output>
+      <Time>2011-10-26T11:58:53.0663052-04:00</Time>
+    </Item>
+    <Item>
+      <Source>temp_background.bmp</Source>
+      <Name>temp_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_background.xnb</Output>
+      <Time>2011-10-26T14:42:31.0504135-04:00</Time>
+    </Item>
+    <Item>
+      <Source>temp_drawableentity.bmp</Source>
+      <Name>temp_drawableentity</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_drawableentity.xnb</Output>
+      <Time>2011-10-21T20:35:12.9886015-04:00</Time>
     </Item>
     <Item>
       <Source>defaultScreenFont.spritefont</Source>
@@ -214,8 +232,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb</Output>
-      <Time>2011-10-24T20:09:04.59375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb</Output>
+      <Time>2011-10-26T11:58:53.1893122-04:00</Time>
     </Item>
     <Item>
       <Source>ffvii-messagesent.wav</Source>
@@ -223,48 +241,57 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb</Output>
-      <Time>2011-10-24T20:09:04.59375-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb</Output>
+      <Time>2011-10-26T11:58:53.1923124-04:00</Time>
+    </Item>
+    <Item>
+      <Source>evil_face.bmp</Source>
+      <Name>evil_face</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\evil_face.xnb</Output>
+      <Time>2011-10-26T14:34:07.1848654-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
-      <TargetProfile>HiDef</TargetProfile>
+      <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPGContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPGContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
         <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
         <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
         <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
         <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
         <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
         <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-09-10T15:20:23.265625-04:00</Value>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-10-16T18:19:59.1736852-04:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

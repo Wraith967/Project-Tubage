@@ -21,5 +21,8 @@ Content\ct_font.xnb
 Content\ct_font_alpha.xnb
 Content\ct_font_alpha2.xnb
 Content\TESTMAP.xnb
+Content\temp_background.xnb
+Content\temp_drawableentity.xnb
 Content\defaultScreenFont.xnb
 Content\ffvii-messagesent.xnb
+Content\evil_face.xnb
