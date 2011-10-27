@@ -16,7 +16,6 @@ namespace PROJECT_RPG
         {
             maxHP = 50;
             currentHP = 50;
-            //TextureFileName = "temp_drawableentity";
             NameText = "Enemy";
             OwnerScreen = owner;
             IsPlayer = false;
@@ -30,8 +29,26 @@ namespace PROJECT_RPG
         {
             if (HasCurrentTurn)
             {
+
+                // Default attack player.
                 selectedTarget = OwnerScreen.BattleMembers.FindIndex(FindPlayer);
                 CurrentCombatAction = CombatActions[0];
+
+                if (currentHP != maxHP)
+                {
+                    Random r = new Random();
+                    bool attack = r.NextDouble() > 0.2;
+                    if (attack)
+                    {
+                        selectedTarget = OwnerScreen.BattleMembers.FindIndex(FindPlayer);
+                        CurrentCombatAction = CombatActions[0];
+                    }
+                    else
+                    {
+                        selectedTarget = OwnerScreen.BattleMembers.FindIndex(FindSelf);
+                        CurrentCombatAction = CombatActions[1];
+                    }
+                }
                 CurrentCombatAction.PerformAction(this, OwnerScreen.BattleMembers[selectedTarget], CurrentCombatAction);
                 OwnerScreen.AdvanceTurn();
             }
@@ -66,6 +83,13 @@ namespace PROJECT_RPG
         {
             if (member.IsPlayer)
             { return true; }
+            return false;
+        }
+
+        bool FindSelf(BattleScreenMember member)
+        {
+            if (!member.IsPlayer && !member.IsPlayerCharacter)
+                return true;
             return false;
         }
     }

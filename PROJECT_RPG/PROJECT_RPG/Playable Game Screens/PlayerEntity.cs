@@ -13,7 +13,6 @@ namespace PROJECT_RPG
 
         Rectangle drawbox;
         private Rectangle boundingBox;
-        int height = 17;
         int[] indexedXWalkLeftRight = { 0, 15, 35, 55, 75 };
         int[] indexedXWalkUpDown = { 0, 14, 30, 44, 63, 77 };
         float posDelta = 2.0f;
@@ -41,7 +40,9 @@ namespace PROJECT_RPG
             : base(textureFileName)
         {
             Position = pos;
-            drawbox = new Rectangle(16, 63, 15, height);
+            height = 17;
+            width = 15;
+            drawbox = new Rectangle(16, 63, GetWidth, GetHeight);
             boundingBox = new Rectangle((int)Position.X, (int)Position.Y, 15, 11);
         }
 

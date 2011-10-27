@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace PROJECT_RPG
 {
@@ -25,6 +26,9 @@ namespace PROJECT_RPG
             get { return screenState; }
             set { screenState = value; }
         }
+
+        protected Viewport viewScreen;
+        protected GraphicsDevice device;
 
         // Gets and sets the screen manager.
         protected ScreenManager screenManager;

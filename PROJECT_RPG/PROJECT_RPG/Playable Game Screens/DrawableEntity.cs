@@ -14,6 +14,20 @@ namespace PROJECT_RPG
 
         ContentManager content;
 
+        protected int height;
+        public int GetHeight
+        {
+            get { return height; }
+            set { height = value; }
+        }
+
+        protected int width;
+        public int GetWidth
+        {
+            get { return width; }
+            set { width = value; }
+        }
+
         protected Vector2 position;
         public Vector2 Position
         { 
@@ -58,6 +72,25 @@ namespace PROJECT_RPG
         }
 
         public virtual void UnloadContent() { }
+
+        public void UpdatePosition(int direction)
+        {
+            switch (direction)
+            {
+                case 0:
+                    position.Y += GetHeight;
+                    break;
+                case 1:
+                    position.X -= GetWidth;
+                    break;
+                case 2:
+                    position.Y -= GetHeight;
+                    break;
+                case 3:
+                    position.X += GetWidth;
+                    break;
+            }
+        }
 
         #endregion
 

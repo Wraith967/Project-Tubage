@@ -124,6 +124,7 @@
     <Compile Include="Playable Game Screens\Battle System\Combat Entities\DrawableBattleEntity.cs" />
     <Compile Include="Playable Game Screens\Battle System\CombatAction.cs" />
     <Compile Include="Playable Game Screens\Battle System\RectangleOverlay.cs" />
+    <Compile Include="Playable Game Screens\Conversation.cs" />
     <Compile Include="Playable Game Screens\DrawableEntity.cs" />
     <Compile Include="Playable Game Screens\MapReader.cs" />
     <Compile Include="Playable Game Screens\NonPlayerEntity.cs" />

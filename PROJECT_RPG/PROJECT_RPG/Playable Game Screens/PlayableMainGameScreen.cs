@@ -36,6 +36,14 @@ namespace PROJECT_RPG
 
         SpriteFont font;
 
+        int boundarySize = 75;  // pixels from the edge of the screen player can get to befor
+                                // the screen scrolls
+
+        int xOrigin = 0;
+        int xMax = 640;
+        int yOrigin = 0;
+        int yMax = 480;
+
         // General map related fields and properties.
         const int mapHeightInPixels = 680;
         const int mapWidthInPixels = 480;
@@ -73,6 +81,12 @@ namespace PROJECT_RPG
             base.LoadContent();
             ContentManager = new ContentManager(ScreenManager.Game.Services, "Content");
             font = ScreenManager.Font;
+            device = ScreenManager.Game.GraphicsDevice;
+            viewScreen = device.Viewport;
+            viewScreen.Width = ScreenManager.Game.Window.ClientBounds.Width;
+            viewScreen.Height = ScreenManager.Game.Window.ClientBounds.Height;
+            viewScreen.MaxDepth = 1;
+            viewScreen.MinDepth = 0;
             EngineLoader.LoadScriptFile(screenFile, this);
 
             //AddEntity(new PlayerEntity("cats", playerPos));
@@ -152,6 +166,7 @@ namespace PROJECT_RPG
                 float alpha = MathHelper.Lerp(1f - TransitionAlpha, 1f, 0);
                 ScreenManager.FadeBackBufferToBlack(alpha);
             }
+            device.Viewport = viewScreen;
         }
 
         public override void HandleInput(InputState input)
@@ -167,6 +182,54 @@ namespace PROJECT_RPG
             { LoadingScreen.Load(ScreenManager, new MainMenuScreen()); }
             player.HandleInput(input);
             CheckForCollision();
+            HandleScrolling();
+        }
+
+        private void HandleScrolling()
+        {
+            int direction = -1;
+            if ((Player.Position.X - xOrigin) < boundarySize)
+            {
+                direction = 3;
+            }
+            else if ((Player.Position.Y - yOrigin) < boundarySize)
+            {
+                direction = 0;
+            }
+            else if ((xMax - Player.Position.X) < boundarySize)
+            {
+                direction = 1;
+            }
+            else if ((yMax - Player.Position.Y) < boundarySize)
+            {
+                direction = 2;
+            }
+            if (direction != -1)
+            {
+                UpdatePosition(direction);
+            }
+        }
+
+        private void UpdatePosition(int direction)
+        {
+            int delta = 1;
+            switch (direction)
+            {
+                case 0:
+                    viewScreen.Y -= delta;
+                    break;
+                case 1:
+                    viewScreen.X += delta;
+                    break;
+                case 2:
+                    viewScreen.Y += delta;
+                    break;
+                case 3:
+                    viewScreen.X -= delta;
+                    break;
+            }
+            viewScreen.X = (int)MathHelper.Clamp(viewScreen.X, 0, 640);
+            viewScreen.Y = (int)MathHelper.Clamp(viewScreen.Y, 0, 480);
         }
 
         private bool IsCollision(int xCoord, int yCoord)

@@ -11,13 +11,13 @@ namespace PROJECT_RPG
     {
         #region Fields and Properties
 
+        float talkAgainTimer = 2000;
+        bool canBeTalkedTo = true;
         Rectangle drawbox;
         private Rectangle boundingBox;
-        int height = 17;
-        int width = 15;
         int[] indexedXWalkLeftRight = { 0, 15, 35, 55, 75 };
         int[] indexedXWalkUpDown = { 0, 14, 30, 44, 63, 77 };
-        float posDelta = 2.0f;
+        //float posDelta = 2.0f;
         //bool[] movement = { false, false, false, false }; // Down, Up, Left, Right
         bool nearbyPlayer = false;
         String greeting;
@@ -35,7 +35,9 @@ namespace PROJECT_RPG
             : base(textureFileName)
         {
             Position = pos;
-            drawbox = new Rectangle(0, 0, width, height);
+            width = 15;
+            height = 17;
+            drawbox = new Rectangle(0, 0, GetWidth, GetHeight);
             boundingBox = new Rectangle((int)Position.X, (int)Position.Y, 15, 11);
             if (greetingText.Equals(""))
                 greeting = "Hey! Talk to me! Please!";
@@ -58,6 +60,20 @@ namespace PROJECT_RPG
         {
             base.Update(gameTime);
             NearbyPlayer(((PlayableMainGameScreen)owner).Player.Position);
+            if (nearbyPlayer && canBeTalkedTo)
+            {
+                OwnerScreen.ScreenManager.AddScreen(new Conversation(new string[] { greeting }));
+                canBeTalkedTo = false;
+            }
+            else if (!canBeTalkedTo)
+            {
+                talkAgainTimer -= gameTime.ElapsedGameTime.Milliseconds;
+            }
+            if (talkAgainTimer < 0)
+            {
+                canBeTalkedTo = true;
+                talkAgainTimer = 5000;
+            }
         }
 
         public bool HasCollision()
@@ -75,48 +91,7 @@ namespace PROJECT_RPG
             }
             else
                 nearbyPlayer = false;
-        }
-
-        //public void HandleInput(InputState input)
-        //{
-        //    for (int i = 0; i < 4; i++)
-        //        movement[i] = false;
-        //    if (input.IsHoldDown())
-        //    {
-        //        position.Y += posDelta;
-        //        movement[0] = true;
-        //    }
-        //    if (input.IsHoldUp())
-        //    {
-        //        position.Y -= posDelta;
-        //        movement[1] = true;
-        //    }
-        //    if (input.IsHoldLeft())
-        //    {
-        //        position.X -= posDelta;
-        //        movement[2] = true;
-        //    }
-        //    if (input.IsHoldRight())
-        //    {
-        //        position.X += posDelta;
-        //        movement[3] = true;
-        //    }
-        //    boundingBox.X = (int)Position.X;
-        //    boundingBox.Y = (int)Position.Y;
-        //}
-
-        //public void undoMove()
-        //{
-        //    Console.WriteLine("undoMove called");
-        //    if (movement[0])
-        //        position.Y -= posDelta;
-        //    if (movement[1])
-        //        position.Y += posDelta;
-        //    if (movement[2])
-        //        position.X += posDelta;
-        //    if (movement[3])
-        //        position.X -= posDelta;
-        //}
+        }        
 
         public override void Draw(GameTime gameTime)
         {
@@ -124,8 +99,8 @@ namespace PROJECT_RPG
             SpriteBatch spriteBatch = OwnerScreen.ScreenManager.SpriteBatch;
             spriteBatch.Begin(SpriteSortMode.FrontToBack, null);
             spriteBatch.Draw(Texture, position, drawbox, Color.White, 0.0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0.0f);
-            if (nearbyPlayer)
-            spriteBatch.DrawString(font, greeting, greetingPos, Color.White);
+            //if (nearbyPlayer)
+            //spriteBatch.DrawString(font, greeting, greetingPos, Color.White);
             spriteBatch.End();
         }
         #endregion

@@ -140,7 +140,24 @@ namespace PROJECT_RPG
 
         #region Public Methods
 
-
+        public void UpdatePosition(int direction)
+        {
+            switch (direction)
+            {
+                case 0:
+                    position.Y += GetHeight;
+                    break;
+                case 1:
+                    position.X -= GetWidth;
+                    break;
+                case 2:
+                    position.Y -= GetHeight;
+                    break;
+                case 3:
+                    position.X += GetWidth;
+                    break;
+            }
+        }
 
         #endregion
     }

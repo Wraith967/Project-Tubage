@@ -11,6 +11,14 @@ using Microsoft.Xna.Framework.Media;
 
 namespace PROJECT_RPG
 {
+    public class GlobalConstants
+    {
+        public static const int ScreenWidth = 480;
+        public static const int ScreenHeight = 640;
+        public static const Matrix viewMatrix = new Matrix();
+    }
+
+
     /// <summary>
     /// This is the main type for your game
     /// </summary>
