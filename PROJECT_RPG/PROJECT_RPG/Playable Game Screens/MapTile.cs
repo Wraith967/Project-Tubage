@@ -133,14 +133,32 @@ namespace PROJECT_RPG
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(texture, new Rectangle((int)position.X, (int)position.Y, GetWidth, GetHeight), Color.White); 
+            Vector2 tempPosition = Vector2.Subtract(Position, Camera.Position);
+            spriteBatch.Draw(texture, new Rectangle((int)tempPosition.X, (int)tempPosition.Y, GetWidth, GetHeight), Color.White);
         }
 
         #endregion
 
         #region Public Methods
 
-
+        public void UpdatePosition(int direction)
+        {
+            switch (direction)
+            {
+                case 0:
+                    position.Y += GetHeight;
+                    break;
+                case 1:
+                    position.X -= GetWidth;
+                    break;
+                case 2:
+                    position.Y -= GetHeight;
+                    break;
+                case 3:
+                    position.X += GetWidth;
+                    break;
+            }
+        }
 
         #endregion
     }

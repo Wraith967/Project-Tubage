@@ -15,16 +15,19 @@ namespace PROJECT_RPG
             // Create our menu entries.
             MenuEntry playGameMenuEntry = new MenuEntry("New Game");
             MenuEntry optionsMenuEntry = new MenuEntry("Options");
+            MenuEntry testBattleScreenEntry = new MenuEntry("Battle Test");
             MenuEntry exitMenuEntry = new MenuEntry("Exit");
 
             // Hook up menu event handlers.
             playGameMenuEntry.Selected += NewGameMenuEntrySelected;
             optionsMenuEntry.Selected += OptionsMenuEntrySelected;
+            testBattleScreenEntry.Selected += TestBattleScreenEntrySelected;
             exitMenuEntry.Selected += OnCancel;
 
             // Add entries to the menu.
             MenuEntries.Add(playGameMenuEntry);
             MenuEntries.Add(optionsMenuEntry);
+            MenuEntries.Add(testBattleScreenEntry);
             MenuEntries.Add(exitMenuEntry);
         }
 
@@ -37,6 +40,9 @@ namespace PROJECT_RPG
 
         void OptionsMenuEntrySelected(object sender, EventArgs e)
         { LoadingScreen.Load(screenManager, new OptionsMenuScreen()); }
+
+        void TestBattleScreenEntrySelected(object sender, EventArgs e)
+        { LoadingScreen.Load(screenManager, new BattleScreen()); }
 
         void OnCancel(object sender, EventArgs e)
         { ScreenManager.Game.Exit(); }

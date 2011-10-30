@@ -36,13 +36,18 @@ namespace PROJECT_RPG
 
         SpriteFont font;
 
+        int boundarySize = 75;  // pixels from the edge of the screen player can get to befor
+                                // the screen scrolls
+
         // General map related fields and properties.
-        const int mapHeightInPixels = 680;
-        const int mapWidthInPixels = 480;
+        int squaresAcross = GlobalConstants.ScreenWidth / 20;
+        int squaresDown = GlobalConstants.ScreenHeight / 20;
+        int maxCameraX, maxCameraY, mapWidth, mapHeight;
         string screenFile;
         MapTile[,] tileMap;
         List<DrawableEntity> entities = new List<DrawableEntity>();
         List<DrawableEntity> entitiesToUpdate = new List<DrawableEntity>();
+        List<NonPlayerEntity> entitiesToCheck = new List<NonPlayerEntity>();
         PlayerEntity player;
         Vector2 playerPos;
 
@@ -64,7 +69,6 @@ namespace PROJECT_RPG
             TransitionOnTime = TimeSpan.FromSeconds(1.5);
             TransitionOffTime = TimeSpan.FromSeconds(0);
             this.playerPos = playerPos;
-
         }
 
         public override void LoadContent()
@@ -73,6 +77,14 @@ namespace PROJECT_RPG
             ContentManager = new ContentManager(ScreenManager.Game.Services, "Content");
             font = ScreenManager.Font;
             EngineLoader.LoadScriptFile(screenFile, this);
+            mapWidth = tileMap.GetUpperBound(1) + 1;
+            mapHeight = tileMap.GetUpperBound(0) + 1;
+            maxCameraX = (mapWidth - squaresAcross) * 20;
+            maxCameraY = (mapHeight - squaresDown) * 20;
+            if (maxCameraY < 0)
+                maxCameraY = 0;
+            if (maxCameraX < 0)
+                maxCameraX = 0;
 
             //AddEntity(new PlayerEntity("cats", playerPos));
 
@@ -115,6 +127,9 @@ namespace PROJECT_RPG
                     DrawableEntity entity = entitiesToUpdate[entitiesToUpdate.Count - 1];
                     entitiesToUpdate.RemoveAt(entitiesToUpdate.Count - 1);
                     entity.Update(gameTime);
+                    if (entity is NonPlayerEntity)
+                        entitiesToCheck.Add((NonPlayerEntity)entity);
+
                 }
                 // Done handling updating of drawable game entities.
             }
@@ -131,16 +146,29 @@ namespace PROJECT_RPG
             spriteBatch.Begin(SpriteSortMode.FrontToBack, null);
             //spriteBatch.Draw(mapTexture, Vector2.Zero, null, Color.White, 0.0f, Vector2.Zero, 1.0f, SpriteEffects.None, 1.0f);
             //spriteBatch.DrawString(font, ScreenManager.GetScreens().Length.ToString(), new Vector2(256,256), Color.Red);
-            foreach (MapTile m in tileMap)
-                m.Draw(spriteBatch);
+
+            Vector2 firstSquare = new Vector2(Camera.Position.X / 20, Camera.Position.Y / 20);
+            int firstX = (int)firstSquare.X;
+            int firstY = (int)firstSquare.Y;
+
+            for (int y = 0; y < Math.Min(squaresDown + 1, mapHeight - firstY); y++)
+            {
+                for (int x = 0; x < Math.Min(squaresAcross + 1, mapWidth - firstX); x++)
+                {
+
+                    tileMap[y + firstY, x + firstX].Draw(spriteBatch);
+                }
+            }
             spriteBatch.End();
 
+            spriteBatch.Begin(SpriteSortMode.FrontToBack, null);
             // Handle drawing of each drawable game entity.
             foreach (DrawableEntity entity in entities)
             {
-                entity.Draw(gameTime);
+                entity.Draw(gameTime, spriteBatch);
             }
             // Done.
+            spriteBatch.End();
 
             // If the game is transitioning on, fade it in.
             if (TransitionPosition > 0)
@@ -159,8 +187,58 @@ namespace PROJECT_RPG
             }
             if (input.IsInGameMenuButtonPressed())
             { screenManager.AddScreen(new InGameMenuScreen()); }
+            if (input.IsInGameEscapeButtonPressed())
+            { LoadingScreen.Load(ScreenManager, new MainMenuScreen()); }
             player.HandleInput(input);
             CheckForCollision();
+            HandleScrolling();
+        }
+
+        private void HandleScrolling()
+        {
+            int direction = -1;
+            if ((Player.Position.X - Camera.Position.X) < boundarySize)
+            {
+                direction = 3;
+            }
+            else if ((Player.Position.Y - Camera.Position.Y) < boundarySize)
+            {
+                direction = 0;
+            }
+            else if (((Camera.Position.X + GlobalConstants.ScreenWidth) - Player.Position.X) < boundarySize)
+            {
+                direction = 1;
+            }
+            else if (((Camera.Position.Y + GlobalConstants.ScreenHeight) - Player.Position.Y) < boundarySize)
+            {
+                direction = 2;
+            }
+            if (direction != -1)
+            {
+                UpdatePosition(direction);
+            }
+        }
+
+        private void UpdatePosition(int direction)
+        {
+            float delta = GlobalConstants.moveSpeed;
+            switch (direction)
+            {
+                case 0:
+                    Camera.Position.Y -= delta;
+                    break;
+                case 1:
+                    Camera.Position.X += delta;
+                    break;
+                case 2:
+                    Camera.Position.Y += delta;
+                    break;
+                case 3:
+                    Camera.Position.X -= delta;
+                    break;
+            }
+            Camera.Position.X = MathHelper.Clamp(Camera.Position.X, 0, maxCameraX);
+            Camera.Position.Y = MathHelper.Clamp(Camera.Position.Y, 0, maxCameraY);
         }
 
         private bool IsCollision(int xCoord, int yCoord)
@@ -190,6 +268,15 @@ namespace PROJECT_RPG
             {
                 player.undoMove();
                 return 0;
+            }
+            foreach (NonPlayerEntity entity in entitiesToCheck)
+            {
+                collided = entity.HasCollision();
+                if (collided)
+                {
+                    player.undoMove();
+                    return 0;
+                }
             }
             return 1;
         }

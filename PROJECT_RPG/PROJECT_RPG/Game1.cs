@@ -11,6 +11,14 @@ using Microsoft.Xna.Framework.Media;
 
 namespace PROJECT_RPG
 {
+    public static class GlobalConstants
+    {
+        public const int ScreenWidth = 640;
+        public const int ScreenHeight = 480;
+        public const float moveSpeed = 2.0f;
+    }
+
+
     /// <summary>
     /// This is the main type for your game
     /// </summary>

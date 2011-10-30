@@ -55,11 +55,11 @@ namespace PROJECT_RPG
                             collision = MapTileCollisionType.FullCollision;
                             break;
                         case '1':
-                            fileName = "tiles/floor_space";
+                            fileName = "tiles/tile";
                             collision = MapTileCollisionType.NoCollision;
                             break;
                         case '2':
-                            fileName = "tiles/rug_space";
+                            fileName = "tiles/wood";
                             collision = MapTileCollisionType.NoCollision;
                             break;
                         case '3':

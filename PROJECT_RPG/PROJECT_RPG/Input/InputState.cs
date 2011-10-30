@@ -115,6 +115,11 @@ namespace PROJECT_RPG
             return (IsNewKeyPress(Keys.M));
         }
 
+        public bool IsInGameEscapeButtonPressed()
+        {
+            return (IsNewKeyPress(Keys.Q));
+        }
+
 
         #endregion
 

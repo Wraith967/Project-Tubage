@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using Microsoft.Xna.Framework;
 
 namespace PROJECT_RPG
 {
@@ -48,15 +49,16 @@ namespace PROJECT_RPG
             float posX = float.Parse(tokens[3]);
             float posY = float.Parse(tokens[5]);
             PlayerEntity pEntity;
-            if (PGS.Player != null)
+            Vector2 playerPos;
+            if (PGS.PlayerPos.Equals(new Vector2(-1, -1)))
             {
-                pEntity = PGS.Player;
-                pEntity.Position = new Microsoft.Xna.Framework.Vector2(posX, posY);
+                playerPos = new Vector2(posX, posY);
             }
             else
             {
-                pEntity = new PlayerEntity(texture, new Microsoft.Xna.Framework.Vector2(posX, posY));
+                playerPos = PGS.PlayerPos;
             }
+            pEntity = new PlayerEntity(texture, playerPos);
             PGS.AddEntity(pEntity);
         }
 
@@ -67,7 +69,8 @@ namespace PROJECT_RPG
             String texture = tokens[1];
             float posX = float.Parse(tokens[3]);
             float posY = float.Parse(tokens[5]);
-            NonPlayerEntity npEntity = new NonPlayerEntity(texture, new Microsoft.Xna.Framework.Vector2(posX, posY));
+            String text = tokens[7];
+            NonPlayerEntity npEntity = new NonPlayerEntity(texture, new Vector2(posX, posY), text);
             PGS.AddEntity(npEntity);
         }
 

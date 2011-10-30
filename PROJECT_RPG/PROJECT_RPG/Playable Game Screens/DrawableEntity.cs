@@ -12,13 +12,37 @@ namespace PROJECT_RPG
     {
         #region Fields and Properties
 
-        ContentManager content;
+        protected ContentManager content;
+        protected Rectangle drawbox;
+        protected Rectangle boundingBox;
+
+        public Rectangle getBoundary
+        { get { return boundingBox; } }
+
+        protected int height;
+        public int GetHeight
+        {
+            get { return height; }
+            set { height = value; }
+        }
+
+        protected int width;
+        public int GetWidth
+        {
+            get { return width; }
+            set { width = value; }
+        }
 
         protected Vector2 position;
         public Vector2 Position
-        { 
-            get { return position; } 
-            set { position = value; } 
+        {
+            get { return position; }
+            set
+            {
+                position = value;
+                boundingBox.X = (int)position.X;
+                boundingBox.Y = (int)position.Y;
+            }
         }
 
         protected GameScreen owner;
@@ -66,8 +90,11 @@ namespace PROJECT_RPG
         public virtual void Update(GameTime gameTime)
         { }
 
-        public virtual void Draw(GameTime gameTime)
-        { }
+        public virtual void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            Vector2 tempPosition = Vector2.Subtract(position, Camera.Position);
+            spriteBatch.Draw(Texture, tempPosition, drawbox, Color.White, 0.0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0.0f);
+        }
 
         #endregion
     }

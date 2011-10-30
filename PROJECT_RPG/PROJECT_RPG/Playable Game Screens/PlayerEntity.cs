@@ -11,27 +11,13 @@ namespace PROJECT_RPG
     {
         #region Fields and Properties
 
-        Rectangle drawbox;
-        private Rectangle boundingBox;
-        int height = 17;
+        //Rectangle drawbox;
+        //private Rectangle boundingBox;
         int[] indexedXWalkLeftRight = { 0, 15, 35, 55, 75 };
         int[] indexedXWalkUpDown = { 0, 14, 30, 44, 63, 77 };
-        float posDelta = 2.0f;
+        float posDelta = GlobalConstants.moveSpeed;
         bool[] movement = { false, false, false, false }; // Down, Up, Left, Right
-
-        public Rectangle getBoundary
-        { get { return boundingBox; } }
-
-        public Vector2 Position
-        {
-            get { return position; }
-            set
-            {
-                position = value;
-                boundingBox.X = (int)position.X;
-                boundingBox.Y = (int)position.Y;
-            }
-        }
+        Vector2 lastPosition;
 
         #endregion
 
@@ -41,8 +27,11 @@ namespace PROJECT_RPG
             : base(textureFileName)
         {
             Position = pos;
-            drawbox = new Rectangle(16, 63, 15, height);
+            height = 17;
+            width = 15;
+            drawbox = new Rectangle(16, 63, GetWidth, GetHeight);
             boundingBox = new Rectangle((int)Position.X, (int)Position.Y, 15, 11);
+            lastPosition = Camera.Position;
         }
 
         #endregion
@@ -93,15 +82,19 @@ namespace PROJECT_RPG
                 position.X += posDelta;
             if (movement[3])
                 position.X -= posDelta;
+            boundingBox.X = (int)Position.X;
+            boundingBox.Y = (int)Position.Y;
         }
 
-        public override void Draw(GameTime gameTime)
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            base.Draw(gameTime);
-            SpriteBatch spriteBatch = OwnerScreen.ScreenManager.SpriteBatch;
-            spriteBatch.Begin(SpriteSortMode.FrontToBack, null);
-            spriteBatch.Draw(Texture, position, drawbox, Color.White, 0.0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0.0f);
-            spriteBatch.End();
+            if (!lastPosition.Equals(Camera.Position))
+            {
+                //Position = Vector2.Subtract(Position, Camera.Position);
+                lastPosition = Camera.Position;
+            }
+            //spriteBatch.Draw(Texture, Position, drawbox, Color.White, 0.0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0.0f);
+            base.Draw(gameTime, spriteBatch);
         }
         #endregion
     }
