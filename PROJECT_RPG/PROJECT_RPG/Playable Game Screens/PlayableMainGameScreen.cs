@@ -93,7 +93,7 @@ namespace PROJECT_RPG
                 entity.LoadContent();
             }
             foreach (MapTile m in tileMap)
-                m.LoadContent(ContentManager);
+                m.LoadContent();
 
             ScreenManager.Game.ResetElapsedTime();
         }

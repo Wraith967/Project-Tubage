@@ -40,7 +40,7 @@ namespace PROJECT_RPG
         {
             char tempChar;
             MapTile tempTile;
-            String fileName;
+            int fileIndex;
             MapTileCollisionType collision;
 
             for (int i = 0; i < height; i++)
@@ -50,56 +50,53 @@ namespace PROJECT_RPG
                     tempChar = strArr[i, j];
                     switch (tempChar)
                     {
-                        case '0':
-                            fileName = "tiles/null_space";
-                            collision = MapTileCollisionType.FullCollision;
-                            break;
                         case '1':
-                            fileName = "tiles/tile";
+                            fileIndex = 1;
                             collision = MapTileCollisionType.NoCollision;
                             break;
                         case '2':
-                            fileName = "tiles/wood";
+                            fileIndex = 2;
                             collision = MapTileCollisionType.NoCollision;
                             break;
                         case '3':
-                            fileName = "tiles/top_space";
+                            fileIndex = 3;
                             collision = MapTileCollisionType.HalfCollisionTop;
                             break;
                         case '4':
-                            fileName = "tiles/bot_space";
+                            fileIndex = 4;
                             collision = MapTileCollisionType.HalfCollisionBot;
                             break;
                         case '5':
-                            fileName = "tiles/left_space";
+                            fileIndex = 5;
                             collision = MapTileCollisionType.HalfCollisionLeft;
                             break;
                         case '6':
-                            fileName = "tiles/right_space";
+                            fileIndex = 6;
                             collision = MapTileCollisionType.HalfCollisionRight;
                             break;
                         case '7':
-                            fileName = "tiles/topleft_space";
+                            fileIndex = 7;
                             collision = MapTileCollisionType.HalfCollisionCornerTopLeft;
                             break;
                         case '8':
-                            fileName = "tiles/topright_space";
+                            fileIndex = 8;
                             collision = MapTileCollisionType.HalfCollisionCornerTopRight;
                             break;
                         case '9':
-                            fileName = "tiles/botright_space";
+                            fileIndex = 10;
                             collision = MapTileCollisionType.HalfCollisionCornerBotRight;
                             break;
                         case 'A':
-                            fileName = "tiles/botleft_space";
+                            fileIndex = 9;
                             collision = MapTileCollisionType.HalfCollisionCornerBotLeft;
                             break;
+                        case '0':
                         default:
-                            fileName = "";
+                            fileIndex = 0;
                             collision = MapTileCollisionType.FullCollision;
                             break;
                     }
-                    tempTile = new MapTile(fileName, new Microsoft.Xna.Framework.Vector2(j * 20, i * 20), collision, owner);
+                    tempTile = new MapTile(fileIndex, new Microsoft.Xna.Framework.Vector2(j * 20, i * 20), collision, owner);
                     mapArr[i, j] = tempTile;
                 }
             }

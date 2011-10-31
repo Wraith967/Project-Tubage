@@ -109,6 +109,7 @@
   <ItemGroup>
     <Compile Include="Camera.cs" />
     <Compile Include="Input\EngineLoader.cs" />
+    <Compile Include="Playable Game Screens\MapTextures.cs" />
     <Compile Include="Menu Screens\In Game Menu Screens\Blank2EntryScreen.cs" />
     <Compile Include="Menu Screens\In Game Menu Screens\Blank3EntryScreen.cs" />
     <Compile Include="Menu Screens\In Game Menu Screens\Blank4EntryScreen.cs" />

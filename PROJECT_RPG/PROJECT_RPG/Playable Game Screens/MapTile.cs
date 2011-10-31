@@ -33,7 +33,7 @@ namespace PROJECT_RPG
 
         private PlayableMainGameScreen owner;
 
-        private String textureFile;
+        private int textureIndex;
 
         private Texture2D texture;
         public Texture2D Texture
@@ -68,9 +68,9 @@ namespace PROJECT_RPG
 
         #region Initialization
 
-        public MapTile(String textureFile, Vector2 pos, MapTileCollisionType collision, PlayableMainGameScreen owner)
+        public MapTile(int textureIndex, Vector2 pos, MapTileCollisionType collision, PlayableMainGameScreen owner)
         {
-            this.textureFile = textureFile;
+            this.textureIndex = textureIndex;
             position = pos;
             this.collision = collision;
             this.owner = owner;
@@ -94,9 +94,9 @@ namespace PROJECT_RPG
                 boundaryBox = new Rectangle((int)position.X, (int)position.Y, 0, 0);
         }
 
-        public void LoadContent(ContentManager content)
+        public void LoadContent()
         {
-            texture = content.Load<Texture2D>(textureFile);
+            texture = owner.ScreenManager.MapTex.getTexture(textureIndex);
         }
 
 

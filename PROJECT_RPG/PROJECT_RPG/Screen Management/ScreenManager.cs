@@ -20,6 +20,10 @@ namespace PROJECT_RPG
         SpriteFont font;
         SpriteBatch spriteBatch;
         SoundEffect menuItemSound;
+        MapTextures mapTex;
+
+        public MapTextures MapTex
+        { get { return mapTex; } }
 
         InputState input = new InputState();
 
@@ -55,6 +59,7 @@ namespace PROJECT_RPG
         {
             ContentManager content = Game.Content;
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            mapTex = new MapTextures(content);
 
             // To do: Load content shared by all screens (texture, font, ...)
             font = content.Load<SpriteFont>("ct_font_alpha3");
