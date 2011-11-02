@@ -12,6 +12,7 @@ namespace PROJECT_RPG
     {
         #region Fields and Properties
 
+        private Rectangle drawbox;
         private Rectangle boundaryBox;
         public Rectangle getBoundary
         { get { return boundaryBox; } }
@@ -74,6 +75,7 @@ namespace PROJECT_RPG
             position = pos;
             this.collision = collision;
             this.owner = owner;
+            this.drawbox = new Rectangle((int)pos.X, (int)pos.Y, GetWidth, GetHeight);
             CreateBoundary();
             
         }
@@ -134,7 +136,10 @@ namespace PROJECT_RPG
         public void Draw(SpriteBatch spriteBatch)
         {
             Vector2 tempPosition = Vector2.Subtract(Position, Camera.Position);
-            spriteBatch.Draw(texture, new Rectangle((int)tempPosition.X, (int)tempPosition.Y, GetWidth, GetHeight), Color.White);
+            drawbox.X = (int)tempPosition.X;
+            drawbox.Y = (int)tempPosition.Y;
+            // Why do we make a new rectangle every draw call? :[
+            spriteBatch.Draw(texture, drawbox, Color.White);
         }
 
         #endregion

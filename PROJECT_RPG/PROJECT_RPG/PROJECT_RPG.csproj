@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Camera.cs" />
+    <Compile Include="Playable Game Screens\EnemyEntity.cs" />
     <Compile Include="Input\EngineLoader.cs" />
     <Compile Include="Playable Game Screens\MapTextures.cs" />
     <Compile Include="Menu Screens\In Game Menu Screens\Blank2EntryScreen.cs" />
