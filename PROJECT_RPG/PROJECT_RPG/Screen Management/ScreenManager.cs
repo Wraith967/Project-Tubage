@@ -121,7 +121,7 @@ namespace PROJECT_RPG
                     // let it handle input.
                     if (!otherScreenHasFocus)
                     {
-                        screen.HandleInput(input);
+                        screen.HandleInput(input, gameTime);
 
                         otherScreenHasFocus = true;
                     }

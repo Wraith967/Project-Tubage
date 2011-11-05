@@ -12,14 +12,32 @@ namespace PROJECT_RPG
     {
         protected int maxHP;
         public int MaxHP
-        { get { return maxHP; } }
+        { 
+            get { return maxHP; }
+            set { maxHP = value; }
+        }
 
         protected int currentHP;
         public int CurrentHP
         { get { return currentHP; } }
+
+        protected int strength;
+        public int Strength
+        {
+            get { return strength; }
+            set { strength = value; }
+        }
+
+        protected int defense;
+        public int Defense
+        {
+            get { return defense; }
+            set { defense = value; }
+        }
+
         public void TakeDamage(int dmg)
         {
-            currentHP -= dmg;
+            currentHP -= (dmg > defense ? dmg - defense : 0);
             if (currentHP <= 0)
             {
                 currentHP = 0;
@@ -77,14 +95,11 @@ namespace PROJECT_RPG
             owner = ownerScreen;
         }
 
-        public override void Draw(GameTime gameTime)
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             if (IsTargeted)
             {
-                SpriteBatch spriteBatch = OwnerScreen.ScreenManager.SpriteBatch;
-                spriteBatch.Begin();
                 spriteBatch.DrawString(OwnerScreen.ScreenManager.Font, "}", new Vector2(position.X - 15, position.Y), Color.White);
-                spriteBatch.End();
             }
         }
     }

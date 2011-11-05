@@ -107,7 +107,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Camera.cs" />
+    <Compile Include="Playable Game Screens\Battle System\BattleScreenLoader.cs" />
+    <Compile Include="Screen Management\Camera.cs" />
+    <Compile Include="Input\ConvoLoader.cs" />
+    <Compile Include="Playable Game Screens\FriendlyEntity.cs" />
     <Compile Include="Playable Game Screens\EnemyEntity.cs" />
     <Compile Include="Input\EngineLoader.cs" />
     <Compile Include="Playable Game Screens\MapTextures.cs" />

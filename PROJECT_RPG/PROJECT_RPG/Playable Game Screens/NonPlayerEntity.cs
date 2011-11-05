@@ -11,18 +11,18 @@ namespace PROJECT_RPG
     {
         #region Fields and Properties
 
-        float talkAgainTimer = 2000;
-        bool canBeTalkedTo = true;
         //Rectangle drawbox;
         //private Rectangle boundingBox;
-        int[] indexedXWalkLeftRight = { 0, 15, 35, 55, 75 };
-        int[] indexedXWalkUpDown = { 0, 14, 30, 44, 63, 77 };
+        //protected int[] indexedXWalkLeftRight = { 0, 15, 35, 55, 75 };
+        //protected int[] indexedXWalkUpDown = { 0, 14, 30, 44, 63, 77 };
         //float posDelta = 2.0f;
         //bool[] movement = { false, false, false, false }; // Down, Up, Left, Right
         bool nearbyPlayer = false;
         String greeting;
-        SpriteFont font;
+        protected SpriteFont font;
         Vector2 greetingPos;
+        int playerDist;
+        Random gen;
 
         
 
@@ -43,6 +43,8 @@ namespace PROJECT_RPG
             else
                 greeting = greetingText;
             greetingPos = new Vector2(pos.X, pos.Y - 20f);
+            gen = new Random(DateTime.Now.Millisecond);
+            playerDist = gen.Next(20, 100);
         }
 
         public override void LoadContent()
@@ -59,20 +61,6 @@ namespace PROJECT_RPG
         {
             base.Update(gameTime);
             NearbyPlayer(((PlayableMainGameScreen)owner).Player.Position);
-            if (nearbyPlayer && canBeTalkedTo)
-            {
-                OwnerScreen.ScreenManager.AddScreen(new Conversation(new string[] { greeting }));
-                canBeTalkedTo = false;
-            }
-            else if (!canBeTalkedTo)
-            {
-                talkAgainTimer -= gameTime.ElapsedGameTime.Milliseconds;
-            }
-            if (talkAgainTimer < 0)
-            {
-                canBeTalkedTo = true;
-                talkAgainTimer = 5000;
-            }
         }
 
         public bool HasCollision()
@@ -84,7 +72,7 @@ namespace PROJECT_RPG
         public void NearbyPlayer(Vector2 playerPos)
         {
             float diff = (Position - playerPos).Length();
-            if (diff < 40)
+            if (diff < playerDist)
             {
                 nearbyPlayer = true;
             }
@@ -95,7 +83,17 @@ namespace PROJECT_RPG
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             base.Draw(gameTime, spriteBatch);
+            if (nearbyPlayer)
+                spriteBatch.DrawString(font, greeting, greetingPos, Color.White);
         }
+        #endregion
+
+        #region Public Methods
+
+        public virtual void Interact(GameTime gameTime)
+        {
+        }
+
         #endregion
     }
 }

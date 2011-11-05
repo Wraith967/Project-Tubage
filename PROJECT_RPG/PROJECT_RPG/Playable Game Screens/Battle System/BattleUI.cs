@@ -11,7 +11,6 @@ namespace PROJECT_RPG
     class BattleUI
     {
         // General shit.
-        SpriteBatch spriteBatch;
         SpriteFont font;
 
         // Screen that spawned this battle UI.
@@ -42,7 +41,6 @@ namespace PROJECT_RPG
 
         public void LoadContent()
         {
-            spriteBatch = battleScreen.ScreenManager.SpriteBatch;
             font = battleScreen.ScreenManager.Font;
 
             // UI setup.
@@ -51,15 +49,14 @@ namespace PROJECT_RPG
 
         public void Update() { }
 
-        public void Draw()
+        public void Draw(SpriteBatch spriteBatch)
         {
             mainHUD.Draw();
 
             temp_NamesPos = new Vector2(mainHUD.GetInnerRectangle.X + 5, mainHUD.GetInnerRectangle.Y + 5);
             temp_StatsPos = new Vector2(mainHUD.GetInnerRectangle.X + 150, mainHUD.GetInnerRectangle.Y + 5);
 
-            // Spritebatch begin.
-            spriteBatch.Begin();
+            // Begin drawing.
             foreach (string s in temp_Names)
             {
                 spriteBatch.DrawString(font, s, temp_NamesPos, Color.White, 0.0f, Vector2.Zero, 2.0f, SpriteEffects.None, 0.0f);
@@ -72,8 +69,6 @@ namespace PROJECT_RPG
                 spriteBatch.DrawString(font, e.CurrentHP.ToString() + " / " + e.MaxHP.ToString(), temp_StatsPos, Color.White, 0.0f, Vector2.Zero, 2.0f, SpriteEffects.None, 0.0f);
                 temp_StatsPos.Y += font.LineSpacing * 2.0f;
             }
-
-            spriteBatch.End();
 
             // Done.
         }

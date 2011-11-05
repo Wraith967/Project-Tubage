@@ -77,8 +77,8 @@ namespace PROJECT_RPG
             ContentManager = new ContentManager(ScreenManager.Game.Services, "Content");
             font = ScreenManager.Font;
             EngineLoader.LoadScriptFile(screenFile, this);
-            mapWidth = tileMap.GetUpperBound(1) + 1;
-            mapHeight = tileMap.GetUpperBound(0) + 1;
+            mapWidth = tileMap.GetLength(1);
+            mapHeight = tileMap.GetLength(0);
             maxCameraX = (mapWidth - squaresAcross) * 20;
             maxCameraY = (mapHeight - squaresDown) * 20;
             if (maxCameraY < 0)
@@ -178,9 +178,9 @@ namespace PROJECT_RPG
             }
         }
 
-        public override void HandleInput(InputState input)
+        public override void HandleInput(InputState input, GameTime gameTime)
         {
-            base.HandleInput(input);
+            base.HandleInput(input, gameTime);
             if (input.IsPauseButtonPressed())
             {
                 screenManager.AddScreen(new PauseScreen());
@@ -189,7 +189,7 @@ namespace PROJECT_RPG
             { screenManager.AddScreen(new InGameMenuScreen()); }
             if (input.IsInGameEscapeButtonPressed())
             { LoadingScreen.Load(ScreenManager, new MainMenuScreen()); }
-            player.HandleInput(input);
+            player.HandleInput(input, gameTime);
             CheckForCollision();
             HandleScrolling();
         }
@@ -313,6 +313,20 @@ namespace PROJECT_RPG
             temp.IsTransfer = true;
             temp.NextMapFile = nextMap;
             temp.TransferPoint = new Vector2(nextX, nextY);
+        }
+
+        public void PlayerInteraction(GameTime gameTime)
+        {
+            foreach (DrawableEntity entity in entities)
+            {
+                if (entity is NonPlayerEntity)
+                {
+                    if ((int)Vector2.Subtract(player.Position, entity.Position).Length() < 30)
+                    {
+                        ((NonPlayerEntity)entity).Interact(gameTime);
+                    }
+                }
+            }
         }
 
         #endregion

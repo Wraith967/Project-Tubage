@@ -43,7 +43,7 @@ namespace PROJECT_RPG
             base.Update(gameTime);
         }
 
-        public void HandleInput(InputState input)
+        public void HandleInput(InputState input, GameTime gameTime)
         {
             for (int i = 0; i < 4; i++)
                 movement[i] = false;
@@ -69,6 +69,8 @@ namespace PROJECT_RPG
             }
             boundingBox.X = (int)Position.X;
             boundingBox.Y = (int)Position.Y;
+            if (input.IsUseButtonPressed())
+                ((PlayableMainGameScreen)OwnerScreen).PlayerInteraction(gameTime);
         }
 
         public void undoMove()

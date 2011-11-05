@@ -86,7 +86,7 @@ namespace PROJECT_RPG
 
         #region Other Methods && Handle Input
 
-        public override void HandleInput(InputState input)
+        public override void HandleInput(InputState input, GameTime gameTime)
         { if (input.IsMenuCancel()) LoadingScreen.Load(screenManager, new MainMenuScreen()); }
 
         #endregion

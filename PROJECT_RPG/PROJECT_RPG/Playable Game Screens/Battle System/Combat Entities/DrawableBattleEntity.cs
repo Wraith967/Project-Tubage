@@ -66,7 +66,7 @@ namespace PROJECT_RPG
         public virtual void Update(GameTime gameTime)
         { }
 
-        public virtual void Draw(GameTime gameTime)
+        public virtual void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         { }
 
         #endregion

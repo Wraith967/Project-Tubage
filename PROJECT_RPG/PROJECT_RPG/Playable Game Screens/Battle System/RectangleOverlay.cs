@@ -44,10 +44,8 @@ namespace PROJECT_RPG
 
         public void Draw()
         {
-            spriteBatch.Begin();
             spriteBatch.Draw(texture, outerRectangle, borderColor);
             spriteBatch.Draw(texture, innerRectangle, boxColor);
-            spriteBatch.End();
         }
 
     }

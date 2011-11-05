@@ -182,7 +182,7 @@ namespace PROJECT_RPG
         }
 
         // Handles user input; only called when screen is active.
-        public virtual void HandleInput(InputState input) { }
+        public virtual void HandleInput(InputState input, GameTime gameTime) { }
 
         public virtual void Draw(GameTime gameTime) { }
 

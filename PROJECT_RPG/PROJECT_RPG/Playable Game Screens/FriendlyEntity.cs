@@ -7,20 +7,22 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace PROJECT_RPG
 {
-    class EnemyEntity : NonPlayerEntity
+    class FriendlyEntity : NonPlayerEntity
     {
         #region Fields and Properties
         
-        String battleFile;
+        float talkAgainTimer = 2000;
+        bool canBeTalkedTo = true;
+        String[] convo;
 
         #endregion
 
         #region Initialization
 
-        public EnemyEntity(string textureFileName, Vector2 pos, String greetingText, String battleFile)
+        public FriendlyEntity(string textureFileName, Vector2 pos, String greetingText, String convoFile)
             : base(textureFileName, pos, greetingText)
         {
-            this.battleFile = battleFile;
+            convo = ConvoLoader.LoadConvo(convoFile);
         }
 
         #endregion
@@ -36,6 +38,7 @@ namespace PROJECT_RPG
         {
             base.Draw(gameTime, spriteBatch);
         }
+
         #endregion
 
         #region Public Methods
@@ -43,7 +46,20 @@ namespace PROJECT_RPG
         public override void Interact(GameTime gameTime)
         {
             base.Interact(gameTime);
-            OwnerScreen.ScreenManager.AddScreen(new BattleScreen(battleFile, this, owner));
+            if (canBeTalkedTo)
+            {
+                OwnerScreen.ScreenManager.AddScreen(new Conversation(convo));
+                canBeTalkedTo = false;
+            }
+            else if (!canBeTalkedTo)
+            {
+                talkAgainTimer -= gameTime.ElapsedGameTime.Milliseconds;
+            }
+            if (talkAgainTimer < 0)
+            {
+                canBeTalkedTo = true;
+                talkAgainTimer = 5000;
+            }
         }
 
         #endregion

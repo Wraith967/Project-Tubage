@@ -38,9 +38,9 @@ namespace PROJECT_RPG
             spriteBatch.End();
         }
 
-        public override void HandleInput(InputState input)
+        public override void HandleInput(InputState input, GameTime gameTime)
         {
-            base.HandleInput(input);
+            base.HandleInput(input, gameTime);
             if (input.IsPauseButtonPressed()) { ExitScreen(); }
         }
     }

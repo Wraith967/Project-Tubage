@@ -41,7 +41,7 @@ namespace PROJECT_RPG
             box.LoadContent();
         }
 
-        public override void HandleInput(InputState input)
+        public override void HandleInput(InputState input, GameTime gameTime)
         {
             if (input.IsMenuSelect() && (line != conversation.GetLength(0)))
             {
@@ -61,8 +61,8 @@ namespace PROJECT_RPG
         public override void Draw(GameTime gameTime)
         {
             SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
-            box.Draw();
             spriteBatch.Begin();
+            box.Draw();
             spriteBatch.DrawString(ScreenManager.Font, conversation[line], textLocation, Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
             spriteBatch.End();
         }

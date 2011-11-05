@@ -42,7 +42,7 @@ namespace PROJECT_RPG
         { LoadingScreen.Load(screenManager, new OptionsMenuScreen()); }
 
         void TestBattleScreenEntrySelected(object sender, EventArgs e)
-        { LoadingScreen.Load(screenManager, new BattleScreen()); }
+        { ScreenManager.AddScreen(new BattleScreen("testBattle.txt", null, this)); }
 
         void OnCancel(object sender, EventArgs e)
         { ScreenManager.Game.Exit(); }

@@ -45,7 +45,7 @@ namespace PROJECT_RPG
             switch (action.ActionText)
             {
                 case "Attack":
-                    target.TakeDamage(10);
+                    target.TakeDamage(user.Strength);
                     target.IsTargeted = false;
                     break;
                 case "Heal":

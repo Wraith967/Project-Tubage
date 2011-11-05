@@ -20,6 +20,9 @@ namespace PROJECT_RPG
     }
     class BattleScreen : GameScreen
     {
+
+        #region Fields and Properties
+
         SpriteBatch spriteBatch;
 
         BattleState currentBattleState;
@@ -35,33 +38,49 @@ namespace PROJECT_RPG
         public List<BattleScreenMember> BattleMembers
         { get { return battleScreenMembers; } set { battleScreenMembers = value; } }
 
-        public BattleScreenPlayer player;
-        BattleScreenEnemy enemy;
+        BattleScreenPlayer player;
+        //BattleScreenEnemy enemy;
 
         Texture2D backgroundTexture;
+        String textureFile;
+        public String Texture
+        { set { textureFile = value; } }
 
         float startingStateTimer = 3000;
         float victoryTimer = 3000;
         float defeatTimer = 3000;
 
-        public BattleScreen()
+        EnemyEntity creator;
+        GameScreen previousScreen;
+        String battleFile;
+
+        #endregion
+
+        #region Initialization
+
+        public BattleScreen(String filename, EnemyEntity starter, GameScreen previous)
         {
             TransitionOnTime = TimeSpan.Zero;
             TransitionOffTime = TimeSpan.Zero;
 
             currentBattleState = BattleState.Starting;
+            previousScreen = previous;
+
+            creator = starter;
+            battleFile = filename;
         }
 
         public override void LoadContent()
         {
             ContentManager content = new ContentManager(ScreenManager.Game.Services, "Content");
-            backgroundTexture = content.Load<Texture2D>("temp_background");
             spriteBatch = ScreenManager.SpriteBatch;
+            BattleScreenLoader.LoadBattle(battleFile, this);
+            backgroundTexture = content.Load<Texture2D>(textureFile);
 
-            player = new BattleScreenPlayer(this);
-            enemy = new BattleScreenEnemy(this);
-            battleScreenMembers.Add(player);
-            battleScreenMembers.Add(enemy);
+            //player = new BattleScreenPlayer("tempface", this);
+            //enemy = new BattleScreenEnemy("evil_face", this);
+            //battleScreenMembers.Add(player);
+            //battleScreenMembers.Add(enemy);
 
             InitializeTurnOrder();
 
@@ -80,6 +99,15 @@ namespace PROJECT_RPG
         public override void UnloadContent()
         {
         }
+
+        public void AddBattleMember(BattleScreenMember member)
+        {
+            battleScreenMembers.Add(member);
+            if (member is BattleScreenPlayer)
+                player = (BattleScreenPlayer)member;
+        }
+
+        #endregion
 
         #region Combat State Logic
 
@@ -162,7 +190,9 @@ namespace PROJECT_RPG
 
         #endregion
 
-        public override void HandleInput(InputState input)
+        #region Update and Draw
+
+        public override void HandleInput(InputState input, GameTime gameTime)
         {
             switch (currentBattleState)
             {
@@ -208,8 +238,10 @@ namespace PROJECT_RPG
                     victoryTimer -= gameTime.ElapsedGameTime.Milliseconds;
                     if (victoryTimer <= 0)
                     {
+                        if (previousScreen is PlayableMainGameScreen)
+                            ((PlayableMainGameScreen)previousScreen).RemoveEntity(creator);
                         ScreenManager.RemoveScreen(this);
-                        ScreenManager.AddScreen(new MainMenuScreen());
+                        //ScreenManager.AddScreen(new MainMenuScreen());
                     }
                     break;
                 case BattleState.Defeat:
@@ -233,28 +265,26 @@ namespace PROJECT_RPG
             spriteBatch.Begin();
             // Draw background of the battle.
             spriteBatch.Draw(backgroundTexture, Vector2.Zero, Color.White);
-            spriteBatch.End();
 
-            gui.Draw();
+            gui.Draw(spriteBatch);
 
             // Draw each player and enemy character.
             foreach (BattleScreenMember character in BattleMembers)
             {
-                character.Draw(gameTime);
+                character.Draw(gameTime, spriteBatch);
             }
 
             if (currentBattleState == BattleState.Victory)
             {
-                spriteBatch.Begin();
                 spriteBatch.DrawString(ScreenManager.Font, "You win!", Vector2.Zero, Color.DarkBlue);
-                spriteBatch.End();
             }
             else if (currentBattleState == BattleState.Defeat)
             {
-                spriteBatch.Begin();
                 spriteBatch.DrawString(ScreenManager.Font, "You lose!", Vector2.Zero, Color.DarkBlue);
-                spriteBatch.End();
             }
+            spriteBatch.End();
         }
+
+        #endregion
     }
 }

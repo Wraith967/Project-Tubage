@@ -23,16 +23,22 @@ namespace PROJECT_RPG
             
             // Regex patterns
             String playerPattern = "^player:.*";
-            String entityPattern = "^entity:.*";
+            String NPentityPattern = "^NPentity:.*";
+            String friend = "^friend:.*";
+            String enemy = "^enemy:.*";
             String tilePattern = "^tilemap:.*";
             String transferPattern = "^transferPoint:.*";
             while (line != null)
             {
                 // use System.Text.RegularExpressions.Regex.IsMatch(String s, String pattern)
-                if (System.Text.RegularExpressions.Regex.IsMatch(line,  playerPattern))
+                if (System.Text.RegularExpressions.Regex.IsMatch(line, playerPattern))
                     LoadPlayer(line, PGS);
-                else if (System.Text.RegularExpressions.Regex.IsMatch(line, entityPattern))
-                    LoadEntity(line, PGS);
+                else if (System.Text.RegularExpressions.Regex.IsMatch(line, NPentityPattern))
+                    LoadNPEntity(line, PGS);
+                else if (System.Text.RegularExpressions.Regex.IsMatch(line, friend))
+                    LoadFriend(line, PGS);
+                else if (System.Text.RegularExpressions.Regex.IsMatch(line, enemy))
+                    LoadEnemy(line, PGS);
                 else if (System.Text.RegularExpressions.Regex.IsMatch(line, tilePattern))
                     LoadTileMap(line, PGS);
                 else if (System.Text.RegularExpressions.Regex.IsMatch(line, transferPattern))
@@ -62,7 +68,7 @@ namespace PROJECT_RPG
             PGS.AddEntity(pEntity);
         }
 
-        private static void LoadEntity(String entity, PlayableMainGameScreen PGS)
+        private static void LoadNPEntity(String entity, PlayableMainGameScreen PGS)
         {
             char[] delims = { '<', '>' };
             String[] tokens = entity.Substring(8).Split(delims);
@@ -71,6 +77,32 @@ namespace PROJECT_RPG
             float posY = float.Parse(tokens[5]);
             String text = tokens[7];
             NonPlayerEntity npEntity = new NonPlayerEntity(texture, new Vector2(posX, posY), text);
+            PGS.AddEntity(npEntity);
+        }
+
+        private static void LoadFriend(String entity, PlayableMainGameScreen PGS)
+        {
+            char[] delims = { '<', '>' };
+            String[] tokens = entity.Substring(8).Split(delims);
+            String texture = tokens[1];
+            float posX = float.Parse(tokens[3]);
+            float posY = float.Parse(tokens[5]);
+            String text = tokens[7];
+            String filename = tokens[9];
+            FriendlyEntity npEntity = new FriendlyEntity(texture, new Vector2(posX, posY), text, filename);
+            PGS.AddEntity(npEntity);
+        }
+
+        private static void LoadEnemy(String entity, PlayableMainGameScreen PGS)
+        {
+            char[] delims = { '<', '>' };
+            String[] tokens = entity.Substring(8).Split(delims);
+            String texture = tokens[1];
+            float posX = float.Parse(tokens[3]);
+            float posY = float.Parse(tokens[5]);
+            String text = tokens[7];
+            String filename = tokens[9];
+            EnemyEntity npEntity = new EnemyEntity(texture, new Vector2(posX, posY), text, filename);
             PGS.AddEntity(npEntity);
         }
 

@@ -1,4 +1,4 @@
 player: filename=<cats>, x=<256>, y=<256>
-entity: filename=<cats>, x=<400>, y=<200>, text=<Talk to me, please!
-tilemap: filename=<testTileMap3.txt>
+friend: texture=<cats>, x=<400>, y=<200>, text=<Talk to me, please!>, convoFile=<testConvo.txt>
+tilemap: filename=<testTileMap.txt>
 transferPoint: filename=<testScreen2.txt>, x=<26>, y=<13>, nextX=<60>, nextY=<265>

@@ -18,8 +18,8 @@ namespace PROJECT_RPG
         bool selectingTarget;
         int selectedTarget;
 
-        public BattleScreenPlayer(BattleScreen owner)
-            : base("tempface", owner)
+        public BattleScreenPlayer(String textureFile, BattleScreen owner)
+            : base(textureFile, owner)
         {
             maxHP = 100;
             currentHP = 100;
@@ -141,13 +141,10 @@ namespace PROJECT_RPG
             CombatActions[action].OnSelectAction();
         }
 
-        public override void Draw(GameTime gameTime)
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            base.Draw(gameTime);
-            SpriteBatch spriteBatch = OwnerScreen.ScreenManager.SpriteBatch;
-            spriteBatch.Begin();
+            base.Draw(gameTime, spriteBatch);
             spriteBatch.Draw(Texture, Position, Color.White);
-            spriteBatch.End();
             if (HasCurrentTurn)
             {
                 DrawActionMenu(this, spriteBatch);
@@ -159,7 +156,6 @@ namespace PROJECT_RPG
         {
             actionMenuPos = new Vector2(actionMenu.GetInnerRectangle.X + 5, actionMenu.GetInnerRectangle.Y + 5);
             actionMenu.Draw();
-            spriteBatch.Begin();
             foreach (CombatAction action in player.CombatActions)
             {
                 if (action.IsHighLighted)
@@ -172,7 +168,6 @@ namespace PROJECT_RPG
                 }
                 actionMenuPos.Y += font.LineSpacing * 2.0f;
             }
-            spriteBatch.End();
         }
 
         void InitializeCombatActions()

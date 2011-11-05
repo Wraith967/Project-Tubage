@@ -36,7 +36,7 @@ namespace PROJECT_RPG
 
         #region Handle Input
 
-        public override void HandleInput(InputState input)
+        public override void HandleInput(InputState input, GameTime gameTime)
         {
             // Move to the previous menu entry?
             if (input.IsKeyUp())

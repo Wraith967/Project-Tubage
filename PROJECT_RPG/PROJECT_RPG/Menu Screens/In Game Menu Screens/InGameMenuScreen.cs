@@ -67,7 +67,7 @@ namespace PROJECT_RPG
 
         #region Handle Input
         // Handle input.
-        public override void HandleInput(InputState input)
+        public override void HandleInput(InputState input, GameTime gameTime)
         {
             HandleMajorMenuEntryInput(input);
         }

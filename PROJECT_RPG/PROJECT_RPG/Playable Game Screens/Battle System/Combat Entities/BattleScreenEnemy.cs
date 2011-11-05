@@ -11,8 +11,8 @@ namespace PROJECT_RPG
     {
         int selectedTarget;
 
-        public BattleScreenEnemy(BattleScreen owner)
-            : base("evil_face", owner)
+        public BattleScreenEnemy(String textureFile, BattleScreen owner)
+            : base(textureFile, owner)
         {
             maxHP = 50;
             currentHP = 50;
@@ -54,13 +54,10 @@ namespace PROJECT_RPG
             }
         }
 
-        public override void Draw(GameTime gameTime)
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            base.Draw(gameTime);
-            SpriteBatch spriteBatch = OwnerScreen.ScreenManager.SpriteBatch;
-            spriteBatch.Begin();
+            base.Draw(gameTime, spriteBatch);
             spriteBatch.Draw(Texture, Position, new Rectangle(0, 0, Texture.Width, Texture.Height), Color.White, 0.0f, new Vector2(0, 0), 2.5f, SpriteEffects.None, 0.0f);
-            spriteBatch.End();
         }
 
         void InitializeCombatActions()
