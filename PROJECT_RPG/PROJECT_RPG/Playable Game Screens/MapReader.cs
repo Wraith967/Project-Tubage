@@ -40,7 +40,7 @@ namespace PROJECT_RPG
         {
             char tempChar;
             MapTile tempTile;
-            int fileIndex;
+            String fileIndex;
             MapTileCollisionType collision;
 
             for (int i = 0; i < height; i++)
@@ -51,48 +51,31 @@ namespace PROJECT_RPG
                     switch (tempChar)
                     {
                         case '1':
-                            fileIndex = 1;
+                            fileIndex = "Tile";
                             collision = MapTileCollisionType.NoCollision;
                             break;
                         case '2':
-                            fileIndex = 2;
+                            fileIndex = "Wood";
                             collision = MapTileCollisionType.NoCollision;
                             break;
                         case '3':
-                            fileIndex = 3;
+                            fileIndex = "Top";
                             collision = MapTileCollisionType.HalfCollisionTop;
                             break;
                         case '4':
-                            fileIndex = 4;
+                            fileIndex = "Bottom";
                             collision = MapTileCollisionType.HalfCollisionBot;
                             break;
                         case '5':
-                            fileIndex = 5;
+                            fileIndex = "Left";
                             collision = MapTileCollisionType.HalfCollisionLeft;
                             break;
                         case '6':
-                            fileIndex = 6;
+                            fileIndex = "Right";
                             collision = MapTileCollisionType.HalfCollisionRight;
                             break;
-                        case '7':
-                            fileIndex = 7;
-                            collision = MapTileCollisionType.HalfCollisionCornerTopLeft;
-                            break;
-                        case '8':
-                            fileIndex = 8;
-                            collision = MapTileCollisionType.HalfCollisionCornerTopRight;
-                            break;
-                        case '9':
-                            fileIndex = 10;
-                            collision = MapTileCollisionType.HalfCollisionCornerBotRight;
-                            break;
-                        case 'A':
-                            fileIndex = 9;
-                            collision = MapTileCollisionType.HalfCollisionCornerBotLeft;
-                            break;
-                        case '0':
                         default:
-                            fileIndex = 0;
+                            fileIndex = "Empty";
                             collision = MapTileCollisionType.FullCollision;
                             break;
                     }

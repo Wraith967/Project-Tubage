@@ -9,31 +9,44 @@ namespace PROJECT_RPG
 {
     public class MapTextures
     {
-        private String[] tiles = {"tiles/null_space","tiles/tile","tiles/wood","tiles/top_space","tiles/bot_space",
-                                     "tiles/left_space","tiles/right_space","tiles/topleft_space","tiles/topright_space",
-                                     "tiles/botleft_space","tiles/botright_space"};
-        private Texture2D[] textures;
+        // Dictionaries use same key with different values
+        Dictionary<String,Texture2D> textures;
         private ContentManager content;
+        Dictionary<String, String> tiles;
 
         public MapTextures(ContentManager c)
         { 
             content = c;
+            populateTileDictionary();
             populateTextureList();
         }
 
-        private Texture2D getTexture(String name)
+        private void populateTileDictionary()
+        {
+            tiles = new Dictionary<string, string>();
+            tiles.Add("Empty", "tiles/null_space");
+            tiles.Add("Tile", "tiles/tile");
+            tiles.Add("Wood", "tiles/wood");
+            tiles.Add("Top", "tiles/top_space");
+            tiles.Add("Bottom", "tiles/bot_space");
+            tiles.Add("Left", "tiles/left_space");
+            tiles.Add("Right", "tiles/right_space");
+
+        }
+        
+        private Texture2D loadTexture(String name)
         {
             return content.Load<Texture2D>(name);
         }
 
         private void populateTextureList()
         {
-            textures = new Texture2D[tiles.Length];
-            for (int i = 0; i < tiles.Length; i++)
-                textures[i] = getTexture(tiles[i]);
+            textures = new Dictionary<string, Texture2D>();
+            foreach (var pair in tiles)
+                textures.Add(pair.Key, loadTexture(pair.Value));
         }
 
-        public Texture2D getTexture(int index)
-        { return textures[index]; }
+        public Texture2D getTexture(String key)
+        { return textures[key]; }
     }
 }

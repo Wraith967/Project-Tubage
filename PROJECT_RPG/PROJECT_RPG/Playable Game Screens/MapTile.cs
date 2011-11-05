@@ -34,7 +34,7 @@ namespace PROJECT_RPG
 
         private PlayableMainGameScreen owner;
 
-        private int textureIndex;
+        private String textureKey;
 
         private Texture2D texture;
         public Texture2D Texture
@@ -69,9 +69,9 @@ namespace PROJECT_RPG
 
         #region Initialization
 
-        public MapTile(int textureIndex, Vector2 pos, MapTileCollisionType collision, PlayableMainGameScreen owner)
+        public MapTile(String textureKey, Vector2 pos, MapTileCollisionType collision, PlayableMainGameScreen owner)
         {
-            this.textureIndex = textureIndex;
+            this.textureKey = textureKey;
             position = pos;
             this.collision = collision;
             this.owner = owner;
@@ -98,7 +98,7 @@ namespace PROJECT_RPG
 
         public void LoadContent()
         {
-            texture = owner.ScreenManager.MapTex.getTexture(textureIndex);
+            texture = owner.ScreenManager.MapTex.getTexture(textureKey);
         }
 
 

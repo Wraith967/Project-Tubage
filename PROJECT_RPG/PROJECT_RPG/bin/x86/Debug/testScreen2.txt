@@ -2,4 +2,4 @@ player: filename=<cats>, x=<256>, y=<256>
 friend: texture=<cats>, x=<256>, y=<256>, text=<Talk to me, not him!>, convoFile=<convoTest.txt>
 enemy: texture=<evil_face>, x=<400>, y=<360>, text=<Don't talk to me, I hate you!>, battleFile=<testBattle.txt>
 tilemap: filename=<testTileMap2.txt>
-transferPoint: filename=<testScreen1.txt>, x=<2>, y=<13>, nextX=<490>, nextY=<265>
+transferPoint: filename=<testScreen1.txt>, x=<2>, y=<13>, nextX=<490>, nextY=<263>

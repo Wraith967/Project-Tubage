@@ -11,13 +11,15 @@ namespace PROJECT_RPG
     {
         #region Fields and Properties
 
-        //Rectangle drawbox;
-        //private Rectangle boundingBox;
-        int[] indexedXWalkLeftRight = { 0, 15, 35, 55, 75 };
-        int[] indexedXWalkUpDown = { 0, 14, 30, 44, 63, 77 };
+        int[] indexedXWalkLeftRight = { 0, 15, 35, 55, 75 }; // indexed animation x coordinates
+        int[] indexedXWalkUpDown = { 0, 14, 30, 44, 63, 77 }; // indexed animation x coordinates
+        int[] indexedY = { 0, 19, 39 }; // starting y coordinates for animations: left/right, down, up
+        int indexX; // starting x coordinate of animation
         float posDelta = GlobalConstants.moveSpeed;
         bool[] movement = { false, false, false, false }; // Down, Up, Left, Right
-        Vector2 lastPosition;
+        float animationUpdateTimer; // timer to update animation
+        const float updateTime = 1000f / 15f; // base update time for animations
+        int direction; // direction of animation, either 1 or -1
 
         #endregion
 
@@ -27,11 +29,13 @@ namespace PROJECT_RPG
             : base(textureFileName)
         {
             Position = pos;
-            height = 17;
+            height = 20;
             width = 15;
             drawbox = new Rectangle(16, 63, GetWidth, GetHeight);
-            boundingBox = new Rectangle((int)Position.X, (int)Position.Y, 15, 11);
-            lastPosition = Camera.Position;
+            boundingBox = new Rectangle((int)Position.X, (int)Position.Y, 15, 16);
+            animationUpdateTimer = updateTime;
+            indexX = 0;
+            direction = 1;
         }
 
         #endregion
@@ -41,6 +45,44 @@ namespace PROJECT_RPG
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
+            updateAnimation(gameTime);
+        }
+
+        private void updateAnimation(GameTime gameTime)
+        {
+            animationUpdateTimer -= (float)gameTime.ElapsedGameTime.TotalMilliseconds;
+            if (animationUpdateTimer <= 0)
+            {
+                if (movement[0] || movement[1])
+                {
+                    indexX += direction;
+                    if ((indexX == indexedXWalkUpDown.Length - 2) ||
+                        (indexX == 0))
+                        direction *= -1;
+                    drawbox.X = indexedXWalkUpDown[indexX];
+                    drawbox.Y = (movement[0] ? indexedY[1] : indexedY[2]);
+                    drawbox.Width = indexedXWalkUpDown[indexX + 1] - indexedXWalkUpDown[indexX];
+                }
+                else if (movement[2] || movement[3])
+                {
+                    indexX += direction;
+                    if ((indexX == indexedXWalkLeftRight.Length - 2) ||
+                        (indexX == 0))
+                        direction *= -1;
+                    drawbox.X = indexedXWalkLeftRight[indexX];
+                    drawbox.Y = indexedY[0];
+                    drawbox.Width = indexedXWalkLeftRight[indexX + 1] - indexedXWalkLeftRight[indexX];
+                }
+                else
+                {
+                    indexX = 0;
+                    direction = 1;
+                    drawbox.X = indexedXWalkLeftRight[indexX];
+                    drawbox.Y = indexedY[0];
+                    drawbox.Width = indexedXWalkLeftRight[indexX + 1] - indexedXWalkLeftRight[indexX];
+                }
+                animationUpdateTimer += updateTime;
+            }
         }
 
         public void HandleInput(InputState input, GameTime gameTime)
@@ -90,12 +132,6 @@ namespace PROJECT_RPG
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            if (!lastPosition.Equals(Camera.Position))
-            {
-                //Position = Vector2.Subtract(Position, Camera.Position);
-                lastPosition = Camera.Position;
-            }
-            //spriteBatch.Draw(Texture, Position, drawbox, Color.White, 0.0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0.0f);
             base.Draw(gameTime, spriteBatch);
         }
         #endregion
