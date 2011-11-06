@@ -18,7 +18,6 @@ namespace PROJECT_RPG
         public const float moveSpeed = 2.0f;
     }
 
-
     /// <summary>
     /// This is the main type for your game
     /// </summary>
@@ -38,6 +37,7 @@ namespace PROJECT_RPG
             screenManager = new ScreenManager(this);
 
             Components.Add(screenManager);
+            AudioManager.Initialize(this);
             //screenManager.ScreenTraceEnabled = true;
             screenManager.ScreenTraceEnabled = false;
 

@@ -29,6 +29,13 @@ namespace PROJECT_RPG
             MenuEntries.Add(optionsMenuEntry);
             MenuEntries.Add(testBattleScreenEntry);
             MenuEntries.Add(exitMenuEntry);
+
+            if (AudioManager.Instance.CurrentSong != "ct_testsong")
+            {
+                AudioManager.LoadSong("ct_testsong");
+                AudioManager.PlaySong("ct_testsong");
+            }
+
         }
 
         #endregion
@@ -36,7 +43,11 @@ namespace PROJECT_RPG
         #region Handle Input
 
         void NewGameMenuEntrySelected(object sender, EventArgs e)
-        { LoadingScreen.Load(screenManager, new PlayableMainGameScreen("testScreen1.txt", new Vector2(256,256))); }
+        {
+            AudioManager.FadeSong(0.0f, TransitionOffTime);
+            AudioManager.StopSong();
+            LoadingScreen.Load(screenManager, new PlayableMainGameScreen("testScreen1.txt", new Vector2(256,256))); 
+        }
 
         void OptionsMenuEntrySelected(object sender, EventArgs e)
         { LoadingScreen.Load(screenManager, new OptionsMenuScreen()); }

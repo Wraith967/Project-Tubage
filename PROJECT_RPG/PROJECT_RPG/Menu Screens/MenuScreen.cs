@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Media;
 
 namespace PROJECT_RPG
 {
@@ -30,6 +33,7 @@ namespace PROJECT_RPG
 
             TransitionOnTime = TimeSpan.FromSeconds(0.5);
             TransitionOffTime = TimeSpan.FromSeconds(0.5);
+
         }
 
         #endregion
@@ -125,6 +129,14 @@ namespace PROJECT_RPG
             GraphicsDevice graphics = ScreenManager.GraphicsDevice;
             SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
             SpriteFont font = ScreenManager.Font;
+
+            spriteBatch.Begin();
+            spriteBatch.DrawString(ScreenManager.Font, AudioManager.Instance.CurrentSong, Vector2.Zero, Color.White);
+            spriteBatch.End();
+
+            spriteBatch.Begin();
+            spriteBatch.DrawString(ScreenManager.Font, MediaPlayer.Volume.ToString(), Vector2.One, Color.White);
+            spriteBatch.End();
 
             spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend);
 

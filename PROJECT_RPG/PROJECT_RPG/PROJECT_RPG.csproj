@@ -107,6 +107,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Audio\AudioManager.cs" />
     <Compile Include="Playable Game Screens\Battle System\BattleScreenLoader.cs" />
     <Compile Include="Screen Management\Camera.cs" />
     <Compile Include="Input\ConvoLoader.cs" />

@@ -8,3 +8,4 @@ C:\Users\Ben\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_9_20-compilab
 C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\ResolveAssemblyReference.cache

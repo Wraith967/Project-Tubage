@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Media;
 
 namespace PROJECT_RPG
 {
@@ -85,6 +86,17 @@ namespace PROJECT_RPG
                 maxCameraY = 0;
             if (maxCameraX < 0)
                 maxCameraX = 0;
+
+            if (AudioManager.Instance.CurrentSong != "ct_testsong2")
+            {
+                AudioManager.LoadSong("ct_testsong2");
+                AudioManager.PlaySong("ct_testsong2");
+            }
+            if (AudioManager.Instance.CurrentSong == "ct_testsong2" &&
+                !AudioManager.Instance.IsSongActive)
+            {
+                AudioManager.PlaySong("ct_testsong2");
+            }
 
             //AddEntity(new PlayerEntity("cats", playerPos));
 
@@ -170,6 +182,13 @@ namespace PROJECT_RPG
             // Done.
             spriteBatch.End();
 
+            spriteBatch.Begin();
+            spriteBatch.DrawString(ScreenManager.Font, AudioManager.Instance.CurrentSong, Vector2.Zero, Color.White);
+            spriteBatch.End();
+
+            spriteBatch.Begin();
+            spriteBatch.DrawString(ScreenManager.Font, MediaPlayer.Volume.ToString(), Vector2.One, Color.White);
+            spriteBatch.End();
             // If the game is transitioning on, fade it in.
             if (TransitionPosition > 0)
             {

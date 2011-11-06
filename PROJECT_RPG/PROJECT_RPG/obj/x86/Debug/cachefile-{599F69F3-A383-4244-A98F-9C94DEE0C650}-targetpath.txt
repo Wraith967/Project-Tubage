@@ -38,3 +38,7 @@ Content\tiles\tile.xnb
 Content\tiles\wood.xnb
 Content\defaultScreenFont.xnb
 Content\ffvii-messagesent.xnb
+Content\ct_testsong.xnb
+Content\ct_testsong.wma
+Content\ct_testsong2.xnb
+Content\ct_testsong2.wma
