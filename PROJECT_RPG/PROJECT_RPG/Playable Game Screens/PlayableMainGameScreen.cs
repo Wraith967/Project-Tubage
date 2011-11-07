@@ -58,6 +58,11 @@ namespace PROJECT_RPG
         public PlayerEntity Player
         { get { return player; } }
 
+        List<string> songs = new List<string>();
+        public List<string> Songs
+        { get { return songs; } }
+
+        public string currentSong;
 
         #endregion
 
@@ -87,15 +92,20 @@ namespace PROJECT_RPG
             if (maxCameraX < 0)
                 maxCameraX = 0;
 
-            if (AudioManager.Instance.CurrentSong != "ct_testsong2")
+            if (currentSong == null)
             {
-                AudioManager.LoadSong("ct_testsong2");
-                AudioManager.PlaySong("ct_testsong2");
+                currentSong = songs[0];
             }
-            if (AudioManager.Instance.CurrentSong == "ct_testsong2" &&
+
+            if (AudioManager.Instance.CurrentSong != currentSong)
+            {
+                AudioManager.LoadSong(currentSong);
+                AudioManager.PlaySong(currentSong);
+            }
+            if (AudioManager.Instance.CurrentSong == currentSong &&
                 !AudioManager.Instance.IsSongActive)
             {
-                AudioManager.PlaySong("ct_testsong2");
+                AudioManager.PlaySong(currentSong);
             }
 
             //AddEntity(new PlayerEntity("cats", playerPos));
@@ -202,6 +212,7 @@ namespace PROJECT_RPG
             base.HandleInput(input, gameTime);
             if (input.IsPauseButtonPressed())
             {
+                AudioManager.PauseSong();
                 screenManager.AddScreen(new PauseScreen());
             }
             if (input.IsInGameMenuButtonPressed())

@@ -34,6 +34,8 @@ namespace PROJECT_RPG
             foreach (GameScreen screen in screenManager.GetScreens())
                 screen.ExitScreen();
 
+            AudioManager.FadeSong(0.0f, TimeSpan.FromSeconds(2));
+
             LoadingScreen loadingScreen = new LoadingScreen(screenManager, screensToLoad);
 
             screenManager.AddScreen(loadingScreen);
@@ -48,10 +50,17 @@ namespace PROJECT_RPG
         {
             base.Update(gameTime, otherScreenHasFocus, coveredByOtherScreen);
 
-            // Only load after all the other screens are gone.
-            if (otherScreensAreGone)
+            if (AudioManager.Instance.MusicVolume == 0.0f)
             {
-                
+                AudioManager.StopSong();
+            }
+
+            // Only load after all the other screens are gone.
+            if (otherScreensAreGone && !AudioManager.Instance.IsSongActive)
+            {
+                // Restore volume after fade.
+                AudioManager.Instance.MusicVolume = 0.05f;
+
                 ScreenManager.RemoveScreen(this);
 
                 foreach (GameScreen screen in screensToLoad)

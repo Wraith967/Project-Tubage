@@ -127,7 +127,8 @@ namespace PROJECT_RPG
 
             if (IsTransfer)
             {
-                LoadingScreen.Load(owner.ScreenManager, new PlayableMainGameScreen(nextMapFile, transferPoint));
+                owner.ScreenManager.AddScreen(new PlayableMainGameScreen(nextMapFile, transferPoint));
+                //LoadingScreen.Load(owner.ScreenManager, new PlayableMainGameScreen(nextMapFile, transferPoint));
             }
 
             return collide;

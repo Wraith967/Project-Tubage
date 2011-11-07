@@ -44,8 +44,6 @@ namespace PROJECT_RPG
 
         void NewGameMenuEntrySelected(object sender, EventArgs e)
         {
-            AudioManager.FadeSong(0.0f, TransitionOffTime);
-            AudioManager.StopSong();
             LoadingScreen.Load(screenManager, new PlayableMainGameScreen("testScreen1.txt", new Vector2(256,256))); 
         }
 

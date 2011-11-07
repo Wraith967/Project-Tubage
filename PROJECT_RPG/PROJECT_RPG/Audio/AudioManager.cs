@@ -14,6 +14,9 @@ namespace PROJECT_RPG
     /// </summary>
     /// 
     // Inspired from the XNA wiki.
+    // ... and then totally torn apart and rebuilt because it totally didn't work as intended.
+    // :(
+    //
     public class AudioManager : GameComponent
     {
 
@@ -25,6 +28,7 @@ namespace PROJECT_RPG
         public static void Initialize(Game game)
         {
             audioManager = new AudioManager(game);
+            game.Components.Add(audioManager);
         }
 
         #region Private fields
@@ -97,10 +101,9 @@ namespace PROJECT_RPG
         private AudioManager(Game game, string contentFolder)
             : base(game)
         {
-            _content = new ContentManager(game.Content.ServiceProvider, contentFolder);
-
-            // Strangely, not needed... Investiagte.
+            audioManager._content = new ContentManager(game.Content.ServiceProvider, contentFolder);
             game.Components.Add(audioManager);
+
         }
 
         /// <summary>
@@ -348,36 +351,36 @@ namespace PROJECT_RPG
         /// <param name="gameTime">Time elapsed since last frame</param>
         public override void Update(GameTime gameTime)
         {
-            for (int i = 0; i < _playingSounds.Length; ++i)
+            for (int i = 0; i < audioManager._playingSounds.Length; ++i)
             {
-                if (_playingSounds[i] != null && _playingSounds[i].State == SoundState.Stopped)
+                if (audioManager._playingSounds[i] != null && audioManager._playingSounds[i].State == SoundState.Stopped)
                 {
-                    _playingSounds[i].Dispose();
-                    _playingSounds[i] = null;
+                    audioManager._playingSounds[i].Dispose();
+                    audioManager._playingSounds[i] = null;
                 }
             }
 
-            if (_currentSong != null && MediaPlayer.State == MediaState.Stopped)
+            if (audioManager._currentSong != null && MediaPlayer.State == MediaState.Stopped)
             {
-                _currentSong = null;
-                CurrentSong = null;
-                _isMusicPaused = false;
+                audioManager._currentSong = null;
+                audioManager.CurrentSong = null;
+                audioManager._isMusicPaused = false;
             }
 
-            if (_isFading && !_isMusicPaused)
+            if (audioManager._isFading && !audioManager._isMusicPaused)
             {
-                if (_currentSong != null && MediaPlayer.State == MediaState.Playing)
+                if (audioManager._currentSong != null && MediaPlayer.State == MediaState.Playing)
                 {
-                    if (_fadeEffect.Update(gameTime.ElapsedGameTime))
+                    if (audioManager._fadeEffect.Update(gameTime.ElapsedGameTime))
                     {
-                        _isFading = false;
+                        audioManager._isFading = false;
                     }
 
-                    MediaPlayer.Volume = _fadeEffect.GetVolume();
+                    MediaPlayer.Volume = audioManager._fadeEffect.GetVolume();
                 }
                 else
                 {
-                    _isFading = false;
+                    audioManager._isFading = false;
                 }
             }
 

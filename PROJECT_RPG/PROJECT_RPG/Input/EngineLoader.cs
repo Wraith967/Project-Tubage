@@ -28,6 +28,7 @@ namespace PROJECT_RPG
             String enemy = "^enemy:.*";
             String tilePattern = "^tilemap:.*";
             String transferPattern = "^transferPoint:.*";
+            String songsPattern = "^songs:.*";
             while (line != null)
             {
                 // use System.Text.RegularExpressions.Regex.IsMatch(String s, String pattern)
@@ -43,6 +44,8 @@ namespace PROJECT_RPG
                     LoadTileMap(line, PGS);
                 else if (System.Text.RegularExpressions.Regex.IsMatch(line, transferPattern))
                     LoadTransferPoints(line, PGS);
+                else if (System.Text.RegularExpressions.Regex.IsMatch(line, songsPattern))
+                    LoadSongs(line, PGS);
                 line = reader.ReadLine();
             }
         }
@@ -124,6 +127,16 @@ namespace PROJECT_RPG
             int nextX = Int16.Parse(tokens[7]);
             int nextY = Int16.Parse(tokens[9]);
             PGS.setTransferPoint(nextScreen, xCoord, yCoord, nextX, nextY);
+        }
+
+        private static void LoadSongs(String songs, PlayableMainGameScreen PGS)
+        {
+            char[] delims = { '<', '>' };
+            String[] tokens = songs.Substring(8).Split(delims);
+            // First song will always be the default song to play.
+            PGS.currentSong = tokens[1];
+            PGS.Songs.Add(tokens[1]);
+            PGS.Songs.Add(tokens[3]);
         }
     }
 }

@@ -41,7 +41,11 @@ namespace PROJECT_RPG
         public override void HandleInput(InputState input, GameTime gameTime)
         {
             base.HandleInput(input, gameTime);
-            if (input.IsPauseButtonPressed()) { ExitScreen(); }
+            if (input.IsPauseButtonPressed()) 
+            {
+                AudioManager.ResumeSong();
+                ExitScreen(); 
+            }
         }
     }
 }
