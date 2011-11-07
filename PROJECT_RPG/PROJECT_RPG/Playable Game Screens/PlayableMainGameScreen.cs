@@ -99,13 +99,22 @@ namespace PROJECT_RPG
 
             if (AudioManager.Instance.CurrentSong != currentSong)
             {
+                // Try loading.
                 AudioManager.LoadSong(currentSong);
-                AudioManager.PlaySong(currentSong);
+
+                if (AudioManager.Instance.IsSongPaused)
+                {
+                    AudioManager.ResumeSong();
+                }
+                else
+                {
+                    AudioManager.PlaySong(currentSong, true);
+                }
             }
             if (AudioManager.Instance.CurrentSong == currentSong &&
                 !AudioManager.Instance.IsSongActive)
             {
-                AudioManager.PlaySong(currentSong);
+                AudioManager.PlaySong(currentSong, true);
             }
 
             //AddEntity(new PlayerEntity("cats", playerPos));
@@ -140,6 +149,24 @@ namespace PROJECT_RPG
             // Only want to update the screen if it is not paused.
             if (IsActive)
             {
+                if (AudioManager.Instance.CurrentSong != currentSong)
+                {
+                    // Try loading.
+                    if (!AudioManager.IsSongLoaded(currentSong))
+                    {
+                        AudioManager.LoadSong(currentSong);
+                    }
+
+                    if (AudioManager.Instance.IsSongPaused)
+                    {
+                        AudioManager.ResumeSong();
+                    }
+                    else
+                    {
+                        AudioManager.PlaySong(currentSong, true);
+                    }
+                }
+
                 // Handle updating of each drawable game entity.
                 entitiesToUpdate.Clear();
                 foreach (DrawableEntity entity in entities)
@@ -193,12 +220,9 @@ namespace PROJECT_RPG
             spriteBatch.End();
 
             spriteBatch.Begin();
-            spriteBatch.DrawString(ScreenManager.Font, AudioManager.Instance.CurrentSong, Vector2.Zero, Color.White);
+            spriteBatch.DrawString(ScreenManager.Font, MediaPlayer.IsRepeating.ToString(), Vector2.One, Color.Green);
             spriteBatch.End();
 
-            spriteBatch.Begin();
-            spriteBatch.DrawString(ScreenManager.Font, MediaPlayer.Volume.ToString(), Vector2.One, Color.White);
-            spriteBatch.End();
             // If the game is transitioning on, fade it in.
             if (TransitionPosition > 0)
             {

@@ -33,7 +33,7 @@ namespace PROJECT_RPG
             if (AudioManager.Instance.CurrentSong != "ct_testsong")
             {
                 AudioManager.LoadSong("ct_testsong");
-                AudioManager.PlaySong("ct_testsong");
+                AudioManager.PlaySong("ct_testsong", true);
             }
 
         }

@@ -43,6 +43,7 @@ namespace PROJECT_RPG
         public override void Interact(GameTime gameTime)
         {
             base.Interact(gameTime);
+            AudioManager.PauseSong();
             OwnerScreen.ScreenManager.AddScreen(new BattleScreen(battleFile, this, owner));
         }
 

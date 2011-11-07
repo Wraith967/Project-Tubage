@@ -305,3 +305,5 @@ C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\P
 C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong.wma
 C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.xnb
 C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.wma
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.wma

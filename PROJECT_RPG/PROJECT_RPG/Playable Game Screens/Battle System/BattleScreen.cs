@@ -77,6 +77,9 @@ namespace PROJECT_RPG
             BattleScreenLoader.LoadBattle(battleFile, this);
             backgroundTexture = content.Load<Texture2D>(textureFile);
 
+            AudioManager.LoadSong("ct_testsong_battle");
+            AudioManager.PlaySong("ct_testsong_battle", true);
+
             //player = new BattleScreenPlayer("tempface", this);
             //enemy = new BattleScreenEnemy("evil_face", this);
             //battleScreenMembers.Add(player);

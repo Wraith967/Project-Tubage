@@ -38,6 +38,7 @@ namespace PROJECT_RPG
         private Dictionary<string, SoundEffect> _sounds = new Dictionary<string, SoundEffect>();
 
         private Song _currentSong = null;
+
         private SoundEffectInstance[] _playingSounds = new SoundEffectInstance[MaxSounds];
 
         private bool _isMusicPaused = false;
@@ -102,8 +103,6 @@ namespace PROJECT_RPG
             : base(game)
         {
             audioManager._content = new ContentManager(game.Content.ServiceProvider, contentFolder);
-            game.Components.Add(audioManager);
-
         }
 
         /// <summary>
@@ -128,6 +127,15 @@ namespace PROJECT_RPG
             }
 
             audioManager._songs.Add(songName, audioManager._content.Load<Song>(songPath));
+        }
+
+        public static bool IsSongLoaded(string songName)
+        {
+            if (audioManager._songs.ContainsKey(songName))
+            {
+                return true;
+            }
+            else return false;
         }
 
         /// <summary>
