@@ -123,10 +123,10 @@ namespace PROJECT_RPG
         {
             if (audioManager._songs.ContainsKey(songName))
             {
-                throw new InvalidOperationException(string.Format("Song '{0}' has already been loaded", songName));
+                //throw new InvalidOperationException(string.Format("Song '{0}' has already been loaded", songName));
             }
-
-            audioManager._songs.Add(songName, audioManager._content.Load<Song>(songPath));
+            else 
+                audioManager._songs.Add(songName, audioManager._content.Load<Song>(songPath));
         }
 
         public static bool IsSongLoaded(string songName)

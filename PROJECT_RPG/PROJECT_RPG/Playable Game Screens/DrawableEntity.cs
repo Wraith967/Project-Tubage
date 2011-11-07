@@ -93,7 +93,10 @@ namespace PROJECT_RPG
         public virtual void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             Vector2 tempPosition = Vector2.Subtract(position, Camera.Position);
-            spriteBatch.Draw(Texture, tempPosition, drawbox, Color.White, 0.0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0.0f);
+            if (drawbox.Width > 20)
+                spriteBatch.Draw(Texture, tempPosition, drawbox, Color.White, 0.0f, Vector2.Zero, 0.5f, SpriteEffects.None, 0.0f);
+            else
+                spriteBatch.Draw(Texture, tempPosition, drawbox, Color.White, 0.0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0.0f);
         }
 
         #endregion
