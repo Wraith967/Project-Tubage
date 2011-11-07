@@ -77,7 +77,10 @@ namespace PROJECT_RPG
             BattleScreenLoader.LoadBattle(battleFile, this);
             backgroundTexture = content.Load<Texture2D>(textureFile);
 
-            AudioManager.LoadSong("ct_testsong_battle");
+            if (!AudioManager.IsSongLoaded("ct_testsong_battle"))
+            {
+                AudioManager.LoadSong("ct_testsong_battle");
+            }
             AudioManager.PlaySong("ct_testsong_battle", true);
 
             //player = new BattleScreenPlayer("tempface", this);
@@ -159,6 +162,10 @@ namespace PROJECT_RPG
         {
             if (battleScreenMembers[playerIndex].IsDead)
             {
+                foreach (BattleScreenMember m in battleScreenMembers)
+                {
+                    m.HasCurrentTurn = false;
+                }
                 currentBattleState = BattleState.Defeat;
             }
             int enemyCount = 0;
@@ -180,6 +187,10 @@ namespace PROJECT_RPG
             }
             if (deadEnemyCount == enemyCount)
             {
+                foreach (BattleScreenMember m in battleScreenMembers)
+                {
+                    m.HasCurrentTurn = false;
+                }
                 currentBattleState = BattleState.Victory;
             }
         }
