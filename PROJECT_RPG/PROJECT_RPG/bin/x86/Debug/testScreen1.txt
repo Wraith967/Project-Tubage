@@ -1,5 +1,5 @@
-player: filename=<char_set>, x=<256>, y=<256>
+player: filename=<char_sheet>, x=<200>, y=<200>
 friend: texture=<cats>, x=<400>, y=<200>, text=<Talk to me, please!>, convoFile=<testConvo.txt>
 tilemap: filename=<testTileMap.txt>
-transferPoint: filename=<testScreen2.txt>, x=<26>, y=<13>, nextX=<60>, nextY=<263>
+transferPoint: filename=<testScreen2.txt>, x=<26>, y=<13>, nextX=<60>, nextY=<240>
 songs: filename=<ct_testsong2>, <ct_testsong1>

@@ -21,8 +21,10 @@ namespace PROJECT_RPG
         public BattleScreenPlayer(String textureFile, BattleScreen owner)
             : base(textureFile, owner)
         {
-            maxHP = 100;
-            currentHP = 100;
+            maxHP = PlayerStats.MaximumEnergy;
+            currentHP = PlayerStats.CurrentEnergy;
+            strength = PlayerStats.Strength;
+            defense = PlayerStats.Defense;
             //TextureFileName = "tempface";
             NameText = "Bill";
             OwnerScreen = owner;
@@ -48,6 +50,18 @@ namespace PROJECT_RPG
         {
             base.LoadContent();
             actionMenu.LoadContent();
+        }
+
+        public override void TakeDamage(int dmg)
+        {
+            base.TakeDamage(dmg);
+            PlayerStats.CurrentEnergy = currentHP;
+        }
+
+        public override void HealDamage(int heal)
+        {
+            base.HealDamage(heal);
+            PlayerStats.CurrentEnergy = currentHP;
         }
 
         public override void Update(GameTime gameTime)

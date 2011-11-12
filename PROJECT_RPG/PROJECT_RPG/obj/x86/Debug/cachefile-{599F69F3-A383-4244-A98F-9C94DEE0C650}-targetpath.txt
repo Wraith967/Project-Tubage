@@ -44,3 +44,4 @@ Content\ct_testsong2.xnb
 Content\ct_testsong2.wma
 Content\ct_testsong_battle.xnb
 Content\ct_testsong_battle.wma
+Content\toaster.xnb

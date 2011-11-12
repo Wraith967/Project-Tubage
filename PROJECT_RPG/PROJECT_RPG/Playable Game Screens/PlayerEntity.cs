@@ -11,7 +11,7 @@ namespace PROJECT_RPG
     {
         #region Fields and Properties
 
-        int frameSize = 40; // frame coordinates determined by frameSize * index
+        int frameSize; // frame coordinates determined by frameSize * index
         int indexX; // x index of frame
         int indexY; // y index of frame
         float posDelta = GlobalConstants.moveSpeed;
@@ -28,14 +28,28 @@ namespace PROJECT_RPG
             : base(textureFileName)
         {
             Position = pos;
-            height = frameSize;
-            width = frameSize;
             indexX = 0;
             indexY = 0;
-            drawbox = new Rectangle(indexX * frameSize, indexY * frameSize, GetWidth, GetHeight);
-            boundingBox = new Rectangle((int)Position.X, (int)Position.Y, 15, 16);
             animationUpdateTimer = updateTime;
             direction = 1;
+        }
+
+        public override void LoadContent()
+        {
+            base.LoadContent();
+            frameSize = texture.Width / 3;
+            height = frameSize;
+            width = frameSize;
+            drawbox = new Rectangle(indexX * frameSize, indexY * frameSize, GetWidth, GetHeight);
+            boundingBox = new Rectangle((int)Position.X, (int)Position.Y + 15, 30, 15);
+            if (drawbox.Width != 30)
+            {
+                scale = 30.0f / drawbox.Width;
+            }
+            else
+            {
+                scale = 1.0f;
+            }
         }
 
         #endregion
@@ -112,14 +126,13 @@ namespace PROJECT_RPG
                 movement[4] = false;
             }
             boundingBox.X = (int)Position.X;
-            boundingBox.Y = (int)Position.Y;
+            boundingBox.Y = (int)Position.Y + 15;
             if (input.IsUseButtonPressed())
                 ((PlayableMainGameScreen)OwnerScreen).PlayerInteraction(gameTime);
         }
 
         public void undoMove()
         {
-            Console.WriteLine("undoMove called");
             if (movement[0])
                 position.Y -= posDelta;
             if (movement[1])
@@ -129,7 +142,7 @@ namespace PROJECT_RPG
             if (movement[3])
                 position.X -= posDelta;
             boundingBox.X = (int)Position.X;
-            boundingBox.Y = (int)Position.Y;
+            boundingBox.Y = (int)Position.Y + 15;
         }
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)

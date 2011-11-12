@@ -32,7 +32,8 @@ namespace PROJECT_RPG
 
             if (AudioManager.Instance.CurrentSong != "ct_testsong")
             {
-                AudioManager.LoadSong("ct_testsong");
+                if (!AudioManager.IsSongLoaded("ct_testsong"))
+                    AudioManager.LoadSong("ct_testsong");
                 AudioManager.PlaySong("ct_testsong", true);
             }
 
@@ -44,7 +45,7 @@ namespace PROJECT_RPG
 
         void NewGameMenuEntrySelected(object sender, EventArgs e)
         {
-            LoadingScreen.Load(screenManager, new PlayableMainGameScreen("testScreen1.txt", new Vector2(256,256))); 
+            LoadingScreen.Load(screenManager, new PlayableMainGameScreen("testScreen1.txt", new Vector2(200,200))); 
         }
 
         void OptionsMenuEntrySelected(object sender, EventArgs e)

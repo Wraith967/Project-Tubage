@@ -100,7 +100,8 @@ namespace PROJECT_RPG
             if (AudioManager.Instance.CurrentSong != currentSong)
             {
                 // Try loading.
-                AudioManager.LoadSong(currentSong);
+                if (!AudioManager.IsSongLoaded(currentSong))
+                    AudioManager.LoadSong(currentSong);
 
                 if (AudioManager.Instance.IsSongPaused)
                 {
@@ -210,12 +211,15 @@ namespace PROJECT_RPG
             }
             spriteBatch.End();
 
-            spriteBatch.Begin(SpriteSortMode.FrontToBack, null);
+            spriteBatch.Begin();
+            
             // Handle drawing of each drawable game entity.
             foreach (DrawableEntity entity in entities)
             {
-                entity.Draw(gameTime, spriteBatch);
+                if (entity is NonPlayerEntity)
+                    entity.Draw(gameTime, spriteBatch);
             }
+            player.Draw(gameTime, spriteBatch);
             // Done.
             spriteBatch.End();
 
@@ -304,24 +308,18 @@ namespace PROJECT_RPG
         {
             int xCoord = (int)player.Position.X / 20;
             int yCoord = (int)player.Position.Y / 20;
+            bool collided;
 
-            bool collided = IsCollision(xCoord, yCoord);
-            if (collided)
+            for (int x = 0; x < 2; x++)
             {
-                player.undoMove();
-                return 0;
-            }
-            collided = IsCollision(xCoord + 1, yCoord);
-            if (collided)
-            {
-                player.undoMove();
-                return 0;
-            }
-            collided = IsCollision(xCoord, yCoord + 1);
-            if (collided)
-            {
-                player.undoMove();
-                return 0;
+                for (int y = 0; y < 3; y++)
+                {
+                    collided = IsCollision(xCoord + x, yCoord + y);
+                    if (collided)
+                    {
+                        player.undoMove();
+                    }
+                }
             }
             foreach (NonPlayerEntity entity in entitiesToCheck)
             {
@@ -329,7 +327,6 @@ namespace PROJECT_RPG
                 if (collided)
                 {
                     player.undoMove();
-                    return 0;
                 }
             }
             return 1;
@@ -375,7 +372,7 @@ namespace PROJECT_RPG
             {
                 if (entity is NonPlayerEntity)
                 {
-                    if ((int)Vector2.Subtract(player.Position, entity.Position).Length() < 30)
+                    if ((int)Vector2.Subtract(player.Position, entity.Position).Length() < 50)
                     {
                         ((NonPlayerEntity)entity).Interact(gameTime);
                     }

@@ -93,7 +93,7 @@ namespace PROJECT_RPG
             else if (collision == MapTileCollisionType.HalfCollisionTop)
                 boundaryBox = new Rectangle((int)position.X, (int)position.Y + GetHeight / 2, GetWidth, GetHeight / 2);
             else
-                boundaryBox = new Rectangle((int)position.X, (int)position.Y, 0, 0);
+                boundaryBox = new Rectangle(-1, -1, 0, 0);
         }
 
         public void LoadContent()
@@ -146,25 +146,6 @@ namespace PROJECT_RPG
         #endregion
 
         #region Public Methods
-
-        public void UpdatePosition(int direction)
-        {
-            switch (direction)
-            {
-                case 0:
-                    position.Y += GetHeight;
-                    break;
-                case 1:
-                    position.X -= GetWidth;
-                    break;
-                case 2:
-                    position.Y -= GetHeight;
-                    break;
-                case 3:
-                    position.X += GetWidth;
-                    break;
-            }
-        }
 
         #endregion
     }

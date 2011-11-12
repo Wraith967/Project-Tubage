@@ -15,6 +15,7 @@ namespace PROJECT_RPG
         protected ContentManager content;
         protected Rectangle drawbox;
         protected Rectangle boundingBox;
+        protected float scale = 1.0f;
 
         public Rectangle getBoundary
         { get { return boundingBox; } }
@@ -81,7 +82,10 @@ namespace PROJECT_RPG
             Texture = content.Load<Texture2D>(TextureFileName);
         }
 
-        public virtual void UnloadContent() { }
+        public virtual void UnloadContent()
+        {
+            boundingBox = Rectangle.Empty;
+        }
 
         #endregion
 
@@ -93,10 +97,7 @@ namespace PROJECT_RPG
         public virtual void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             Vector2 tempPosition = Vector2.Subtract(position, Camera.Position);
-            if (drawbox.Width > 20)
-                spriteBatch.Draw(Texture, tempPosition, drawbox, Color.White, 0.0f, Vector2.Zero, 0.5f, SpriteEffects.None, 0.0f);
-            else
-                spriteBatch.Draw(Texture, tempPosition, drawbox, Color.White, 0.0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0.0f);
+            spriteBatch.Draw(Texture, tempPosition, drawbox, Color.White, 0.0f, Vector2.Zero, scale, SpriteEffects.None, 0.0f);
         }
 
         #endregion

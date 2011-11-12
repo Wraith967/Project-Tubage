@@ -269,7 +269,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_set.xnb</Output>
-      <Time>2011-10-25T17:32:42-04:00</Time>
+      <Time>2011-11-07T16:53:42.094767-05:00</Time>
     </Item>
     <Item>
       <Source>char_sheet.png</Source>
@@ -287,7 +287,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\laptop.xnb</Output>
-      <Time>2011-10-26T14:25:10-04:00</Time>
+      <Time>2011-11-07T16:53:48.6631427-05:00</Time>
     </Item>
     <Item>
       <Source>hub.png</Source>
@@ -390,6 +390,15 @@
       <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.xnb</Output>
       <Extra>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.wma</Extra>
       <Time>2011-11-07T11:12:41.6177012-05:00</Time>
+    </Item>
+    <Item>
+      <Source>toaster.png</Source>
+      <Name>toaster</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\toaster.xnb</Output>
+      <Time>2011-11-07T16:53:51.4273008-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

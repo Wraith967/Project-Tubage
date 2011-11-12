@@ -35,7 +35,7 @@ namespace PROJECT_RPG
             set { defense = value; }
         }
 
-        public void TakeDamage(int dmg)
+        public virtual void TakeDamage(int dmg)
         {
             currentHP -= (dmg > defense ? dmg - defense : 0);
             if (currentHP <= 0)
@@ -44,7 +44,7 @@ namespace PROJECT_RPG
                 IsDead = true;
             }
         }
-        public void HealDamage(int heal)
+        public virtual void HealDamage(int heal)
         {
             currentHP += heal;
             if (currentHP > maxHP)
