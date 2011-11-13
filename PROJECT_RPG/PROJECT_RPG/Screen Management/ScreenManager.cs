@@ -19,7 +19,6 @@ namespace PROJECT_RPG
         Texture2D blankTexture;
         SpriteFont font;
         SpriteBatch spriteBatch;
-        SoundEffect menuItemSound;
         MapTextures mapTex;
 
         public MapTextures MapTex
@@ -35,8 +34,6 @@ namespace PROJECT_RPG
 
         // All of the properties are shared throughout all screens.
         public SpriteFont Font { get { return font; } }
-
-        public SoundEffect MenuItemSound { get { return menuItemSound; } }
 
         public SpriteBatch SpriteBatch { get { return spriteBatch; } }
 
@@ -63,9 +60,7 @@ namespace PROJECT_RPG
 
             // To do: Load content shared by all screens (texture, font, ...)
             font = content.Load<SpriteFont>("ct_font_alpha3");
-            menuItemSound = content.Load<SoundEffect>("ffvii-messagesent");
-
-            
+            AudioManager.LoadSound("beep", "Sounds/beep");
             blankTexture = content.Load<Texture2D>("blank");
 
             // Tell each of the screens to load their content.

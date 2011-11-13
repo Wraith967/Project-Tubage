@@ -15,6 +15,7 @@ namespace PROJECT_RPG
         #region Fields
 
         bool otherScreensAreGone;
+        bool shouldWaitForMusic;
         GameScreen[] screensToLoad;
         
         #endregion
@@ -22,8 +23,9 @@ namespace PROJECT_RPG
         #region Initialization
 
         // Do not use this. Use load method instead.
-        private LoadingScreen(ScreenManager screenManager, GameScreen[] screensToLoad)
+        private LoadingScreen(ScreenManager screenManager, GameScreen[] screensToLoad, bool waitForMusic)
         {
+            shouldWaitForMusic = waitForMusic;
             this.screensToLoad = screensToLoad;
             TransitionOnTime = TimeSpan.FromSeconds(1.0);
         }
@@ -34,9 +36,14 @@ namespace PROJECT_RPG
             foreach (GameScreen screen in screenManager.GetScreens())
                 screen.ExitScreen();
 
-            AudioManager.FadeSong(0.0f, TimeSpan.FromSeconds(2));
+            bool wait = false;
+            if (!(screensToLoad[0] is MenuScreen))
+            {
+                AudioManager.FadeSong(0.0f, TimeSpan.FromSeconds(2));
+                wait = true;
+            }
 
-            LoadingScreen loadingScreen = new LoadingScreen(screenManager, screensToLoad);
+            LoadingScreen loadingScreen = new LoadingScreen(screenManager, screensToLoad, wait);
 
             screenManager.AddScreen(loadingScreen);
         }
@@ -56,23 +63,44 @@ namespace PROJECT_RPG
             }
 
             // Only load after all the other screens are gone.
-            if (otherScreensAreGone && !AudioManager.Instance.IsSongActive)
+            if (shouldWaitForMusic)
             {
-                // Restore volume after fade.
-                AudioManager.Instance.MusicVolume = 0.05f;
-
-                ScreenManager.RemoveScreen(this);
-
-                foreach (GameScreen screen in screensToLoad)
+                if (otherScreensAreGone && !AudioManager.Instance.IsSongActive)
                 {
-                    if (screen != null)
-                    {
-                        ScreenManager.AddScreen(screen);
-                    }
-                }
+                    // Restore volume after fade.
+                    AudioManager.Instance.MusicVolume = 0.05f;
 
-                // Might need this if the loading is something huge.
-                ScreenManager.Game.ResetElapsedTime();
+                    ScreenManager.RemoveScreen(this);
+
+                    foreach (GameScreen screen in screensToLoad)
+                    {
+                        if (screen != null)
+                        {
+                            ScreenManager.AddScreen(screen);
+                        }
+                    }
+
+                    // Might need this if the loading is something huge.
+                    ScreenManager.Game.ResetElapsedTime();
+                }
+            }
+            else
+            {
+                if (otherScreensAreGone)
+                {
+                    ScreenManager.RemoveScreen(this);
+
+                    foreach (GameScreen screen in screensToLoad)
+                    {
+                        if (screen != null)
+                        {
+                            ScreenManager.AddScreen(screen);
+                        }
+                    }
+
+                    // Might need this if the loading is something huge.
+                    ScreenManager.Game.ResetElapsedTime();
+                }
             }
         }
 

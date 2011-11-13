@@ -49,10 +49,15 @@ namespace PROJECT_RPG
         }
 
         void OptionsMenuEntrySelected(object sender, EventArgs e)
-        { LoadingScreen.Load(screenManager, new OptionsMenuScreen()); }
+        { 
+            LoadingScreen.Load(screenManager, new OptionsMenuScreen()); 
+        }
 
         void TestBattleScreenEntrySelected(object sender, EventArgs e)
-        { ScreenManager.AddScreen(new BattleScreen("testBattle.txt", null, this)); }
+        { 
+            //ScreenManager.AddScreen(new BattleScreen("testBattle.txt", null, this));
+            LoadingScreen.Load(screenManager, new BattleScreen("testBattle.txt", null, this));
+        }
 
         void OnCancel(object sender, EventArgs e)
         { ScreenManager.Game.Exit(); }

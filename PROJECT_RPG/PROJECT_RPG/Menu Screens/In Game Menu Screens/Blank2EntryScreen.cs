@@ -80,7 +80,7 @@ namespace PROJECT_RPG
             if (input.IsKeyUp() || input.IsKeyRight())
             {
                 selectedMajorMenuEntry--;
-                screenManager.MenuItemSound.Play(0.5f, 0.0f, 0.0f);
+                AudioManager.PlaySound("beep");
                 if (selectedMajorMenuEntry < 0) { selectedMajorMenuEntry++; }
                 else if (selectedMajorMenuEntry < topDisplayedEntryIndex) { topDisplayedEntryIndex--; botDisplayedEntryIndex--; }
             }
@@ -89,7 +89,7 @@ namespace PROJECT_RPG
             if (input.IsKeyDown() || input.IsKeyLeft())
             {
                 selectedMajorMenuEntry++;
-                screenManager.MenuItemSound.Play(0.5f, 0.0f, 0.0f);
+                AudioManager.PlaySound("beep");
                 if (selectedMajorMenuEntry > MenuEntries.Count - 1) { selectedMajorMenuEntry--; }
                 else if (selectedMajorMenuEntry > botDisplayedEntryIndex) { topDisplayedEntryIndex++; botDisplayedEntryIndex++; }
             }

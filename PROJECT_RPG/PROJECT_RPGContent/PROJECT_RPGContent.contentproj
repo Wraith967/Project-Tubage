@@ -66,8 +66,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ffvii-messagesent.wav">
-      <Name>ffvii-messagesent</Name>
+    <Compile Include="Sounds\beep.wav">
+      <Name>beep</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>

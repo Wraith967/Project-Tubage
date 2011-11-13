@@ -46,7 +46,7 @@ namespace PROJECT_RPG
             if (input.IsKeyUp())
             {
                 selectedEntry--;
-                screenManager.MenuItemSound.Play(0.5f, 0.0f, 0.0f);
+                AudioManager.PlaySound("beep");
 
                 if (selectedEntry < 0)
                     selectedEntry = menuEntries.Count - 1;
@@ -56,7 +56,7 @@ namespace PROJECT_RPG
             if (input.IsKeyDown())
             {
                 selectedEntry++;
-                screenManager.MenuItemSound.Play(0.5f, 0.0f, 0.0f);
+                AudioManager.PlaySound("beep");
 
                 if (selectedEntry >= menuEntries.Count)
                     selectedEntry = 0;
@@ -130,14 +130,6 @@ namespace PROJECT_RPG
             SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
             SpriteFont font = ScreenManager.Font;
 
-            //spriteBatch.Begin();
-            //spriteBatch.DrawString(ScreenManager.Font, AudioManager.Instance.CurrentSong, Vector2.Zero, Color.White);
-            //spriteBatch.End();
-
-            //spriteBatch.Begin();
-            //spriteBatch.DrawString(ScreenManager.Font, MediaPlayer.Volume.ToString(), Vector2.One, Color.White);
-            //spriteBatch.End();
-
             spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend);
 
             // Draw each menu entry in turn.
@@ -163,6 +155,12 @@ namespace PROJECT_RPG
             spriteBatch.DrawString(font, ScreenManager.GetScreens().Length.ToString(), titlePosition, Color.Red);
 
             spriteBatch.End();
+
+            if (TransitionPosition > 0)
+            {
+                float alpha = MathHelper.Lerp(1f - TransitionAlpha, 1f, 0);
+                ScreenManager.FadeBackBufferToBlack(alpha);
+            }
 
         }
         #endregion

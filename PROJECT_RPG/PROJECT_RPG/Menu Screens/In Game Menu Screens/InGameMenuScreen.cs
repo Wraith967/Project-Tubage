@@ -78,7 +78,7 @@ namespace PROJECT_RPG
             if (input.IsKeyUp() || input.IsKeyLeft())
             {
                 selectedMajorMenuEntry--;
-                screenManager.MenuItemSound.Play(0.5f, 0.0f, 0.0f);
+                AudioManager.PlaySound("beep");
 
                 if (selectedMajorMenuEntry < 0)
                     selectedMajorMenuEntry = menuEntries.Count - 1;
@@ -88,7 +88,7 @@ namespace PROJECT_RPG
             if (input.IsKeyDown() || input.IsKeyRight())
             {
                 selectedMajorMenuEntry++;
-                screenManager.MenuItemSound.Play(0.5f, 0.0f, 0.0f);
+                AudioManager.PlaySound("beep");
 
                 if (selectedMajorMenuEntry >= menuEntries.Count)
                     selectedMajorMenuEntry = 0;
