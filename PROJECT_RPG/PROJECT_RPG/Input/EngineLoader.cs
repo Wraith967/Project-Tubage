@@ -78,8 +78,7 @@ namespace PROJECT_RPG
             String texture = tokens[1];
             float posX = float.Parse(tokens[3]);
             float posY = float.Parse(tokens[5]);
-            String text = tokens[7];
-            NonPlayerEntity npEntity = new NonPlayerEntity(texture, new Vector2(posX, posY), text);
+            NonPlayerEntity npEntity = new NonPlayerEntity(texture, new Vector2(posX, posY));
             PGS.AddEntity(npEntity);
         }
 
@@ -103,9 +102,8 @@ namespace PROJECT_RPG
             String texture = tokens[1];
             float posX = float.Parse(tokens[3]);
             float posY = float.Parse(tokens[5]);
-            String text = tokens[7];
-            String filename = tokens[9];
-            EnemyEntity npEntity = new EnemyEntity(texture, new Vector2(posX, posY), text, filename);
+            String filename = tokens[7];
+            EnemyEntity npEntity = new EnemyEntity(texture, new Vector2(posX, posY), filename);
             PGS.AddEntity(npEntity);
         }
 

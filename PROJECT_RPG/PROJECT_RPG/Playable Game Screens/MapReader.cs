@@ -59,20 +59,40 @@ namespace PROJECT_RPG
                             collision = MapTileCollisionType.NoCollision;
                             break;
                         case '3':
-                            fileIndex = "Top";
-                            collision = MapTileCollisionType.HalfCollisionTop;
+                            fileIndex = "70s";
+                            collision = MapTileCollisionType.NoCollision;
                             break;
                         case '4':
-                            fileIndex = "Bottom";
-                            collision = MapTileCollisionType.HalfCollisionBot;
+                            fileIndex = "Asphalt";
+                            collision = MapTileCollisionType.NoCollision;
                             break;
                         case '5':
-                            fileIndex = "Left";
-                            collision = MapTileCollisionType.HalfCollisionLeft;
+                            fileIndex = "Cement";
+                            collision = MapTileCollisionType.NoCollision;
                             break;
                         case '6':
-                            fileIndex = "Right";
-                            collision = MapTileCollisionType.HalfCollisionRight;
+                            fileIndex = "Cobble";
+                            collision = MapTileCollisionType.NoCollision;
+                            break;
+                        case '7':
+                            fileIndex = "Grass";
+                            collision = MapTileCollisionType.NoCollision;
+                            break;
+                        case '8':
+                            fileIndex = "Wall";
+                            collision = MapTileCollisionType.FullCollision;
+                            break;
+                        case '9':
+                            fileIndex = "Window";
+                            collision = MapTileCollisionType.FullCollision;
+                            break;
+                        case 'A':
+                            fileIndex = "Cabinet";
+                            collision = MapTileCollisionType.FullCollision;
+                            break;
+                        case 'B':
+                            fileIndex = "TopCabinet";
+                            collision = MapTileCollisionType.FullCollision;
                             break;
                         default:
                             fileIndex = "Empty";

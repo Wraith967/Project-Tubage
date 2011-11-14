@@ -17,32 +17,18 @@ namespace PROJECT_RPG
         //protected int[] indexedXWalkUpDown = { 0, 14, 30, 44, 63, 77 };
         //float posDelta = 2.0f;
         //bool[] movement = { false, false, false, false }; // Down, Up, Left, Right
-        bool nearbyPlayer = false;
-        String greeting;
-        protected SpriteFont font;
-        Vector2 greetingPos;
+        protected bool nearbyPlayer = false;
         int playerDist;
         Random gen;
-
-        
 
         #endregion
 
         #region Initialization
 
-        public NonPlayerEntity(string textureFileName, Vector2 pos, String greetingText)
+        public NonPlayerEntity(string textureFileName, Vector2 pos)
             : base(textureFileName)
         {
             Position = pos;
-            width = 15;
-            height = 17;
-            drawbox = new Rectangle(0, 0, GetWidth, GetHeight);
-            boundingBox = new Rectangle((int)Position.X, (int)Position.Y, 15, 11);
-            if (greetingText.Equals(""))
-                greeting = "Hey! Talk to me! Please!";
-            else
-                greeting = greetingText;
-            greetingPos = new Vector2(pos.X, pos.Y - 20f);
             gen = new Random(DateTime.Now.Millisecond);
             playerDist = gen.Next(20, 100);
         }
@@ -50,7 +36,10 @@ namespace PROJECT_RPG
         public override void LoadContent()
         {
             base.LoadContent();
-            font = OwnerScreen.ScreenManager.Font;
+            width = texture.Width;
+            height = texture.Height;
+            drawbox = new Rectangle(0, 0, GetWidth, GetHeight);
+            boundingBox = new Rectangle((int)Position.X, (int)Position.Y, GetWidth, GetHeight);
         }
 
         #endregion
@@ -83,8 +72,6 @@ namespace PROJECT_RPG
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             base.Draw(gameTime, spriteBatch);
-            if (nearbyPlayer)
-                spriteBatch.DrawString(font, greeting, greetingPos, Color.White);
         }
         #endregion
 

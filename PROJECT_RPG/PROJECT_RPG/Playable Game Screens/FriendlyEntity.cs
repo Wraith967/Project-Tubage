@@ -14,15 +14,29 @@ namespace PROJECT_RPG
         float talkAgainTimer = 2000;
         bool canBeTalkedTo = true;
         String[] convo;
+        protected String greeting;
+        protected SpriteFont font;
+        protected Vector2 greetingPos;
 
         #endregion
 
         #region Initialization
 
         public FriendlyEntity(string textureFileName, Vector2 pos, String greetingText, String convoFile)
-            : base(textureFileName, pos, greetingText)
+            : base(textureFileName, pos)
         {
             convo = ConvoLoader.LoadConvo(convoFile);
+            if (greetingText.Equals(""))
+                greeting = "Hey! Talk to me! Please!";
+            else
+                greeting = greetingText;
+            greetingPos = new Vector2(pos.X, pos.Y - 20f);
+        }
+
+        public override void LoadContent()
+        {
+            base.LoadContent();
+            font = OwnerScreen.ScreenManager.Font;
         }
 
         #endregion
@@ -37,6 +51,9 @@ namespace PROJECT_RPG
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             base.Draw(gameTime, spriteBatch);
+            Vector2 temp = Vector2.Subtract(greetingPos, Camera.Position);
+            if (nearbyPlayer)
+                spriteBatch.DrawString(font, greeting, temp, Color.White);
         }
 
         #endregion

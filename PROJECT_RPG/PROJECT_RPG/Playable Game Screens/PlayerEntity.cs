@@ -41,10 +41,10 @@ namespace PROJECT_RPG
             height = frameSize;
             width = frameSize;
             drawbox = new Rectangle(indexX * frameSize, indexY * frameSize, GetWidth, GetHeight);
-            boundingBox = new Rectangle((int)Position.X, (int)Position.Y + 15, 30, 15);
-            if (drawbox.Width != 30)
+            boundingBox = new Rectangle((int)Position.X, (int)Position.Y + 25, 40, 15);
+            if (drawbox.Width != 40)
             {
-                scale = 30.0f / drawbox.Width;
+                scale = 40.0f / drawbox.Width;
             }
             else
             {
@@ -126,7 +126,7 @@ namespace PROJECT_RPG
                 movement[4] = false;
             }
             boundingBox.X = (int)Position.X;
-            boundingBox.Y = (int)Position.Y + 15;
+            boundingBox.Y = (int)Position.Y + 25;
             if (input.IsUseButtonPressed())
                 ((PlayableMainGameScreen)OwnerScreen).PlayerInteraction(gameTime);
         }
@@ -142,7 +142,7 @@ namespace PROJECT_RPG
             if (movement[3])
                 position.X -= posDelta;
             boundingBox.X = (int)Position.X;
-            boundingBox.Y = (int)Position.Y + 15;
+            boundingBox.Y = (int)Position.Y + 25;
         }
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)

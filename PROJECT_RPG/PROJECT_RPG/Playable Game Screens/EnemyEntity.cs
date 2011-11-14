@@ -17,8 +17,8 @@ namespace PROJECT_RPG
 
         #region Initialization
 
-        public EnemyEntity(string textureFileName, Vector2 pos, String greetingText, String battleFile)
-            : base(textureFileName, pos, greetingText)
+        public EnemyEntity(string textureFileName, Vector2 pos, String battleFile)
+            : base(textureFileName, pos)
         {
             this.battleFile = battleFile;
         }

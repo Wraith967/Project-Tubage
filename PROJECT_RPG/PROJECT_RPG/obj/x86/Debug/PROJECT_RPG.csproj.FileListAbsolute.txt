@@ -337,3 +337,5 @@ C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debu
 C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall.xnb
 C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall_corner.xnb
 C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\Sounds\beep.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door1.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door2.xnb

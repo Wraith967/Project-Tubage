@@ -45,7 +45,7 @@ namespace PROJECT_RPG
 
         void NewGameMenuEntrySelected(object sender, EventArgs e)
         {
-            LoadingScreen.Load(screenManager, new PlayableMainGameScreen("testScreen1.txt", new Vector2(200,200))); 
+            LoadingScreen.Load(screenManager, new PlayableMainGameScreen("houseScreen.txt", new Vector2(180,80))); 
         }
 
         void OptionsMenuEntrySelected(object sender, EventArgs e)

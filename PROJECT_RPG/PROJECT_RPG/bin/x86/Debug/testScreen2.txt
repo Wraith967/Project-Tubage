@@ -1,6 +1,6 @@
 player: filename=<char_set>, x=<256>, y=<256>
 friend: texture=<cats>, x=<256>, y=<256>, text=<Talk to me, not him!>, convoFile=<convoTest.txt>
-enemy: texture=<evil_face>, x=<400>, y=<360>, text=<Don't talk to me, I hate you!>, battleFile=<testBattle.txt>
+enemy: texture=<evil_face>, x=<400>, y=<360>, battleFile=<testBattle.txt>
 tilemap: filename=<testTileMap3.txt>
 transferPoint: filename=<testScreen1.txt>, x=<2>, y=<13>, nextX=<490>, nextY=<240>
 songs: filename=<ct_testsong2>, <ct_testsong1>

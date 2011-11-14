@@ -598,6 +598,24 @@
       <Extra>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.wma</Extra>
       <Time>2011-11-07T11:12:41.6177012-05:00</Time>
     </Item>
+    <Item>
+      <Source>entities\door1.png</Source>
+      <Name>entities\door1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door1.xnb</Output>
+      <Time>2011-11-14T17:34:10.9112597-05:00</Time>
+    </Item>
+    <Item>
+      <Source>entities\door2.png</Source>
+      <Name>entities\door2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door2.xnb</Output>
+      <Time>2011-11-14T17:34:15.6875329-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

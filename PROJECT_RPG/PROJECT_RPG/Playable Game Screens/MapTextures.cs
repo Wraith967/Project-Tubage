@@ -27,17 +27,22 @@ namespace PROJECT_RPG
             tiles.Add("Empty", "tiles/null_space");
             tiles.Add("Tile", "tiles/tile");
             tiles.Add("Wood", "tiles/wood");
-            tiles.Add("Top", "tiles/top_space");
-            tiles.Add("Bottom", "tiles/bot_space");
-            tiles.Add("Left", "tiles/left_space");
-            tiles.Add("Right", "tiles/right_space");
             tiles.Add("70s", "tiles/70s_tile");
             tiles.Add("Asphalt", "tiles/asphalt");
             tiles.Add("Cement", "tiles/cement");
             tiles.Add("Cobble", "tiles/cobble");
             tiles.Add("Grass", "tiles/grass");
             tiles.Add("Wall", "tiles/wall");
-            tiles.Add("Corner Wall", "tiles/wall_corner");
+            tiles.Add("Bed", "entities/bed");
+            tiles.Add("Cabinet", "entities/cabinet");
+            tiles.Add("CoffeePot", "entities/coffeepot");
+            tiles.Add("EnergyDrink", "entities/energy_drink");
+            tiles.Add("Router", "entities/router");
+            tiles.Add("Table", "entities/table");
+            tiles.Add("Toaster", "entities/toaster");
+            tiles.Add("TopCabinet", "entities/top_cabinet");
+            tiles.Add("TV", "entities/tv");
+            tiles.Add("Window", "entities/window");
         }
         
         private Texture2D loadTexture(String name)
