@@ -31,7 +31,13 @@ namespace PROJECT_RPG
             tiles.Add("Bottom", "tiles/bot_space");
             tiles.Add("Left", "tiles/left_space");
             tiles.Add("Right", "tiles/right_space");
-
+            tiles.Add("70s", "tiles/70s_tile");
+            tiles.Add("Asphalt", "tiles/asphalt");
+            tiles.Add("Cement", "tiles/cement");
+            tiles.Add("Cobble", "tiles/cobble");
+            tiles.Add("Grass", "tiles/grass");
+            tiles.Add("Wall", "tiles/wall");
+            tiles.Add("Corner Wall", "tiles/wall_corner");
         }
         
         private Texture2D loadTexture(String name)
