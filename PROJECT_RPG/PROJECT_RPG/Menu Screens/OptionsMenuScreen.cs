@@ -9,8 +9,8 @@ namespace PROJECT_RPG
     {
         #region Fields and Properties
 
-        MenuEntry randomOption1;
-        MenuEntry randomOption2;
+        MenuEntry MusicVolume;
+        MenuEntry SoundsVolume;
         MenuEntry randomOption3;
         
         // Static for now, as examples. Probably save real settings to a file or something.
@@ -23,26 +23,26 @@ namespace PROJECT_RPG
 
         public OptionsMenuScreen() : base("Options")
         {
-            randomOption1 = new MenuEntry(string.Empty);
-            randomOption2 = new MenuEntry(string.Empty);
+            MusicVolume = new MenuEntry(string.Empty);
+            SoundsVolume = new MenuEntry(string.Empty);
             randomOption3 = new MenuEntry(string.Empty);
 
             SetMenuEntryText();
 
-            randomOption1.Selected += RandomOption1Selected;
-            randomOption2.Selected += RandomOption2Selected;
+            MusicVolume.Selected += MusicVolumeOptionSelected;
+            SoundsVolume.Selected += SoundVolumeOptionSelected;
             randomOption3.Selected += RandomOption3Selected;
 
-            MenuEntries.Add(randomOption1);
-            MenuEntries.Add(randomOption2);
+            MenuEntries.Add(MusicVolume);
+            MenuEntries.Add(SoundsVolume);
             MenuEntries.Add(randomOption3);
 
         }
 
         void SetMenuEntryText()
         {
-            randomOption1.Text = "Sup guise." + randomInt;
-            randomOption2.Text = "Howset goin?" + randomIntTwo;
+            MusicVolume.Text = "Music Volume:" + AudioManager.Instance.MusicVolume.ToString();
+            SoundsVolume.Text = "Sounds Volume:" + AudioManager.Instance.SoundVolume.ToString();
             randomOption3.Text = " !\"#$%&'()*+,-./ \n 0123456789= \n { | ^ } \u007F";
         }
         
@@ -50,15 +50,25 @@ namespace PROJECT_RPG
 
         #region Handle Input & OnCancel Override
 
-        void RandomOption1Selected(object sender, EventArgs e)
+        void MusicVolumeOptionSelected(object sender, EventArgs e)
         {
-            randomInt++;
+            if (AudioManager.Instance.MusicVolume == 1)
+            {
+                AudioManager.Instance.MusicVolume = 0.0f;
+            }
+            else AudioManager.Instance.MusicVolume += 0.05f;
             SetMenuEntryText();
         }
 
-        void RandomOption2Selected(object sender, EventArgs e)
+        void SoundVolumeOptionSelected(object sender, EventArgs e)
         {
-            randomIntTwo++;
+            if (AudioManager.Instance.SoundVolume == 1)
+            {
+                AudioManager.Instance.SoundVolume = 0.0f;
+            }
+            else if (AudioManager.Instance.SoundVolume + 0.05 > 1)
+            { AudioManager.Instance.SoundVolume = 1; }
+            else AudioManager.Instance.SoundVolume += 0.05f;
             SetMenuEntryText();
         }
 

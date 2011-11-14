@@ -90,7 +90,8 @@ namespace PROJECT_RPG
         private AudioManager(Game game)
             : base(game)
         {
-            MediaPlayer.Volume = 0.05f;
+            MusicVolume = 0.05f;
+            SoundVolume = 0.05f;
             _content = new ContentManager(game.Content.ServiceProvider, game.Content.RootDirectory);
         }
 
@@ -160,6 +161,15 @@ namespace PROJECT_RPG
             }
 
             audioManager._sounds.Add(soundName, audioManager._content.Load<SoundEffect>(soundPath));
+        }
+
+        public static bool IsSoundLoaded(string soundName)
+        {
+            if (audioManager._sounds.ContainsKey(soundName))
+            {
+                return true;
+            }
+            else return false;
         }
 
         /// <summary>
