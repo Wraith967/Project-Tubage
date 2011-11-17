@@ -19,7 +19,7 @@ namespace PROJECT_RPG
             String[] tempArr;
             int i = 0;
             int j = 0;
-            while (temp != null)
+            while (temp != null && i < height)
             {
                 tempArr = temp.Split(' ');
                 for (j = 0; j < width; j++)

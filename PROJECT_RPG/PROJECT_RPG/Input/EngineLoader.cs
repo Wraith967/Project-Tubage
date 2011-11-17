@@ -55,18 +55,8 @@ namespace PROJECT_RPG
             char[] delims = {'<','>'};
             String[] tokens = player.Substring(8).Split(delims);
             String texture = tokens[1];
-            float posX = float.Parse(tokens[3]);
-            float posY = float.Parse(tokens[5]);
             PlayerEntity pEntity;
-            Vector2 playerPos;
-            if (PGS.PlayerPos.Equals(new Vector2(-1, -1)))
-            {
-                playerPos = new Vector2(posX, posY);
-            }
-            else
-            {
-                playerPos = PGS.PlayerPos;
-            }
+            Vector2 playerPos = PGS.PlayerPos;
             pEntity = new PlayerEntity(texture, playerPos);
             PGS.AddEntity(pEntity);
         }

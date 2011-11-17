@@ -1,0 +1,3 @@
+player: filename=<char_set>
+tilemap: filename=<neighborhoodMap.txt>
+songs: filename=<ct_testsong2>, <ct_testsong1>

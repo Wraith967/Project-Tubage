@@ -1,9 +1,10 @@
-player: filename=<char_set>, x=<180>, y=<80>
+player: filename=<char_set>
 tilemap: filename=<houseMap.txt>
 songs: filename=<ct_testsong2>, <ct_testsong1>
-NPentity: filename=<entities/bed>, x=<100>, y=<40>
-NPentity: filename=<entities/tv>, x=<240>, y=<20>
-NPentity: filename=<entities/energy_drink>, x=<500>, y=<20>
-NPentity: filename=<entities/coffeepot>, x=<520>, y=<20>
-NPentity: filename=<entities/door1>, x=<280>, y=<520>
-NPentity: filename=<entities/door2>, x=<300>, y=<520>
+NPentity: filename=<entities/bed>, x=<5>, y=<2>
+NPentity: filename=<entities/tv>, x=<12>, y=<1>
+NPentity: filename=<entities/energy_drink>, x=<25>, y=<1>
+NPentity: filename=<entities/coffeepot>, x=<26>, y=<1>
+NPentity: filename=<entities/door1>, x=<14>, y=<26>
+NPentity: filename=<entities/door2>, x=<15>, y=<26>
+transferPoint: filename=<testScreen2.txt>, x=<14>, y=<26>, nextX=<3>, nextY=<12>

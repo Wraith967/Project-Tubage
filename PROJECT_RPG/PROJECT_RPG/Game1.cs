@@ -16,6 +16,7 @@ namespace PROJECT_RPG
         public const int ScreenWidth = 640;
         public const int ScreenHeight = 480;
         public const float moveSpeed = 2.0f;
+        public const int tileSize = 20;
     }
 
     /// <summary>
@@ -30,8 +31,8 @@ namespace PROJECT_RPG
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            graphics.PreferredBackBufferWidth = 680;
-            graphics.PreferredBackBufferHeight = 480;
+            graphics.PreferredBackBufferWidth = GlobalConstants.ScreenWidth;
+            graphics.PreferredBackBufferHeight = GlobalConstants.ScreenHeight;
 
             // Create the screen manager component.
             screenManager = new ScreenManager(this);

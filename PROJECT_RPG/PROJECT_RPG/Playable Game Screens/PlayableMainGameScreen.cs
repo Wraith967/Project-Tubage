@@ -92,6 +92,8 @@ namespace PROJECT_RPG
             if (maxCameraX < 0)
                 maxCameraX = 0;
 
+            InitialPosition();
+
             if (currentSong == null)
             {
                 currentSong = songs[0];
@@ -235,6 +237,21 @@ namespace PROJECT_RPG
             }
         }
 
+        //TODO: FIX THIS!!!
+        private void InitialPosition()
+        {
+            if (playerPos.X > (GlobalConstants.ScreenWidth - boundarySize))
+            {
+                Camera.Position.X = playerPos.X - (GlobalConstants.ScreenWidth / 2);
+            }
+            if (playerPos.Y > (GlobalConstants.ScreenHeight - boundarySize))
+            {
+                Camera.Position.Y = playerPos.Y - (GlobalConstants.ScreenHeight / 2);
+            }
+            Camera.Position.X = MathHelper.Clamp(Camera.Position.X, 0, maxCameraX);
+            Camera.Position.Y = MathHelper.Clamp(Camera.Position.Y, 0, maxCameraY);
+        }
+
         public override void HandleInput(InputState input, GameTime gameTime)
         {
             base.HandleInput(input, gameTime);
@@ -252,6 +269,7 @@ namespace PROJECT_RPG
             HandleScrolling();
         }
 
+        //TODO: FIX THIS SHIT
         private void HandleScrolling()
         {
             int direction = -1;

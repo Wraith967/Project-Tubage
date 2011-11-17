@@ -26,9 +26,8 @@ namespace PROJECT_RPG
         #region Initialization
 
         public NonPlayerEntity(string textureFileName, Vector2 pos)
-            : base(textureFileName)
+            : base(textureFileName, pos)
         {
-            Position = pos;
             gen = new Random(DateTime.Now.Millisecond);
             playerDist = gen.Next(20, 100);
         }

@@ -71,9 +71,10 @@ namespace PROJECT_RPG
 
         #region Initialization
 
-        public DrawableEntity(string textureFileName)
+        public DrawableEntity(string textureFileName, Vector2 pos)
         {
-            TextureFileName = textureFileName; 
+            TextureFileName = textureFileName;
+            Position = Vector2.Multiply(pos, GlobalConstants.tileSize);
         }
 
         public virtual void LoadContent() 

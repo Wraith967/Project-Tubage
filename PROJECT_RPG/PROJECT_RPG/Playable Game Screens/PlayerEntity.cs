@@ -25,9 +25,8 @@ namespace PROJECT_RPG
         #region Initialization
 
         public PlayerEntity(string textureFileName, Vector2 pos)
-            : base(textureFileName)
+            : base(textureFileName, pos)
         {
-            Position = pos;
             indexX = 0;
             indexY = 0;
             animationUpdateTimer = updateTime;
