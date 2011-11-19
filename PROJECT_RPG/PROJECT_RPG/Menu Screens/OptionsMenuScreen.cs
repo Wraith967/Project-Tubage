@@ -14,8 +14,6 @@ namespace PROJECT_RPG
         MenuEntry randomOption3;
         
         // Static for now, as examples. Probably save real settings to a file or something.
-        static int randomInt = 0;
-        static int randomIntTwo = 100;
 
         #endregion
 

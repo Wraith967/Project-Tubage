@@ -90,8 +90,8 @@ namespace PROJECT_RPG
         private AudioManager(Game game)
             : base(game)
         {
-            MusicVolume = 0.05f;
-            SoundVolume = 0.05f;
+            MusicVolume = 0.00f;
+            SoundVolume = 0.00f;
             _content = new ContentManager(game.Content.ServiceProvider, game.Content.RootDirectory);
         }
 

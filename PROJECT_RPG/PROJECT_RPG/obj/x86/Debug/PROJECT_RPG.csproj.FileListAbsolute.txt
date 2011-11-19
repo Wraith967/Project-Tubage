@@ -339,3 +339,27 @@ C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debu
 C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\Sounds\beep.xnb
 C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door1.xnb
 C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door2.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\friend_request.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\gore.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\longcat.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\mouse.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\bed.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\cabinet.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\coffeepot.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\energy_drink.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\router.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\table.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\toaster.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\top_cabinet.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\tv.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\window.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\coffee.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\energy_drink_icon.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\70s_tile.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cobble.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\concept.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\grass.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall_corner.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door1.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door2.xnb

@@ -108,6 +108,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Audio\AudioManager.cs" />
+    <Compile Include="Menu Screens\In Game Menu Screens\CharacterStatsMenuScreen.cs" />
+    <Compile Include="Menu Screens\In Game Menu Screens\StatBar.cs" />
     <Compile Include="Playable Game Screens\Battle System\BattleScreenLoader.cs" />
     <Compile Include="Playable Game Screens\Battle System\PlayerStats.cs" />
     <Compile Include="Screen Management\Camera.cs" />
@@ -116,11 +118,6 @@
     <Compile Include="Playable Game Screens\EnemyEntity.cs" />
     <Compile Include="Input\EngineLoader.cs" />
     <Compile Include="Playable Game Screens\MapTextures.cs" />
-    <Compile Include="Menu Screens\In Game Menu Screens\Blank2EntryScreen.cs" />
-    <Compile Include="Menu Screens\In Game Menu Screens\Blank3EntryScreen.cs" />
-    <Compile Include="Menu Screens\In Game Menu Screens\Blank4EntryScreen.cs" />
-    <Compile Include="Menu Screens\In Game Menu Screens\Blank5EntryScreen.cs" />
-    <Compile Include="Menu Screens\In Game Menu Screens\BlankEntryScreen.cs" />
     <Compile Include="Menu Screens\In Game Menu Screens\InGameMenuScreen.cs" />
     <Compile Include="Menu Screens\MenuEntry.cs" />
     <Compile Include="Playable Game Screens\Battle System\BattleScreen.cs" />

@@ -13,6 +13,7 @@ namespace PROJECT_RPG
         public static int CurrentEnergy = 100;
         public static int CurrentXP = 0;
         public static int NextLevelXP = 100;
+        public static int Level = 1;
 
         public static void AddXP(int xp)
         {
