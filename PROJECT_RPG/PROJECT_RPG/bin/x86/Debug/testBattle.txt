@@ -1,3 +1,4 @@
-screen: texture=<temp_background>
-player: texture=<tempface>, strength=<10>, defense=<5>, maxHP=<100>
+screen: texture=<bg>
+player: texture=<char_set>
 enemy: texture=<evil_face>, strength=<10>, defense=<2>, maxHP=<50>
+laptop: texture=<laptop>, strength=<5>, defense=<2>, maxHP=<50>

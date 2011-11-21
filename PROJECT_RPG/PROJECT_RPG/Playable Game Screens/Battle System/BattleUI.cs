@@ -56,16 +56,11 @@ namespace PROJECT_RPG
             temp_NamesPos = new Vector2(mainHUD.GetInnerRectangle.X + 5, mainHUD.GetInnerRectangle.Y + 5);
             temp_StatsPos = new Vector2(mainHUD.GetInnerRectangle.X + 150, mainHUD.GetInnerRectangle.Y + 5);
 
-            // Begin drawing.
-            foreach (string s in temp_Names)
-            {
-                spriteBatch.DrawString(font, s, temp_NamesPos, Color.White, 0.0f, Vector2.Zero, 2.0f, SpriteEffects.None, 0.0f);
-                temp_NamesPos.Y += font.LineSpacing * 2.0f;
-            }
-
             //spriteBatch.DrawString(font, BattleScreen.player.CurrentHP.ToString()+" / "+BattleScreen.player.MaxHP.ToString(), temp_StatsPos, Color.White, 0.0f, Vector2.Zero, 2.0f, SpriteEffects.None, 0.0f);
             //temp_StatsPos.Y += font.LineSpacing * 2.0f;
             foreach (BattleScreenMember e in BattleScreen.BattleMembers){
+                spriteBatch.DrawString(font, e.NameText, temp_NamesPos, Color.White, 0.0f, Vector2.Zero, 2.0f, SpriteEffects.None, 0.0f);
+                temp_NamesPos.Y += font.LineSpacing * 2.0f;
                 spriteBatch.DrawString(font, e.CurrentHP.ToString() + " / " + e.MaxHP.ToString(), temp_StatsPos, Color.White, 0.0f, Vector2.Zero, 2.0f, SpriteEffects.None, 0.0f);
                 temp_StatsPos.Y += font.LineSpacing * 2.0f;
             }

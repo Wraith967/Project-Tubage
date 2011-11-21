@@ -130,6 +130,10 @@ namespace PROJECT_RPG
                 {
                     temp.Add(combatant);
                 }
+                else
+                {
+                    temp.Add(combatant);
+                }
             }
             BattleMembers = temp;
         }
@@ -139,7 +143,7 @@ namespace PROJECT_RPG
             battleScreenMembers[currentTurnIndex].IsPerformingAction = false;
             battleScreenMembers[currentTurnIndex].HasCurrentTurn = false;
             currentTurnIndex++;
-            if (currentTurnIndex >= 2)
+            if (currentTurnIndex >= BattleMembers.Count)
             { currentTurnIndex = 0; }
             battleScreenMembers[currentTurnIndex].HasCurrentTurn = true;
             if (battleScreenMembers[currentTurnIndex].IsPlayer)
@@ -239,15 +243,6 @@ namespace PROJECT_RPG
                         currentTurnIndex = 0;
                     }
                     break;
-                case BattleState.PlayerTurn:
-                    CheckVictoryConditions();
-                    break;
-                case BattleState.EnemyTurn:
-                    CheckVictoryConditions();
-                    break;
-                case BattleState.AITurn:
-                    CheckVictoryConditions();
-                    break;
                 case BattleState.Victory:
                     victoryTimer -= gameTime.ElapsedGameTime.Milliseconds;
                     if (victoryTimer <= 0)
@@ -265,6 +260,9 @@ namespace PROJECT_RPG
                         ScreenManager.RemoveScreen(this);
                         ScreenManager.AddScreen(new MainMenuScreen());
                     }
+                    break;
+                default:
+                    CheckVictoryConditions();
                     break;
             }
             foreach (BattleScreenMember m in BattleMembers)

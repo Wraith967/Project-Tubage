@@ -17,6 +17,8 @@ namespace PROJECT_RPG
             set { maxHP = value; }
         }
 
+        protected Rectangle drawBox;
+
         protected int currentHP;
         public int CurrentHP
         { get { return currentHP; } }
@@ -101,6 +103,7 @@ namespace PROJECT_RPG
             {
                 spriteBatch.DrawString(OwnerScreen.ScreenManager.Font, "}", new Vector2(position.X - 15, position.Y), Color.White);
             }
+            spriteBatch.Draw(Texture, Position, drawBox, Color.White);
         }
     }
 }

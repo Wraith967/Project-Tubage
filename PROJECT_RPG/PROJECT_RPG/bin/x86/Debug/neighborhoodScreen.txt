@@ -1,3 +1,5 @@
 player: filename=<char_set>
 tilemap: filename=<neighborhoodMap.txt>
 songs: filename=<ct_testsong2>, <ct_testsong1>
+NPentity: filename=<enemies/friend_request>, x=<31>, y=<6>
+enemy: texture=<evil_face>, x=<15>, y=<9>, battleFile=<testBattle.txt>

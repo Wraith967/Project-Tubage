@@ -45,7 +45,7 @@ namespace PROJECT_RPG
 
         void NewGameMenuEntrySelected(object sender, EventArgs e)
         {
-            LoadingScreen.Load(screenManager, new PlayableMainGameScreen("neighborhoodScreen.txt", new Vector2(3,20))); 
+            LoadingScreen.Load(screenManager, new PlayableMainGameScreen("neighborhoodScreen.txt", new Vector2(5, 10))); 
         }
 
         void OptionsMenuEntrySelected(object sender, EventArgs e)
@@ -55,8 +55,8 @@ namespace PROJECT_RPG
 
         void TestBattleScreenEntrySelected(object sender, EventArgs e)
         { 
-            //ScreenManager.AddScreen(new BattleScreen("testBattle.txt", null, this));
-            LoadingScreen.Load(screenManager, new BattleScreen("testBattle.txt", null, this));
+            ScreenManager.AddScreen(new BattleScreen("testBattle.txt", null, this));
+            //LoadingScreen.Load(screenManager, new BattleScreen("testBattle.txt", null, this));
         }
 
         void OnCancel(object sender, EventArgs e)

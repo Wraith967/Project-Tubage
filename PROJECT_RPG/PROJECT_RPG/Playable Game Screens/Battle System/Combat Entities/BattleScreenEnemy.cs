@@ -10,6 +10,7 @@ namespace PROJECT_RPG
     class BattleScreenEnemy : BattleScreenMember
     {
         int selectedTarget;
+        Random gen;
 
         public BattleScreenEnemy(String textureFile, BattleScreen owner)
             : base(textureFile, owner)
@@ -23,25 +24,31 @@ namespace PROJECT_RPG
             combatActions = new CombatAction[2];
             Position = new Vector2(400, 200);
             InitializeCombatActions();
+            gen = new Random(DateTime.Now.Millisecond);
+        }
+
+        public override void LoadContent()
+        {
+            base.LoadContent();
+            drawBox = new Rectangle(0, 0, texture.Width, Texture.Height);
         }
 
         public override void Update(GameTime gameTime)
         {
             if (HasCurrentTurn)
             {
-
                 // Default attack player.
                 selectedTarget = OwnerScreen.BattleMembers.FindIndex(FindPlayer);
                 CurrentCombatAction = CombatActions[0];
 
                 if (currentHP != maxHP)
                 {
-                    Random r = new Random();
-                    bool attack = r.NextDouble() > 0.2;
+                    bool attack = gen.NextDouble() > 0.2;
                     if (attack)
                     {
-                        selectedTarget = OwnerScreen.BattleMembers.FindIndex(FindPlayer);
-                        CurrentCombatAction = CombatActions[0];
+                        if (gen.Next(2) == 1) {
+                            selectedTarget = OwnerScreen.BattleMembers.FindIndex(FindAIParty);
+                        }
                     }
                     else
                     {
@@ -57,12 +64,12 @@ namespace PROJECT_RPG
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             base.Draw(gameTime, spriteBatch);
-            spriteBatch.Draw(Texture, Position, new Rectangle(0, 0, Texture.Width, Texture.Height), Color.White, 0.0f, new Vector2(0, 0), 2.5f, SpriteEffects.None, 0.0f);
+            //spriteBatch.Draw(Texture, Position, new Rectangle(0, 0, Texture.Width, Texture.Height), Color.White, 0.0f, new Vector2(0, 0), 2.5f, SpriteEffects.None, 0.0f);
         }
 
         void InitializeCombatActions()
         {
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < CombatActions.Length; i++)
             {
                 switch (i)
                 {
@@ -86,6 +93,13 @@ namespace PROJECT_RPG
         bool FindSelf(BattleScreenMember member)
         {
             if (!member.IsPlayer && !member.IsPlayerCharacter)
+                return true;
+            return false;
+        }
+
+        bool FindAIParty(BattleScreenMember member)
+        {
+            if (!member.IsPlayer && member.IsPlayerCharacter)
                 return true;
             return false;
         }

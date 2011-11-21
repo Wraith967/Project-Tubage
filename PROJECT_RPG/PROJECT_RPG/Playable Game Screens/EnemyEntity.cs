@@ -30,6 +30,8 @@ namespace PROJECT_RPG
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
+            if (nearbyPlayer)
+                Interact(gameTime);
         }
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)

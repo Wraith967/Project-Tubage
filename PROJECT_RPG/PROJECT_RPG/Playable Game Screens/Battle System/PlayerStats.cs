@@ -8,7 +8,7 @@ namespace PROJECT_RPG
     class PlayerStats
     {
         public static int Strength = 10;
-        public static int Defense = 10;
+        public static int Defense = 5;
         public static int MaximumEnergy = 100;
         public static int CurrentEnergy = 100;
         public static int CurrentXP = 0;

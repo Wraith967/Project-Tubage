@@ -39,13 +39,7 @@ namespace PROJECT_RPG
             char[] delims = { '<', '>' };
             String[] tokens = line.Substring(8).Split(delims);
             String texture = tokens[1];
-            int str = Int32.Parse(tokens[3]);
-            int def = Int32.Parse(tokens[5]);
-            int maxHP = Int32.Parse(tokens[7]);
             BattleScreenPlayer player = new BattleScreenPlayer(texture, BS);
-            player.Strength = str;
-            player.Defense = def;
-            player.MaxHP = maxHP;
             BS.AddBattleMember(player);
         }
 

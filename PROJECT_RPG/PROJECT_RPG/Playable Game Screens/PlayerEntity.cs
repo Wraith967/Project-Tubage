@@ -17,6 +17,7 @@ namespace PROJECT_RPG
         int indexY; // y index of frame
         float posDelta = GlobalConstants.moveSpeed;
         bool[] movement = { false, false, false, false, true }; // Down, Up, Left, Right, Idle
+        Vector2 moveDir; // vector direction of movement
         float animationUpdateTimer; // timer to update animation
         const float updateTime = 1000f / 15f; // base update time for animations
         int direction; // direction of animation, either 1 or -1
@@ -32,6 +33,7 @@ namespace PROJECT_RPG
             indexY = 0;
             animationUpdateTimer = updateTime;
             direction = 1;
+            moveDir = Vector2.Zero;
         }
 
         public override void LoadContent()
@@ -67,19 +69,19 @@ namespace PROJECT_RPG
             animationUpdateTimer -= (float)gameTime.ElapsedGameTime.TotalMilliseconds;
             if (animationUpdateTimer <= 0)
             {
-                if (!movement[4])
+                if (!moveDir.Equals(Vector2.Zero))
                 {
                     indexX += direction;
                     if ((indexX == (texture.Width / frameSize) - 1) ||
                         (indexX == 0))
                         direction *= -1;
-                    if (movement[0])
+                    if (moveDir.Y == posDelta)
                         indexY = 0;
-                    else if (movement[1])
+                    else if (moveDir.Y == -posDelta)
                         indexY = 3;
-                    else if (movement[2])
+                    else if (moveDir.X == -posDelta)
                         indexY = 1;
-                    else if (movement[3])
+                    else if (moveDir.X == posDelta)
                         indexY = 2;
                     else
                         indexY = 0;
@@ -98,48 +100,45 @@ namespace PROJECT_RPG
 
         public void HandleInput(InputState input, GameTime gameTime)
         {
-            for (int i = 0; i < 4; i++)
-                movement[i] = false;
-            movement[4] = true;
+            moveDir = Vector2.Zero;
             if (input.IsHoldDown())
             {
-                position.Y += posDelta;
-                movement[0] = true;
-                movement[4] = false;
+                moveDir.Y = posDelta;
             }
             if (input.IsHoldUp())
             {
-                position.Y -= posDelta;
-                movement[1] = true;
-                movement[4] = false;
+                moveDir.Y = -posDelta;
             }
             if (input.IsHoldLeft())
             {
-                position.X -= posDelta;
-                movement[2] = true;
-                movement[4] = false;
+                moveDir.X -= posDelta;
             }
             if (input.IsHoldRight())
             {
-                position.X += posDelta;
-                movement[3] = true;
-                movement[4] = false;
+                moveDir.X += posDelta;
             }
+            position += moveDir;
             boundingBox.X = (int)Position.X;
             boundingBox.Y = (int)Position.Y + 25;
             if (input.IsUseButtonPressed())
                 ((PlayableMainGameScreen)OwnerScreen).PlayerInteraction(gameTime);
         }
 
-        public void undoMove()
+        public void undoMove(int x, int y)
         {
-            if (movement[0])
+            this.undoMove(new Vector2(x * GlobalConstants.tileSize, y * GlobalConstants.tileSize));
+        }
+
+        public void undoMove(Vector2 collision)
+        {
+            Vector2 temp = Vector2.Subtract(Position, collision);
+            if ((temp.Y < -25) && (moveDir.Y > 0))
                 position.Y -= posDelta;
-            if (movement[1])
+            else if ((temp.Y > -25) && (moveDir.Y < 0))
                 position.Y += posDelta;
-            if (movement[2])
+            if ((temp.X > 20) && (moveDir.X < 0))
                 position.X += posDelta;
-            if (movement[3])
+            else if ((temp.X < 0) && (moveDir.X > 0))
                 position.X -= posDelta;
             boundingBox.X = (int)Position.X;
             boundingBox.Y = (int)Position.Y + 25;

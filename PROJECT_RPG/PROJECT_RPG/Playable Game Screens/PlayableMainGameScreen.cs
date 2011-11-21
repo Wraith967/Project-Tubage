@@ -237,16 +237,15 @@ namespace PROJECT_RPG
             }
         }
 
-        //TODO: FIX THIS!!!
         private void InitialPosition()
         {
-            if (playerPos.X > (GlobalConstants.ScreenWidth - boundarySize))
+            if (Player.Position.X > (GlobalConstants.ScreenWidth - boundarySize))
             {
-                Camera.Position.X = playerPos.X - (GlobalConstants.ScreenWidth / 2);
+                Camera.Position.X = Player.Position.X - (GlobalConstants.ScreenWidth / 2);
             }
-            if (playerPos.Y > (GlobalConstants.ScreenHeight - boundarySize))
+            if (Player.Position.Y > (GlobalConstants.ScreenHeight - boundarySize))
             {
-                Camera.Position.Y = playerPos.Y - (GlobalConstants.ScreenHeight / 2);
+                Camera.Position.Y = Player.Position.Y - (GlobalConstants.ScreenHeight / 2);
             }
             Camera.Position.X = MathHelper.Clamp(Camera.Position.X, 0, maxCameraX);
             Camera.Position.Y = MathHelper.Clamp(Camera.Position.Y, 0, maxCameraY);
@@ -272,26 +271,21 @@ namespace PROJECT_RPG
         //TODO: FIX THIS SHIT
         private void HandleScrolling()
         {
-            int direction = -1;
             if ((Player.Position.X - Camera.Position.X) < boundarySize)
             {
-                direction = 3;
+                UpdatePosition(3);
             }
-            else if ((Player.Position.Y - Camera.Position.Y) < boundarySize)
+            if ((Player.Position.Y - Camera.Position.Y) < boundarySize)
             {
-                direction = 0;
+                UpdatePosition(0);
             }
-            else if (((Camera.Position.X + GlobalConstants.ScreenWidth) - Player.Position.X) < boundarySize)
+            if (((Camera.Position.X + GlobalConstants.ScreenWidth) - Player.Position.X) < boundarySize)
             {
-                direction = 1;
+                UpdatePosition(1);
             }
-            else if (((Camera.Position.Y + GlobalConstants.ScreenHeight) - Player.Position.Y) < boundarySize)
+            if (((Camera.Position.Y + GlobalConstants.ScreenHeight) - Player.Position.Y) < boundarySize)
             {
-                direction = 2;
-            }
-            if (direction != -1)
-            {
-                UpdatePosition(direction);
+                UpdatePosition(2);
             }
         }
 
@@ -328,14 +322,14 @@ namespace PROJECT_RPG
             int yCoord = (int)player.Position.Y / 20;
             bool collided;
 
-            for (int x = 0; x < 2; x++)
+            for (int x = 0; x < 3; x++)
             {
                 for (int y = 0; y < 3; y++)
                 {
                     collided = IsCollision(xCoord + x, yCoord + y);
                     if (collided)
                     {
-                        player.undoMove();
+                        player.undoMove(xCoord + x, yCoord + y);
                     }
                 }
             }
@@ -344,7 +338,7 @@ namespace PROJECT_RPG
                 collided = entity.HasCollision();
                 if (collided)
                 {
-                    player.undoMove();
+                    player.undoMove(entity.Position);
                 }
             }
             return 1;

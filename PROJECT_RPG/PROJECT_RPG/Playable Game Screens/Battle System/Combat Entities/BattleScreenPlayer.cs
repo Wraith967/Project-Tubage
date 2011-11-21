@@ -25,7 +25,6 @@ namespace PROJECT_RPG
             currentHP = PlayerStats.CurrentEnergy;
             strength = PlayerStats.Strength;
             defense = PlayerStats.Defense;
-            //TextureFileName = "tempface";
             NameText = "Bill";
             OwnerScreen = owner;
             IsPlayer = true;
@@ -44,6 +43,7 @@ namespace PROJECT_RPG
 
             combatActions[0].Selected += CombatActionAttackSelected;
             combatActions[1].Selected += CombatActionHealSelected;
+            drawBox = new Rectangle(0, 0, 40, 40);
         }
 
         public override void LoadContent()
@@ -158,7 +158,6 @@ namespace PROJECT_RPG
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             base.Draw(gameTime, spriteBatch);
-            spriteBatch.Draw(Texture, Position, Color.White);
             if (HasCurrentTurn)
             {
                 DrawActionMenu(this, spriteBatch);
@@ -186,7 +185,7 @@ namespace PROJECT_RPG
 
         void InitializeCombatActions()
         {
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < CombatActions.Length; i++)
             {
                 switch (i)
                 {

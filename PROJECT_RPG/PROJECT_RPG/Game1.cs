@@ -44,8 +44,8 @@ namespace PROJECT_RPG
 
             // Activate the first screens.
             //screenManager.AddScreen(new TitleScreen());
-            //screenManager.AddScreen(new MainMenuScreen());
-            screenManager.AddScreen(new PlayableMainGameScreen("neighborhoodScreen.txt", new Vector2(3, 20)));
+            screenManager.AddScreen(new MainMenuScreen());
+            //screenManager.AddScreen(new PlayableMainGameScreen("neighborhoodScreen.txt", new Vector2(3, 20)));
         }
 
 
