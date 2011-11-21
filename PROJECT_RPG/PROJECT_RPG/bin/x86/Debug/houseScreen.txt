@@ -7,4 +7,4 @@ NPentity: filename=<entities/energy_drink>, x=<25>, y=<1>
 NPentity: filename=<entities/coffeepot>, x=<26>, y=<1>
 NPentity: filename=<entities/door1>, x=<14>, y=<26>
 NPentity: filename=<entities/door2>, x=<15>, y=<26>
-transferPoint: filename=<testScreen2.txt>, x=<14>, y=<26>, nextX=<3>, nextY=<12>
+transferPoint: filename=<neighborhoodScreen.txt>, x=<14>, y=<26>, nextX=<9>, nextY=<9>

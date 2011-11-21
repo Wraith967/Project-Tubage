@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>FontTextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb</Output>
       <Time>2011-10-26T11:58:53.1793117-04:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb</Output>
       <Time>2011-10-26T11:58:53.133309-04:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>FontTextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb</Output>
       <Time>2011-10-26T11:58:53.1973127-04:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb</Output>
       <Time>2011-10-26T11:58:53.1203083-04:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb</Output>
       <Time>2011-10-26T11:58:53.1353092-04:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb</Output>
       <Time>2011-10-26T11:58:53.2823176-04:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb</Output>
       <Time>2011-10-26T11:58:53.3653223-04:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb</Output>
       <Time>2011-10-26T11:58:53.2803174-04:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb</Output>
       <Time>2011-10-26T11:58:53.3673224-04:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb</Output>
       <Time>2011-10-26T11:58:53.3693225-04:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb</Output>
       <Time>2011-10-26T11:58:53.3723227-04:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb</Output>
       <Time>2011-10-26T11:58:53.3743228-04:00</Time>
     </Item>
     <Item>
@@ -115,7 +115,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb</Output>
       <Time>2011-10-26T11:58:53.3793231-04:00</Time>
     </Item>
     <Item>
@@ -124,7 +124,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb</Output>
       <Time>2011-10-26T11:58:53.3803232-04:00</Time>
     </Item>
     <Item>
@@ -133,7 +133,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb</Output>
       <Time>2011-10-26T11:58:53.3763229-04:00</Time>
     </Item>
     <Item>
@@ -142,7 +142,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb</Output>
       <Time>2011-10-26T11:58:53.377323-04:00</Time>
     </Item>
     <Item>
@@ -151,7 +151,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tempface.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tempface.xnb</Output>
       <Time>2011-10-26T11:58:53.272317-04:00</Time>
     </Item>
     <Item>
@@ -160,7 +160,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct.xnb</Output>
       <Time>2011-10-26T11:58:53.1483099-04:00</Time>
     </Item>
     <Item>
@@ -169,7 +169,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font.xnb</Output>
       <Time>2011-10-26T11:58:53.1533102-04:00</Time>
     </Item>
     <Item>
@@ -178,7 +178,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha.xnb</Output>
       <Time>2011-10-26T11:58:53.1573104-04:00</Time>
     </Item>
     <Item>
@@ -187,7 +187,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha2.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha2.xnb</Output>
       <Time>2011-10-26T11:58:53.168311-04:00</Time>
     </Item>
     <Item>
@@ -196,7 +196,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP.xnb</Output>
       <Time>2011-10-26T11:58:53.0663052-04:00</Time>
     </Item>
     <Item>
@@ -205,7 +205,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_background.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_background.xnb</Output>
       <Time>2011-10-26T14:42:31.0504135-04:00</Time>
     </Item>
     <Item>
@@ -214,7 +214,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_drawableentity.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_drawableentity.xnb</Output>
       <Time>2011-10-21T20:35:12.9886015-04:00</Time>
     </Item>
     <Item>
@@ -223,7 +223,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\evil_face.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\evil_face.xnb</Output>
       <Time>2011-10-26T16:34:54.0882283-04:00</Time>
     </Item>
     <Item>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bg.xnb</Output>
-      <Time>2011-10-26T17:40:36-04:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bg.xnb</Output>
+      <Time>2011-11-21T16:17:20-05:00</Time>
     </Item>
     <Item>
       <Source>bill.png</Source>
@@ -241,7 +241,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bill.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bill.xnb</Output>
       <Time>2011-10-26T16:15:16-04:00</Time>
     </Item>
     <Item>
@@ -250,7 +250,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cat_enemy.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cat_enemy.xnb</Output>
       <Time>2011-10-26T17:52:44-04:00</Time>
     </Item>
     <Item>
@@ -259,7 +259,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_set.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_set.xnb</Output>
       <Time>2011-11-07T16:53:42.094767-05:00</Time>
     </Item>
     <Item>
@@ -268,7 +268,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_sheet.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_sheet.xnb</Output>
       <Time>2011-10-26T11:58:53.1443097-04:00</Time>
     </Item>
     <Item>
@@ -277,7 +277,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\laptop.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\laptop.xnb</Output>
       <Time>2011-11-07T16:53:48.6631427-05:00</Time>
     </Item>
     <Item>
@@ -286,7 +286,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\hub.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\hub.xnb</Output>
       <Time>2011-10-26T11:58:53.2103134-04:00</Time>
     </Item>
     <Item>
@@ -295,7 +295,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\room.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\room.xnb</Output>
       <Time>2011-10-26T11:58:53.2683168-04:00</Time>
     </Item>
     <Item>
@@ -304,7 +304,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\asphalt.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\asphalt.xnb</Output>
       <Time>2011-10-25T23:56:14.8949641-04:00</Time>
     </Item>
     <Item>
@@ -313,7 +313,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cement.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cement.xnb</Output>
       <Time>2011-10-26T00:24:18.6302683-04:00</Time>
     </Item>
     <Item>
@@ -322,7 +322,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\tile.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\tile.xnb</Output>
       <Time>2011-10-26T00:13:31.6522632-04:00</Time>
     </Item>
     <Item>
@@ -331,7 +331,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wood.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wood.xnb</Output>
       <Time>2011-11-08T13:12:33.8207361-05:00</Time>
     </Item>
     <Item>
@@ -340,7 +340,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\toaster.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\toaster.xnb</Output>
       <Time>2011-11-07T16:53:51.4273008-05:00</Time>
     </Item>
     <Item>
@@ -349,7 +349,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\friend_request.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\friend_request.xnb</Output>
       <Time>2011-11-09T18:42:27.7447249-05:00</Time>
     </Item>
     <Item>
@@ -358,7 +358,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\gore.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\gore.xnb</Output>
       <Time>2011-11-09T17:11:20.1214736-05:00</Time>
     </Item>
     <Item>
@@ -367,7 +367,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\longcat.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\longcat.xnb</Output>
       <Time>2011-11-07T16:34:28.6786696-05:00</Time>
     </Item>
     <Item>
@@ -376,7 +376,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\mouse.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\mouse.xnb</Output>
       <Time>2011-11-09T18:24:24.3617589-05:00</Time>
     </Item>
     <Item>
@@ -385,7 +385,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\bed.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\bed.xnb</Output>
       <Time>2011-11-09T13:37:05.9261928-05:00</Time>
     </Item>
     <Item>
@@ -394,7 +394,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\cabinet.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\cabinet.xnb</Output>
       <Time>2011-11-09T15:46:56.2433581-05:00</Time>
     </Item>
     <Item>
@@ -403,7 +403,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\coffeepot.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\coffeepot.xnb</Output>
       <Time>2011-11-09T16:17:42.4939576-05:00</Time>
     </Item>
     <Item>
@@ -412,7 +412,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\energy_drink.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\energy_drink.xnb</Output>
       <Time>2011-11-11T20:10:21.810755-05:00</Time>
     </Item>
     <Item>
@@ -421,7 +421,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\router.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\router.xnb</Output>
       <Time>2011-11-09T10:40:21.7552566-05:00</Time>
     </Item>
     <Item>
@@ -430,7 +430,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\table.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\table.xnb</Output>
       <Time>2011-11-09T14:26:17.6579594-05:00</Time>
     </Item>
     <Item>
@@ -439,7 +439,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\toaster.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\toaster.xnb</Output>
       <Time>2011-10-26T19:11:10.0563505-04:00</Time>
     </Item>
     <Item>
@@ -448,7 +448,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\top_cabinet.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\top_cabinet.xnb</Output>
       <Time>2011-11-09T17:11:53.4123777-05:00</Time>
     </Item>
     <Item>
@@ -457,8 +457,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\tv.xnb</Output>
-      <Time>2011-11-09T13:04:20.6957881-05:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\tv.xnb</Output>
+      <Time>2011-11-21T15:42:10-05:00</Time>
     </Item>
     <Item>
       <Source>entities\window.png</Source>
@@ -466,7 +466,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\window.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\window.xnb</Output>
       <Time>2011-11-09T13:53:19.6608873-05:00</Time>
     </Item>
     <Item>
@@ -475,8 +475,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\coffee.xnb</Output>
-      <Time>2011-11-09T14:57:31.0601119-05:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\coffee.xnb</Output>
+      <Time>2011-11-09T14:57:32-05:00</Time>
     </Item>
     <Item>
       <Source>inv_items\energy_drink_icon.png</Source>
@@ -484,8 +484,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\energy_drink_icon.xnb</Output>
-      <Time>2011-11-09T16:15:41.1780187-05:00</Time>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\energy_drink_icon.xnb</Output>
+      <Time>2011-11-09T16:15:42-05:00</Time>
     </Item>
     <Item>
       <Source>tiles\70s_tile.png</Source>
@@ -493,7 +493,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\70s_tile.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\70s_tile.xnb</Output>
       <Time>2011-10-26T18:46:21.3041987-04:00</Time>
     </Item>
     <Item>
@@ -502,7 +502,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cobble.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cobble.xnb</Output>
       <Time>2011-11-14T12:07:57.4857741-05:00</Time>
     </Item>
     <Item>
@@ -511,7 +511,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\concept.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\concept.xnb</Output>
       <Time>2011-11-09T17:11:41.03967-05:00</Time>
     </Item>
     <Item>
@@ -520,7 +520,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\grass.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\grass.xnb</Output>
       <Time>2011-11-14T11:47:30.1335736-05:00</Time>
     </Item>
     <Item>
@@ -529,7 +529,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb</Output>
       <Time>2011-11-14T12:34:35.8442161-05:00</Time>
     </Item>
     <Item>
@@ -538,7 +538,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall.xnb</Output>
       <Time>2011-11-09T16:20:19.4539352-05:00</Time>
     </Item>
     <Item>
@@ -547,7 +547,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall_corner.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall_corner.xnb</Output>
       <Time>2011-11-09T13:43:47.6291689-05:00</Time>
     </Item>
     <Item>
@@ -556,7 +556,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door1.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door1.xnb</Output>
       <Time>2011-11-14T17:34:10.9112597-05:00</Time>
     </Item>
     <Item>
@@ -565,7 +565,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door2.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door2.xnb</Output>
       <Time>2011-11-14T17:34:15.6875329-05:00</Time>
     </Item>
     <Item>
@@ -574,7 +574,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb</Output>
       <Time>2011-10-26T11:58:53.1893122-04:00</Time>
     </Item>
     <Item>
@@ -583,7 +583,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\Sounds\beep.xnb</Output>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\Sounds\beep.xnb</Output>
       <Time>2011-11-14T16:06:16.5168778-05:00</Time>
     </Item>
     <Item>
@@ -592,8 +592,8 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong.xnb</Output>
-      <Extra>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong.wma</Extra>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong.xnb</Output>
+      <Extra>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong.wma</Extra>
       <Time>2011-11-07T11:12:41.5156953-05:00</Time>
     </Item>
     <Item>
@@ -602,8 +602,8 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.xnb</Output>
-      <Extra>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.wma</Extra>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.xnb</Output>
+      <Extra>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.wma</Extra>
       <Time>2011-11-07T11:12:41.5586978-05:00</Time>
     </Item>
     <Item>
@@ -612,9 +612,63 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.xnb</Output>
-      <Extra>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.wma</Extra>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.xnb</Output>
+      <Extra>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.wma</Extra>
       <Time>2011-11-07T11:12:41.6177012-05:00</Time>
+    </Item>
+    <Item>
+      <Source>entities\house1.png</Source>
+      <Name>entities\house1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\house1.xnb</Output>
+      <Time>2011-11-21T15:55:16-05:00</Time>
+    </Item>
+    <Item>
+      <Source>entities\house2.png</Source>
+      <Name>entities\house2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\house2.xnb</Output>
+      <Time>2011-11-21T15:55:24-05:00</Time>
+    </Item>
+    <Item>
+      <Source>entities\house3.png</Source>
+      <Name>entities\house3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\house3.xnb</Output>
+      <Time>2011-11-21T16:05:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>entities\house4.png</Source>
+      <Name>entities\house4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\house4.xnb</Output>
+      <Time>2011-11-21T16:52:24-05:00</Time>
+    </Item>
+    <Item>
+      <Source>entities\mailbox.png</Source>
+      <Name>entities\mailbox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\mailbox.xnb</Output>
+      <Time>2011-11-21T16:33:36-05:00</Time>
+    </Item>
+    <Item>
+      <Source>entities\tree.png</Source>
+      <Name>entities\tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\tree.xnb</Output>
+      <Time>2011-11-16T16:29:56-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -622,10 +676,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPGContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPGContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPGContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Ben\Documents\Projects\Project_RPG_BKP\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

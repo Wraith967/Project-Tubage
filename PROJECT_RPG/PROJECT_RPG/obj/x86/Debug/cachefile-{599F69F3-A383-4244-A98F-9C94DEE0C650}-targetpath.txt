@@ -69,3 +69,9 @@ Content\ct_testsong2.xnb
 Content\ct_testsong2.wma
 Content\ct_testsong_battle.xnb
 Content\ct_testsong_battle.wma
+Content\entities\house1.xnb
+Content\entities\house2.xnb
+Content\entities\house3.xnb
+Content\entities\house4.xnb
+Content\entities\mailbox.xnb
+Content\entities\tree.xnb
