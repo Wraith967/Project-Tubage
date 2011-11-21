@@ -1,0 +1,5 @@
+4
+Press Enter to move through the conversation.
+This is just a test of the new conversation system.
+You're really weird, ya know that?
+Bye now!

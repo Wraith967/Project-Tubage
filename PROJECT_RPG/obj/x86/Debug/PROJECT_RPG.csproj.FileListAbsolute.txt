@@ -1,0 +1,450 @@
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\bbernhar\Dropbox\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\crichers\Desktop\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb
+D:\Ben\School\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_10_4_benbuild\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tempface.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha2.xnb
+\\cse6\STUDENT\bbernhar\CGDD 4003\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP.xnb
+C:\Users\Ben\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ben\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ben\Documents\Visual Studio 2010\Projects\PROJECT_RPG_GSM_9_20-compilable\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tempface.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha2.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tempface.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha2.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_background.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_drawableentity.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\evil_face.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bg.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bill.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cat_enemy.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_set.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_sheet.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\laptop.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\hub.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\room.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\asphalt.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cement.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\tile.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wood.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_background.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_drawableentity.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\evil_face.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bg.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bill.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cat_enemy.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_set.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_sheet.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\laptop.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\hub.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\room.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\asphalt.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cement.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\tile.xnb
+C:\Documents and Settings\Ben\My Documents\Visual Studio 2010\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wood.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tempface.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha2.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_background.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_drawableentity.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\evil_face.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bg.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bill.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cat_enemy.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_set.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_sheet.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\laptop.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\hub.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\room.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\asphalt.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cement.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\tile.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wood.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ffvii-messagesent.xnb
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\Ben\Documents\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tempface.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha2.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_background.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_drawableentity.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\evil_face.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bg.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bill.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cat_enemy.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_set.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_sheet.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\laptop.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\hub.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\room.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\asphalt.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cement.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\tile.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wood.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong.wma
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.wma
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.wma
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong.wma
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.wma
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.wma
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\toaster.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\toaster.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\Sounds\beep.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\friend_request.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\gore.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\longcat.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\mouse.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\bed.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\cabinet.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\coffeepot.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\energy_drink.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\router.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\table.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\toaster.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\top_cabinet.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\tv.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\window.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\coffee.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\energy_drink_icon.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\70s_tile.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cobble.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\concept.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\grass.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall_corner.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\Sounds\beep.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door1.xnb
+C:\Users\Ben\Documents\Projects\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door2.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\friend_request.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\gore.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\longcat.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\mouse.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\bed.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\cabinet.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\coffeepot.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\energy_drink.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\router.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\table.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\toaster.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\top_cabinet.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\tv.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\window.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\coffee.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\energy_drink_icon.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\70s_tile.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cobble.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\concept.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\grass.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall_corner.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door1.xnb
+C:\Users\Cory\Documents\Visual Studio 2010\Projects\GitProjects\Project-Tubage\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door2.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha3.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\blank.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\font.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP3.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cats.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botleft_space.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\botright_space.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\bot_space.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\floor_space.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\left_space.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\right_space.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\rug_space.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topleft_space.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\topright_space.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\top_space_tem.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tempface.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_font_alpha2.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\TESTMAP.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_background.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\temp_drawableentity.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\evil_face.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bg.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\bill.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\cat_enemy.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_set.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\char_sheet.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\laptop.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\hub.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\room.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\asphalt.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cement.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\tile.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wood.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\toaster.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\friend_request.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\gore.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\longcat.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\enemies\mouse.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\bed.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\cabinet.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\coffeepot.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\energy_drink.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\router.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\table.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\toaster.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\top_cabinet.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\tv.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\window.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\coffee.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\energy_drink_icon.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\70s_tile.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\cobble.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\concept.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\grass.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\null_space.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\tiles\wall_corner.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door1.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\door2.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\tree.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\defaultScreenFont.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\Sounds\beep.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong.wma
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong2.wma
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\ct_testsong_battle.wma
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.exe
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.exe
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\obj\x86\Debug\PROJECT_RPG.pdb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\house1.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\house2.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\house3.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\mailbox.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\entities\house4.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\atk_icon.xnb
+C:\Users\Courtney\Documents\SPSU\11 Fall\Dig. Media\Project_RPG\PROJECT_RPG\PROJECT_RPG\bin\x86\Debug\Content\inv_items\def_icon.xnb

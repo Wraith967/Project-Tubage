@@ -1,0 +1,3 @@
+screen: texture=<temp_background>
+player: texture=<tempface>, strength=<10>, defense=<5>
+enemy: texture=<evil_face>, strength=<10>, defense=<2>
