@@ -15,7 +15,11 @@ namespace PROJECT_RPG
         protected ContentManager content;
         protected Rectangle drawbox;
         protected Rectangle boundingBox;
+        protected Vector2 midPoint;
         protected float scale = 1.0f;
+
+        public Vector2 GetMidPoint
+        { get { return midPoint; } }
 
         public Rectangle getBoundary
         { get { return boundingBox; } }

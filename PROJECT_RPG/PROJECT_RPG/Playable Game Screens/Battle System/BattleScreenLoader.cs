@@ -51,10 +51,7 @@ namespace PROJECT_RPG
             int str = Int32.Parse(tokens[3]);
             int def = Int32.Parse(tokens[5]);
             int maxHP = Int32.Parse(tokens[7]);
-            BattleScreenEnemy enemy = new BattleScreenEnemy(texture, BS);
-            enemy.Strength = str;
-            enemy.Defense = def;
-            enemy.MaxHP = maxHP;
+            BattleScreenEnemy enemy = new BattleScreenEnemy(texture, BS, str, def, maxHP);
             BS.AddBattleMember(enemy);
         }
 

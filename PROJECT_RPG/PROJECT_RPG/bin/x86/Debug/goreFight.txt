@@ -1,0 +1,4 @@
+screen: texture=<bg>
+player: texture=<char_set>
+enemy: texture=<enemies/gore>, strength=<20>, defense=<5>, maxHP=<150>
+laptop: texture=<laptop>, strength=<10>, defense=<5>, maxHP=<50>

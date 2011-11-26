@@ -29,6 +29,7 @@ namespace PROJECT_RPG
             String tilePattern = "^tilemap:.*";
             String transferPattern = "^transferPoint:.*";
             String songsPattern = "^songs:.*";
+            String boss = "boss:.*";
             while (line != null)
             {
                 // use System.Text.RegularExpressions.Regex.IsMatch(String s, String pattern)
@@ -46,6 +47,8 @@ namespace PROJECT_RPG
                     LoadTransferPoints(line, PGS);
                 else if (System.Text.RegularExpressions.Regex.IsMatch(line, songsPattern))
                     LoadSongs(line, PGS);
+                else if (System.Text.RegularExpressions.Regex.IsMatch(line, boss))
+                    LoadBoss(line, PGS);
                 line = reader.ReadLine();
             }
         }
@@ -88,7 +91,7 @@ namespace PROJECT_RPG
         private static void LoadEnemy(String entity, PlayableMainGameScreen PGS)
         {
             char[] delims = { '<', '>' };
-            String[] tokens = entity.Substring(8).Split(delims);
+            String[] tokens = entity.Substring(7).Split(delims);
             String texture = tokens[1];
             float posX = float.Parse(tokens[3]);
             float posY = float.Parse(tokens[5]);
@@ -125,6 +128,19 @@ namespace PROJECT_RPG
             PGS.currentSong = tokens[1];
             PGS.Songs.Add(tokens[1]);
             PGS.Songs.Add(tokens[3]);
+        }
+
+        private static void LoadBoss(String boss, PlayableMainGameScreen PGS)
+        {
+            char[] delims = { '<', '>' };
+            String[] tokens = boss.Substring(6).Split(delims);
+            String texture = tokens[1];
+            float posX = float.Parse(tokens[3]);
+            float posY = float.Parse(tokens[5]);
+            String convo = tokens[7];
+            String battle = tokens[9];
+            BossEntity npEntity = new BossEntity(texture, new Vector2(posX, posY), convo, battle);
+            PGS.AddEntity(npEntity);
         }
     }
 }

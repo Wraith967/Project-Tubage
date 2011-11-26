@@ -2,41 +2,33 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework;
 
 namespace PROJECT_RPG
 {
-    class FriendlyEntity : NonPlayerEntity
+    class BossEntity : EnemyEntity
     {
         #region Fields and Properties
         
-        float talkAgainTimer = 2000;
+        float talkAgainTimer = 100;
         bool canBeTalkedTo = true;
         String[] convo;
-        protected String greeting;
-        protected SpriteFont font;
-        protected Vector2 greetingPos;
+        bool canFight = false;
 
         #endregion
 
         #region Initialization
 
-        public FriendlyEntity(string textureFileName, Vector2 pos, String greetingText, String convoFile)
-            : base(textureFileName, pos)
+        public BossEntity(string textureFileName, Vector2 pos, String convoFile, String battleFile)
+            : base(textureFileName, pos, battleFile)
         {
             convo = ConvoLoader.LoadConvo(convoFile);
-            if (greetingText.Equals(""))
-                greeting = "Hey! Talk to me! Please!";
-            else
-                greeting = greetingText;
-            greetingPos = new Vector2(Position.X, Position.Y - 20f);
         }
 
         public override void LoadContent()
         {
             base.LoadContent();
-            font = OwnerScreen.ScreenManager.Font;
         }
 
         #endregion
@@ -46,23 +38,21 @@ namespace PROJECT_RPG
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
+            if (nearbyPlayer)
+                Interact(gameTime);
             if (!canBeTalkedTo)
             {
                 talkAgainTimer -= gameTime.ElapsedGameTime.Milliseconds;
             }
             if (talkAgainTimer < 0)
             {
-                canBeTalkedTo = true;
-                talkAgainTimer = 5000;
+                canFight = true;
             }
         }
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             base.Draw(gameTime, spriteBatch);
-            Vector2 temp = Vector2.Subtract(greetingPos, Camera.Position);
-            if (nearbyPlayer)
-                spriteBatch.DrawString(font, greeting, temp, Color.White);
         }
 
         #endregion
@@ -71,11 +61,14 @@ namespace PROJECT_RPG
 
         public override void Interact(GameTime gameTime)
         {
-            base.Interact(gameTime);
             if (canBeTalkedTo)
             {
                 OwnerScreen.ScreenManager.AddScreen(new Conversation(convo));
                 canBeTalkedTo = false;
+            }
+            if (canFight)
+            {
+                base.Interact(gameTime);
             }
         }
 

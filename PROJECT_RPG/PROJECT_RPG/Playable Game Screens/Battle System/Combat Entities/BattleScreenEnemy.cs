@@ -12,11 +12,13 @@ namespace PROJECT_RPG
         int selectedTarget;
         Random gen;
 
-        public BattleScreenEnemy(String textureFile, BattleScreen owner)
+        public BattleScreenEnemy(String textureFile, BattleScreen owner, int strength, int defense, int health)
             : base(textureFile, owner)
         {
-            maxHP = 50;
-            currentHP = 50;
+            maxHP = health;
+            currentHP = maxHP;
+            this.Strength = strength;
+            this.Defense = defense;
             NameText = "Enemy";
             OwnerScreen = owner;
             IsPlayer = false;

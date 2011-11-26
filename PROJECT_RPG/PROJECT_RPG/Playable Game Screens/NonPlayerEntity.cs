@@ -29,7 +29,7 @@ namespace PROJECT_RPG
             : base(textureFileName, pos)
         {
             gen = new Random(DateTime.Now.Millisecond);
-            playerDist = gen.Next(20, 100);
+            playerDist = gen.Next(40, 100);
         }
 
         public override void LoadContent()
@@ -39,6 +39,7 @@ namespace PROJECT_RPG
             height = texture.Height;
             drawbox = new Rectangle(0, 0, GetWidth, GetHeight);
             boundingBox = new Rectangle((int)Position.X, (int)Position.Y, GetWidth, GetHeight);
+            midPoint = new Vector2(Position.X + (GetWidth / 2), Position.Y + (GetHeight / 2));
         }
 
         #endregion
@@ -48,7 +49,7 @@ namespace PROJECT_RPG
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
-            NearbyPlayer(((PlayableMainGameScreen)owner).Player.Position);
+            NearbyPlayer(((PlayableMainGameScreen)owner).Player.GetMidPoint);
         }
 
         public bool HasCollision()
@@ -57,9 +58,9 @@ namespace PROJECT_RPG
             return collision;
         }
 
-        public void NearbyPlayer(Vector2 playerPos)
+        private void NearbyPlayer(Vector2 playerPos)
         {
-            float diff = (Position - playerPos).Length();
+            float diff = Vector2.Subtract(midPoint, playerPos).Length();
             if (diff < playerDist)
             {
                 nearbyPlayer = true;
