@@ -1,9 +1,9 @@
 player: filename=<char_set>
 tilemap: filename=<houseMap.txt>
 songs: filename=<ct_testsong2>, <ct_testsong1>
-NPentity: filename=<entities/bed>, x=<5>, y=<2>
-NPentity: filename=<entities/tv>, x=<12>, y=<1>
-NPentity: filename=<entities/energy_drink>, x=<25>, y=<1>
+friend: filename=<entities/bed>, x=<6>, y=<2>, greet=<Morning!>, file=<bed_Convo.txt>
+friend: filename=<entities/tv>, x=<12>, y=<1>, greet=<Hey fgt.>, file=<testConvo2.txt>
+friend: filename=<entities/energy_drink>, x=<25>, y=<1>, greet=<Hey!>, file=<bed_Convo.txt>
 NPentity: filename=<entities/coffeepot>, x=<26>, y=<1>
 NPentity: filename=<entities/door1>, x=<14>, y=<26>
 NPentity: filename=<entities/door2>, x=<15>, y=<26>

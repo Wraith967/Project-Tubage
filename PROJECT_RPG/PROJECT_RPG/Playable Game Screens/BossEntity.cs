@@ -13,7 +13,7 @@ namespace PROJECT_RPG
         
         float talkAgainTimer = 100;
         bool canBeTalkedTo = true;
-        String[] convo;
+        String[][][] convo;
         bool canFight = false;
 
         #endregion

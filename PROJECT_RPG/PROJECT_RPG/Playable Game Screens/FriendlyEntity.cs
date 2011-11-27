@@ -13,7 +13,7 @@ namespace PROJECT_RPG
         
         float talkAgainTimer = 2000;
         bool canBeTalkedTo = true;
-        String[] convo;
+        String[][][] convo;
         protected String greeting;
         protected SpriteFont font;
         protected Vector2 greetingPos;

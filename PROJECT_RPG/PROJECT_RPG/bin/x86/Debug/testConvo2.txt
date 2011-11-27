@@ -1,0 +1,7 @@
+5
+true:testConvo2_Options.txt
+text:Hey.
+text:Fuck you buddy.
+text:Question!
+option:belowthiswillbefallthroughtext--temporary!
+text: WRONG ANSWER.

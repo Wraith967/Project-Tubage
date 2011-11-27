@@ -1,5 +1,7 @@
-4
-Press Enter to move through the conversation.
-This is just a test of the new conversation system.
-You're really weird, ya know that?
-Bye now!
+5
+false:
+text:Press Enter to move through the conversation.
+text:This is just a test of the new conversation system.
+text:You're really weird, ya know that?
+text:Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble Rabble 
+text:Bye now!
